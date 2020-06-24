@@ -1,0 +1,46 @@
+<nav id="primaryNavigation top" class="navbar navbar-expand-xl navbar-dark bg-primary sticky-top">
+    <div class="container">
+        <a class="navbar-brand text-uppercase font-weight-bold" href="{{ .Site.BaseURL | relLangURL }}">{{ with .Params.TagLine }}{{ . }}{{ else }}{{ with .Site.Params.tagLine }}{{ . }}{{ end }}{{ end }}</a>
+        {{ if .IsTranslated }}
+        <div class="dropdown ml-auto mr-2 mx-xl-0 order-xl-last">
+            <button class="btn btn-sm btn-outline-light dropdown-toggle border-0" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Kies je taal">
+                {{ .Language.Lang }}
+            </button>
+
+            <div class="dropdown-menu dropdown-menu-right">
+            {{ range .Translations }}
+                <a class="dropdown-item small" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+            {{ end}}
+            </div>
+        </div>
+        {{ end }}
+
+
+        <button class="navbar-toggler order-xl-last" type="button" data-toggle="collapse" data-target="#navContent"
+                aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navContent">
+            <ul class="navbar-nav">
+            {{ range .Site.Menus.main }}
+            {{ if .HasChildren }}
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+                {{ .Name }}
+                </a>
+                <div class="dropdown-menu">
+                {{ range .Children }}
+                <a class="dropdown-item" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+                {{ end }}
+                </div>
+            </li>
+            {{ else }}
+            <li class="nav-item">
+                <a class="nav-link" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+            </li>
+            {{ end }}
+            {{ end }}
+            </ul>
+        </div>
+    </div>
+</nav>

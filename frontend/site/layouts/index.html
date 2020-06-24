@@ -1,0 +1,31 @@
+{{ define "main" }}
+
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{ if $data.homepage.hero.enable }}
+{{ with $data.homepage.hero }}
+<!-- hero content -->
+<header class="section bg-light">
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-md-5">
+                <h2>{{ .title | markdownify }}</h2>
+                <div>{{ .content | markdownify }}</div>
+                {{ range .buttons }}
+                    <a class="btn btn-{{ .style }}" href="{{ .url | absLangURL }}">{{ .title }}</a>
+                {{ end }}
+            </div>
+            {{ if .video }}
+            <div class="col-md-6">
+                <div class="mb-5 embed-responsive embed-responsive-16by9" style="max-width: 800px">
+                    <iframe class="embed-responsive-item" width="560" height="315" src="{{ .video.url }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</header>
+<!-- hero content -->
+{{ end }}
+{{ end }}
+{{ end }}

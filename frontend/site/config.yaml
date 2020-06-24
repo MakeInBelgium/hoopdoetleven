@@ -1,0 +1,126 @@
+######################## default configuration ####################
+baseurl: "/"
+# languageCode: nl-be
+# languageLang: nl
+# title: Hoop doet leven
+# # RSS, categories and tags disabled for an easy start
+# # See configuration options for more details:
+# # https://gohugo.io/getting-started/configuration/#toml-configuration
+disableKinds:
+  - RSS
+  - taxonomy
+  - taxonomyTerm
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  title: Hoop doet leven
+  description: Beschrijving
+  hashTag: "#HoopDoetLeven"
+  tagLine: "HoopDoetLeven"
+  copyright: "&copy; Copyright 2020"
+
+############################## languages ##########################
+defaultContentLanguage: nl
+disableLanguages: ["de", "fr"]
+
+languages:
+  nl:
+    weight: 1
+    languageName: Nederlands
+    languageCode: nl
+    contentDir: content/nl
+    title: Hoop doet leven
+    description: Beschrijving
+    hashTag: "#HoopDoetLeven"
+    tagLine: "HoopDoetLeven"
+    menu:
+      main:
+        - identifier: about
+          name: Over
+          url: /over
+          weight: 50
+        - identifier: contact
+          name: Contacteer ons
+          url: /contact
+          weight: 100
+      doormat:
+        - identifier: about
+          name: Over
+          url: /over
+          weight: 50
+        - identifier: contact
+          name: Contacteer ons
+          url: /contact
+          weight: 100
+      footer:
+        - identifier: disclaimer
+          name: Disclaimer
+          url: /disclaimer
+          weight: 10
+        - identifier: privacy
+          name: Privacy
+          url: /privacy
+          weight: 10
+   
+  en:
+    weight: 2
+    languageName: English
+    languageCode: en
+    contentDir: content/en
+    tag: HopeBringsLife
+    title: Hope brings life
+    description: some description stuff
+    hashTag: "#HopeBringsLife"
+    tagLine: "HopeBringsLife"
+  fr:
+    weight: 2
+    languageName: Français
+    languageCode: fr
+    contentDir: content/fr
+    title: Plein d'espoir
+    description: ""
+    hashTag: "#PleindEspoir"
+    tagLine: "PleindEspoir"
+  de:
+    weight: 2
+    languageName: Deutsch
+    languageCode: de
+    contentDir: content/de
+    title: Hoffnung zum Leben
+    description: ""
+    hashTag: "#HoffnungZumLeben"
+    tagLine: "HoffnungZumLeben"
+
+############################## navigation ###############################
+menu: 
+  main:
+    - identifier: about
+      name: About
+      url: /about
+      weight: 50
+    - identifier: contact
+      name: Contact
+      url: /contact
+      weight: 100
+  doormat:
+    - identifier: about
+      name: About
+      url: /about
+      weight: 50
+    - identifier: contact
+      name: Contact
+      url: /contact
+      weight: 100
+  footer:
+    - identifier: disclaimer
+      name: Disclaimer
+      url: /disclaimer
+      weight: 10
+    - identifier: privacy
+      name: Privacy
+      url: /privacy
+      weight: 10

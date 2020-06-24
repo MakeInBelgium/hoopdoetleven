@@ -1,0 +1,14 @@
+// Contextual backgrounds
+
+@mixin links-variant($parent, $color) {
+  #{$parent} {
+    a,
+    .btn {
+      color: $color !important;
+
+      @include hover-focus {
+        color: darken($color, 10%) !important;
+      }
+    }
+  }
+}

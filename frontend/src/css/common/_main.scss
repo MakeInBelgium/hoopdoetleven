@@ -1,0 +1,7 @@
+.heading-byline {
+    margin-bottom: $spacing-md;
+}
+
+@each $color, $value in $theme-colors {
+    @include links-variant(".links-#{$color}", $value);
+}

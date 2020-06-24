@@ -1,0 +1,47 @@
+<!-- Image -->
+<div id="footerImage" class="section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-8 col-md-7 col-lg-5"><img src="/img/kids-background.jpg" width="1400" height="900" alt="" class="img-fluid" /></div>
+        </div>
+    </div>
+</div>
+<!-- /Image -->
+<!-- Doormat -->
+<footer id="doormat" class="section bg-dark text-white links-light">
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-md-4">
+                <h3>Over</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sint culpa mollitia necessitatibus perspiciatis, voluptas impedit minima quisquam excepturi explicabo aut id. Nostrum quo quia veniam iste distinctio temporibus quaerat!</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Links</h3>
+                <ul class="list-unstyled">
+                {{ range .Site.Menus.doormat }}
+                    <li class="mb-3"><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
+                {{ end }}
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- /Doormat -->
+<!-- Copyright -->
+<footer id="copyright" class="bg-primary text-white links-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <ul class="list-unstyled list-inline mb-0">
+                {{ range .Site.Menus.footer }}
+                    <li class="list-inline-item"><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
+                {{ end }}
+                </ul>
+            </div>
+            <div class="col-md-6 text-md-right">
+                {{ .Site.Params.copyright | markdownify  }}
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- /Copyright -->
