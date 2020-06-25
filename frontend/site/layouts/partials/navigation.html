@@ -1,6 +1,14 @@
 <nav id="primaryNavigation top" class="navbar navbar-expand-xl navbar-dark bg-primary sticky-top">
     <div class="container">
-        <a class="navbar-brand text-uppercase font-weight-bold" href="{{ .Site.BaseURL | relLangURL }}">{{ with .Params.TagLine }}{{ . }}{{ else }}{{ with .Site.Params.tagLine }}{{ . }}{{ end }}{{ end }}</a>
+        <a class="navbar-brand text-uppercase font-weight-bold" href="{{ .Site.BaseURL | relLangURL }}">
+            {{ with .Params.TagLine }}
+            <span>{{ .hope }}</span><span>{{ .brings }}</span><span>{{ .life }}</span>
+            {{ else }}
+            {{ with .Site.Params.tagLine }}
+            <span>{{ .hope }}</span><span>{{ .brings }}</span><span>{{ .life }}</span>
+            {{ end }}
+            {{ end }}
+        </a>
         {{ if .IsTranslated }}
         <div class="dropdown ml-auto mr-2 mx-xl-0 order-xl-last">
             <button class="btn btn-sm btn-outline-light dropdown-toggle border-0" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Kies je taal">

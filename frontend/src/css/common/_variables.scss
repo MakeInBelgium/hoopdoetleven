@@ -9,15 +9,19 @@ $light-orange: #fff7f3;
 /* https://coolors.co/06aed5-086788-f0c808-fff1d0-dd1c1a */
 $cerulean-crayola: rgba(6, 174, 213, 1);
 $blue-sapphire: rgba(8, 103, 136, 1);
+$blue-sapphire-dark: rgb(6, 40, 51);
 $jonquil: rgba(240, 200, 8, 1);
 $papaya-whip: rgba(255, 241, 208, 1);
 $maximum-red: rgba(221, 28, 26, 1);
+$maximum-red-dark: rgb(82, 14, 13);
 
 $theme-colors: (
-  primary: $cerulean-crayola,
+  primary: $blue-sapphire,
   secondary: $jonquil,
   light: $papaya-whip,
-  dark: $blue-sapphire,
+  blue: $cerulean-crayola,
+  dark: $blue-sapphire-dark,
+  darkred: $maximum-red-dark,
   tertiary: $maximum-red
 );
 
@@ -59,7 +63,7 @@ $navbar-dark-toggler-border-color: rgba($white, 0.1);
 $navbar-padding-y: 1rem;
 
 /** Fonts **/
-$font-size-base: 1.15rem;
+$font-size-base: 1.25rem;
 $line-height-base: 1.65;
 
 

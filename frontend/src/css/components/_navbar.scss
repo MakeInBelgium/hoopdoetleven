@@ -5,6 +5,22 @@ nav.navbar {
         flex: 1 1 0%;
     }
 
+    .navbar-brand > span {
+        &:nth-child(1) {
+            color: $papaya-whip;
+            font-weight: $font-weight-normal;
+        }
+
+        &:nth-child(2) {
+            color: $cerulean-crayola;
+            font-weight: $font-weight-normal;
+        }
+
+        &:nth-child(3) {
+            color: $jonquil;
+        }
+    }
+
     .nav-item {
         font-weight: 600;
     }
