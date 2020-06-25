@@ -49,28 +49,32 @@ languages:
         - identifier: about
           name: Over
           url: /over
-          weight: 50
+          weight: 30
         - identifier: nominate
           name: Nomineer iemand
           url: /nomineer
           weight: 50
-        - identifier: contact
-          name: Contacteer ons
-          url: /contact
-          weight: 100
+        # - identifier: contact
+        #   name: Contacteer ons
+        #   url: /contact
+        #   weight: 100
       doormat:
         - identifier: about
           name: Over
           url: /over
-          weight: 50
+          weight: 30
         - identifier: nominate
           name: Nomineer iemand
           url: /nomineer
           weight: 50
-        - identifier: contact
-          name: Contacteer ons
-          url: /contact
+        - identifier: styleguide
+          name: Stijlgids
+          url: /styleguide
           weight: 100
+        # - identifier: contact
+        #   name: Contacteer ons
+        #   url: /contact
+        #   weight: 100
       footer:
         - identifier: disclaimer
           name: Disclaimer
@@ -126,28 +130,32 @@ menu:
     - identifier: about
       name: About
       url: /about
-      weight: 50
+      weight: 30
     - identifier: nominate
       name: Nominate someone
       url: /nominate
       weight: 50
-    - identifier: contact
-      name: Contact
-      url: /contact
-      weight: 100
+    # - identifier: contact
+    #   name: Contact
+    #   url: /contact
+    #   weight: 100
   doormat:
     - identifier: about
       name: About
       url: /about
-      weight: 50
+      weight: 30
     - identifier: nominate
       name: Nominate someone
       url: /nominate
       weight: 50
-    - identifier: contact
-      name: Contact
-      url: /contact
+    - identifier: styleguide
+      name: Style guide
+      url: /styleguide
       weight: 100
+    # - identifier: contact
+    #   name: Contact
+    #   url: /contact
+    #   weight: 100
   footer:
     - identifier: disclaimer
       name: Disclaimer
