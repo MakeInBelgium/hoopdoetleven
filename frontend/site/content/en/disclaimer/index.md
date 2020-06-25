@@ -2,6 +2,7 @@
 title: "Disclaimer"
 draft: false
 description: ""
+url: "disclaimer"
 ---
 
 # Disclaimer

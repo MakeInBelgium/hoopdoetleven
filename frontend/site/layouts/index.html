@@ -11,9 +11,11 @@
             <div class="col-md-5">
                 <h2>{{ .title | markdownify }}</h2>
                 <div>{{ .content | markdownify }}</div>
+                <div class="my-4">
                 {{ range .buttons }}
                     <a class="btn btn-{{ .style }}" href="{{ .url | absLangURL }}">{{ .title }}</a>
                 {{ end }}
+                </div>
             </div>
             {{ if .video }}
             <div class="col-md-6">
