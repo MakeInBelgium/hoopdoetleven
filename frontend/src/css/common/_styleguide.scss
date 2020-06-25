@@ -1,5 +1,23 @@
 .styleguide {
-    > section {
-        margin-bottom: 5rem;
+    .bootstrap {
+        > section {
+            margin-bottom: 5rem;
+        }
+    }
+
+    .color-overview {
+        display: flex;
+        flex-wrap: wrap;
+
+        & > div {
+            margin: 5px;
+            width: 150px;
+            height: 150px;
+            display: inline-flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            font-weight: 500;
+        }
     }
 }

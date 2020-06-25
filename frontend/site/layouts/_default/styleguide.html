@@ -1,11 +1,12 @@
 {{ define "main" }}
+<div class="styleguide">
 <header class="section bg-light">
   <div class="container">
       <div class="row justify-content-between">
           <div class="col-md-5">
-              <h2>Hero</h2>
+              <h1>Hero</h1>
               <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse dolor nesciunt corrupti incidunt iste asperiores quisquam et, earum assumenda voluptates illum perspiciatis omnis autem repellendus deserunt delectus inventore obcaecati quaerat!</div>
-                  <a class="mt-2 btn btn-primary" href="#">button</a>
+              <div class="my-4"><a class="btn btn-primary" href="#">button</a></div>
           </div>
           <div class="col-md-6">
               <div class="mb-5 embed-responsive embed-responsive-16by9" style="max-width: 800px">
@@ -26,18 +27,18 @@
           <div class="col-md-5">
               <h2>section x</h2>
               <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse dolor nesciunt corrupti incidunt iste asperiores quisquam et, earum assumenda voluptates illum perspiciatis omnis autem repellendus deserunt delectus inventore obcaecati quaerat!</div>
-                  <a class="mt-2 btn btn-primary" href="#">button</a>
+              <div class="my-4"><a class="btn btn-primary" href="#">button</a></div>
           </div>
       </div>
   </div>
 </section>
-<section class="section bg-tertiary text-light">
+<section class="section bg-darkred text-light">
   <div class="container">
       <div class="row justify-content-between">
         <div class="col-md-5">
             <h2>section y</h2>
             <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse dolor nesciunt corrupti incidunt iste asperiores quisquam et, earum assumenda voluptates illum perspiciatis omnis autem repellendus deserunt delectus inventore obcaecati quaerat!</div>
-                <a class="mt-2 btn btn-primary" href="#">button</a>
+            <div class="my-4"><a class="btn btn-secondary" href="#">button</a></div>
         </div>
           <div class="col-md-6">
               <div class="mb-5 embed-responsive embed-responsive-16by9" style="max-width: 800px">
@@ -49,9 +50,27 @@
 </section>
 <section class="section">
   <div class="container">
+    <h2>Colors</h2>
+      <div class="color-overview">          
+        <div class="bg-primary text-white">Primary</div>
+        <div class="bg-secondary text-dark">Secondary</div>
+        <div class="bg-tertiary text-white">Tertiary</div>
+        <div class="bg-light text-dark">Light</div>     
+        <div class="bg-dark text-white">Dark</div>
+        <div class="bg-blue text-white">Blue</div>
+        <div class="bg-darkred text-white">Dark red</div>
+        <div class="bg-info text-white">info</div>
+        <div class="bg-warning text-white">warning</div>
+        <div class="bg-danger text-white">danger</div>
+        <div class="bg-success text-white">success</div>
+      </div>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
     <div class="row">
       <div class="col-12">
-        <div class="content styleguide">
+        <div class="content bootstrap">
           <h1>Bootstrap stuff</h1>
           <section>
             <h2>jumbotron</h2>
@@ -446,5 +465,5 @@
     </div>
   </div>
 </section>
-
+</div>
 {{ end }}
