@@ -12,6 +12,7 @@ $blue-sapphire: rgba(8, 103, 136, 1);
 $blue-sapphire-dark: rgb(6, 40, 51);
 $jonquil: rgba(240, 200, 8, 1);
 $papaya-whip: rgba(255, 241, 208, 1);
+$papaya-whip-light: rgb(255, 246, 226);
 $maximum-red: rgba(221, 28, 26, 1);
 $maximum-red-dark: rgb(82, 14, 13);
 
@@ -19,6 +20,7 @@ $theme-colors: (
   primary: $blue-sapphire,
   secondary: $jonquil,
   light: $papaya-whip,
+  lightest: $papaya-whip-light,
   blue: $cerulean-crayola,
   dark: $blue-sapphire-dark,
   darkred: $maximum-red-dark,
