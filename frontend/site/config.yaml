@@ -22,6 +22,7 @@ params:
   hashTag: "#HoopDoetLeven"
   tagLine: "HoopDoetLeven"
   copyright: "&copy; Copyright 2020"
+  doormatInfo: "De Coronacrisis was voor iedereen een stevige uitdaging. We kennen allemaal wel iemand met een straf verhaal. Een verhaal over creativiteit en veerkracht. Een verhaal vol hoop en verbondenheid. Naar aanleiding van de nationale feestdag willen we die verhalen graag horen, doorvertellen en zo met iedereen delen."
 
 ############################## languages ##########################
 defaultContentLanguage: nl
@@ -43,6 +44,10 @@ languages:
           name: Over
           url: /over
           weight: 50
+        - identifier: nominate
+          name: Nomineer iemand
+          url: /nomineer
+          weight: 50
         - identifier: contact
           name: Contacteer ons
           url: /contact
@@ -51,6 +56,10 @@ languages:
         - identifier: about
           name: Over
           url: /over
+          weight: 50
+        - identifier: nominate
+          name: Nomineer iemand
+          url: /nomineer
           weight: 50
         - identifier: contact
           name: Contacteer ons
@@ -76,6 +85,7 @@ languages:
     description: some description stuff
     hashTag: "#HopeBringsLife"
     tagLine: "HopeBringsLife"
+    doormatInfo: "The Corona crisis was a tough challenge for everyone. We all know someone with a punishment story. A story about creativity and resilience. A story full of hope and connectedness. On the occasion of the national holiday, we would like to hear those stories, tell them and share them with everyone."
   fr:
     weight: 2
     languageName: Français
@@ -102,6 +112,10 @@ menu:
       name: About
       url: /about
       weight: 50
+    - identifier: nominate
+      name: Nominate someone
+      url: /nominate
+      weight: 50
     - identifier: contact
       name: Contact
       url: /contact
@@ -110,6 +124,10 @@ menu:
     - identifier: about
       name: About
       url: /about
+      weight: 50
+    - identifier: nominate
+      name: Nominate someone
+      url: /nominate
       weight: 50
     - identifier: contact
       name: Contact

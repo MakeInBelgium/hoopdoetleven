@@ -2,6 +2,7 @@
 title: "Contacteer ons"
 draft: false
 description: ""
+url: "contact"
 ---
 
 # Contacteer ons

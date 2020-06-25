@@ -2,6 +2,7 @@
 title: "Privacy policy"
 draft: false
 description: ""
+url: "privacy"
 ---
 
 # Privacy Policy

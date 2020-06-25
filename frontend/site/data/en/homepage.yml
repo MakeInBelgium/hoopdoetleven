@@ -1,10 +1,15 @@
 # Hero content
 hero:
     enable: true
-    title: "Hoop doet leven!"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat pariatur. Excepteur sint occaecat.
-
-
-    ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
-    video_link: "https://youtu.be/GFzUju8LkcA"
+    title: "Hope brings life!"
+    content: "<p>The Corona crisis was a tough challenge for everyone. We all know someone with a punishment story. A story about creativity and resilience. A story full of hope and connectedness.</p>
+    <p>On the occasion of the national holiday, we would like to hear those stories, tell them and share them with everyone. Do you know such a story and do you want the sweetest of all to shout from the rooftops?</p>"
+    video: 
+        url: "https://www.youtube-nocookie.com/embed/lKmyjajxA68"
+    buttons:
+        - title: "Nominate someone!"
+          style: "primary"
+          url: "/nominate"
+        - title: "More information"
+          style: "default"
+          url: "/about"

@@ -2,6 +2,7 @@
 title: "Over deze actie"
 draft: false
 description: ""
+url: "about"
 ---
 
 # Over deze actie

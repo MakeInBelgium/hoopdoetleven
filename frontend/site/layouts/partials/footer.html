@@ -12,8 +12,7 @@
     <div class="container">
         <div class="row justify-content-between">
             <div class="col-md-4">
-                <h3>Over</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sint culpa mollitia necessitatibus perspiciatis, voluptas impedit minima quisquam excepturi explicabo aut id. Nostrum quo quia veniam iste distinctio temporibus quaerat!</p>
+                {{ .Site.Params.doormatInfo | markdownify }}
             </div>
             <div class="col-md-4">
                 <h3>Links</h3>

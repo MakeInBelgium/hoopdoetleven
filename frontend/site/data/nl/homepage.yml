@@ -2,17 +2,14 @@
 hero:
     enable: true
     title: "Hoop doet leven!"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat pariatur. Excepteur sint occaecat.
-
-
-    ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
+    content: "<p>De Coronacrisis was voor iedereen een stevige uitdaging. We kennen allemaal wel iemand met een straf verhaal. Een verhaal over creativiteit en veerkracht. Een verhaal vol hoop en verbondenheid.</p>
+<p>Naar aanleiding van de nationale feestdag willen we die verhalen graag horen, doorvertellen en zo met iedereen delen. Ken jij zo’n verhaal en wil je dat het liefste van al van de daken schreeuwen?</p>"
     video:
-        url: "https://www.youtube-nocookie.com/embed/GFzUju8LkcA"
+        url: "https://www.youtube-nocookie.com/embed/lKmyjajxA68"
     buttons:
-        - title: "Lorem ipsum"
+        - title: "Doe mee!"
           style: "primary"
-          url: /about
-        - title: "dolor sit amet"
+          url: /nomineer
+        - title: "Meer informatie"
           style: "default"
-          url: /contact
+          url: /over
