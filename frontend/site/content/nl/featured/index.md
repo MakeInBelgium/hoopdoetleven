@@ -5,6 +5,7 @@ description: ""
 url: "featured"
 layout: single-full
 ---
+<div>
 {{< section style="tertiary" >}}
 {{< columns cols="col-md-4" >}}
 {{< column >}}
@@ -62,3 +63,4 @@ layout: single-full
 {{< /column >}}
 {{< /columns >}}
 {{< /section >}}
+</div>
