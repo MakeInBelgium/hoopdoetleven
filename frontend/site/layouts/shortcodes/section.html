@@ -1,5 +1,4 @@
-<!-- section -->
-{{- $classNames := "section" -}}
+<!-- section -->{{- $classNames := "section" -}}
 {{- with .Get "style" -}}
     {{ if (eq . "dark") }}
     {{ $classNames = printf "%s %s" $classNames "bg-dark text-light" }}
@@ -18,10 +17,9 @@
     {{ end }}
 {{- end -}}
 {{- with .Get "extraClasses" -}}
-{{ $classNames = printf "%s %s" $classNames . }}
-{{- end -}}
-<section class="{{ $classNames }}">
-    <div class="container">
-    {{ .Inner | markdownify }}
-    </div>
+{{- $classNames = printf "%s %s" $classNames . -}}
+{{- end -}}<section class="{{ $classNames }}">
+<div class="container">
+{{ .Inner | markdownify }}
+</div>
 </section>

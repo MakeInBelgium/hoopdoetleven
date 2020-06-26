@@ -54,6 +54,10 @@ languages:
           name: Meedoen
           url: /meedoen
           weight: 50
+        - identifier: featured
+          name: Inzendingen
+          url: /featured
+          weight: 50
         # - identifier: contact
         #   name: Contacteer ons
         #   url: /contact
