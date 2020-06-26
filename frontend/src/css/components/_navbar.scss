@@ -5,6 +5,22 @@ nav.navbar {
         flex: 1 1 0%;
     }
 
+    .navbar-brand > span {
+        &:nth-child(1) {
+            color: $papaya-whip;
+            font-weight: $font-weight-normal;
+        }
+
+        &:nth-child(2) {
+            color: $cerulean-crayola;
+            font-weight: $font-weight-normal;
+        }
+
+        &:nth-child(3) {
+            color: $jonquil;
+        }
+    }
+
     .nav-item {
         font-weight: 600;
     }
@@ -26,7 +42,12 @@ nav.navbar {
             max-width: 900px;
             margin-left: auto;
             display: flex;
-            justify-content: space-evenly;
+            justify-content: flex-end;
+
+            .nav-link {
+                padding-left: 1.5rem;
+                padding-right: 1.5rem;
+            }
         }
     }
 }

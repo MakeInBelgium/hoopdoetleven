@@ -1,5 +1,30 @@
 .styleguide {
-    > section {
-        margin-bottom: 5rem;
+    .bootstrap {
+        > section {
+            margin-bottom: 5rem;
+        }
+    }
+
+    .color-overview {
+        display: flex;
+        flex-wrap: wrap;
+
+        & > div {
+            margin: 5px;
+            width: 150px;
+            height: 150px;
+            display: inline-flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            font-weight: 500;
+        }
+    }
+
+
+    .blockquote-icon {
+        padding-top: 5rem;
+        background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='iso-8859-1'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg version='1.1' id='Capa_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='50px' height='50px' viewBox='0 0 508.044 508.044' style='enable-background:new 0 0 508.044 508.044;' fill='%23bfc8fc' xml:space='preserve'%3E%3Cg%3E%3Cg%3E%3Cpath d='M0.108,352.536c0,66.794,54.144,120.938,120.937,120.938c66.794,0,120.938-54.144,120.938-120.938 s-54.144-120.937-120.938-120.937c-13.727,0-26.867,2.393-39.168,6.61C109.093,82.118,230.814-18.543,117.979,64.303 C-7.138,156.17-0.026,348.84,0.114,352.371C0.114,352.426,0.108,352.475,0.108,352.536z'/%3E%3Cpath d='M266.169,352.536c0,66.794,54.144,120.938,120.938,120.938s120.938-54.144,120.938-120.938S453.9,231.599,387.106,231.599 c-13.728,0-26.867,2.393-39.168,6.61C375.154,82.118,496.875-18.543,384.04,64.303C258.923,156.17,266.034,348.84,266.175,352.371 C266.175,352.426,266.169,352.475,266.169,352.536z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+        background-repeat: no-repeat;
     }
 }

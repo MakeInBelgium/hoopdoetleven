@@ -8,7 +8,7 @@
 </div>
 <!-- /Image -->
 <!-- Doormat -->
-<footer id="doormat" class="section bg-dark text-white links-light">
+<footer id="doormat" class="section bg-primary text-white links-light">
     <div class="container">
         <div class="row justify-content-between">
             <div class="col-md-4">
@@ -18,7 +18,7 @@
                 <h3>Links</h3>
                 <ul class="list-unstyled">
                 {{ range .Site.Menus.doormat }}
-                    <li class="mb-3"><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
+                    <li class="mb-2"><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
                 {{ end }}
                 </ul>
             </div>
@@ -27,7 +27,7 @@
 </footer>
 <!-- /Doormat -->
 <!-- Copyright -->
-<footer id="copyright" class="bg-primary text-white links-light">
+<footer id="copyright" class="bg-dark text-light links-light">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
