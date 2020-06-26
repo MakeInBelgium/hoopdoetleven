@@ -9,7 +9,7 @@ hero:
     buttons:
         - title: "Doe mee!"
           style: "primary"
-          url: /nomineer
+          url: /meedoen
         - title: "Meer informatie"
           style: "default"
           url: /over

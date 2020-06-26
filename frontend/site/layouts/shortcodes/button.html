@@ -1,0 +1,6 @@
+<!-- button -->
+{{- $classNames := "btn " -}}
+{{- $link := .Get "url" -}}
+{{ with .Get "style" }}{{ $classNames = printf "%s btn-%s" $classNames . }}{{ end }}
+{{ with .Get "large" }}{{ if . }}{{ $classNames = printf "%s btn-lg" $classNames }}{{ end }}{{ end }}
+<a class="{{ $classNames }}" href="{{ $link | absLangURL }}">{{ .Inner }}</a>

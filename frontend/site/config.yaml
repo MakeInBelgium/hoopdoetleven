@@ -51,8 +51,8 @@ languages:
           url: /over
           weight: 30
         - identifier: nominate
-          name: Nomineer iemand
-          url: /nomineer
+          name: Meedoen
+          url: /meedoen
           weight: 50
         # - identifier: contact
         #   name: Contacteer ons
@@ -64,8 +64,8 @@ languages:
           url: /over
           weight: 30
         - identifier: nominate
-          name: Nomineer iemand
-          url: /nomineer
+          name: Meedoen
+          url: /meedoen
           weight: 50
         - identifier: styleguide
           name: Stijlgids

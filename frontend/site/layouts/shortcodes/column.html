@@ -1,0 +1,16 @@
+<!-- column -->
+{{- $colClasses := "col" -}}
+{{- with .Get "cols" -}}
+    {{ $colClasses = . }}
+{{- else -}}
+{{ with .Parent.Get "cols" }}
+{{- if . -}}{{ $colClasses = . }}{{- end -}}
+{{- end -}}
+{{- end -}}
+{{- $classNames := $colClasses -}}
+{{- with .Get "extraClasses" -}}
+{{ $classNames = printf "%s %s" $classNames . }}
+{{- end -}}
+<div class="{{ $classNames }}">
+{{ .Inner | markdownify }}
+</div>

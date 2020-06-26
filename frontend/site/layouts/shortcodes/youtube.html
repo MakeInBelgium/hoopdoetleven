@@ -1,0 +1,13 @@
+{{ $videoId := .Get "id" }}
+{{ $thumbnail := .Get "thumbnail" }}
+<div class="video-wrapper" data-streaming="youtube" data-videoid="{{ $videoId }}" >
+	<i class="icon-video-play-button shortcode"></i>
+	{{if $thumbnail }}
+	<div style="background-image:url(/images/thumbnails/{{ $thumbnail }})" alt="YouTube Thumbnail" class="video-thumbnail"></div>
+	{{else}}
+	<div style="background-image:url(//img.youtube.com/vi/{{ $videoId }}/0.jpg)" alt="YouTube Thumbnail" class="video-thumbnail"></div>
+	{{end}}
+</div>
+{{ if (.Get "description") }}
+<div class="video-description">{{ .Get "description" | markdownify }}</div>
+{{ end }}
