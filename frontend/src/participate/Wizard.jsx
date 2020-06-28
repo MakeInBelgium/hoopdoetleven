@@ -67,9 +67,9 @@ export default class Wizard extends React.Component {
                   « Previous
                 </Button>
               )}
-              {!isLastPage && <Button style="primary" type="submit">Next »</Button>}
+              {!isLastPage && <Button btnStyle="primary" type="submit">Next »</Button>}
               {isLastPage && (
-                <Button style="primary" type="submit" disabled={submitting}>
+                <Button btnStyle="primary" type="submit" disabled={submitting}>
                   Submit
                 </Button>
               )}
