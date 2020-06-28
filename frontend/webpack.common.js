@@ -6,7 +6,8 @@ const AssetsPlugin = require("assets-webpack-plugin");
 
 module.exports = {
   entry: {
-    main: path.join(__dirname, "src", "index.js")
+    main: path.join(__dirname, "src", "index.js"),
+    participate: path.join(__dirname, "src", "participate.js")
   },
 
   output: {
@@ -24,7 +25,7 @@ module.exports = {
 
       {
         loader: "babel-loader",
-        test: /\.js?$/,
+        test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         query: {cacheDirectory: true}
       },
@@ -36,7 +37,9 @@ module.exports = {
       }
     ]
   },
-
+  resolve: {
+    extensions: ["*", ".js", ".jsx"]
+  },
   plugins: [
     new webpack.ProvidePlugin({
       fetch: "imports-loader?this=>global!exports-loader?global.fetch!whatwg-fetch"

@@ -16,6 +16,14 @@
   {{ with $script.js }}
     <script src="{{ relURL . }}"></script>
   {{ end }}
+
+  {{ if (eq .Params.layout "participate") }}
+  {{ $script := .Site.Data.webpack.participate }}
+  {{ with $script.js }}
+    <script src="{{ relURL . }}"></script>
+  {{ end }}
+  {{ end }}
+
 </body>
 
 </html>
