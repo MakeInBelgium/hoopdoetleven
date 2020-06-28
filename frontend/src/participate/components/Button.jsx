@@ -1,14 +1,14 @@
 import React from "react";
 import classnames from "classnames";
 
-export default ({ style, large = false, children, ...props}) => {
-    const typeAllowed = ["primary", "secondary", "outline-primary", "outline-secondary"].indexOf(style) !== -1;
+export default ({ btnStyle, large = false, children, ...props}) => {
+    const typeAllowed = ["primary", "secondary", "outline-primary", "outline-secondary"].indexOf(btnStyle) !== -1;
 
     return <button
         className={classnames("btn", {
             'btn-default': !typeAllowed,
             'btn-lg': large,
-            [`btn-${style}`]: typeAllowed,
+            [`btn-${btnStyle}`]: typeAllowed,
         })}
         {...props}
     >
