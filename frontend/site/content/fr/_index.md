@@ -1,19 +1,18 @@
 ---
-title: '#PleinDEspoir'
+title: 'Acceuil'
 draft: false
 description: ""
 layout: single-full
 ---
 
-{{< section style="white" >}}
-{{< columns extraClasses="justify-content-between" >}}
+{{< section style="secondary" >}}
+{{< columns extraClasses="justify-content-between align-items-center" >}}
 {{< column cols="col-md-5" >}}
-# #HoopDoetLeven zoekt verhalen van een held
-De Corona-lockdown was voor iedereen een stevige uitdaging. En we kennen allemaal wel iemand die het verschil gemaakt heeft. Door boodschappen te doen voor de oudere mensen in de straat. Door mondmaskers te naaien. Door muziek te maken voor de buren, de wijk. Door online voor te lezen voor de kleinkinderen. Door de eigen onderneming aan de situatie aan te passen en zo mensen aan het werk te houden. Er zijn zo tal van verhalen over creativiteit, veerkracht en verbondenheid. 
+# #PleindEspoir
+## recherche des histoires
+Le confinement était un défi particulier pour tout le monde. Nous connaissons tous quelqu'un qui a fait la différence. En faisant du shopping pour les personnes âgées dans la rue. En cousant des masques buccaux. En faisant de la musique pour les voisins, le quartier. En lisant des histoires aux petits-enfants par téléphone. En adaptant votre entreprise à la situation et en gardant ainsi les personnes au travail. Il y a tellement d'histoires sur la créativité, la résilience et la connexion entre les Belges.
 
-Naar aanleiding van de Nationale feestdag wil Het Koninklijk Paleis deze verhalen van helden vinden, doorvertellen en met iedereen delen. Heb jij een buurman, tante, collega of juf die zo’n kleine of grote heldendaad heeft verricht? Ben je trots op die persoon en wil je dat verhaal graag van de daken schreeuwen? Wij luisteren!
-
-{{< button style="primary" url="/meedoen" >}}Doe mee!{{< /button >}}
+{{< button style="primary" url="/participation" >}}Rejoignez-nous!{{< /button >}}
 {{< /column >}}
 {{< column cols="col-md-6" >}}
 {{< youtube-embed id="lKmyjajxA68" >}}
@@ -22,27 +21,54 @@ Naar aanleiding van de Nationale feestdag wil Het Koninklijk Paleis deze verhale
 {{< /section >}}
 
 {{< section style="primary" >}}
-{{< columns extraClasses="justify-content-between" >}}
+{{< columns extraClasses="justify-content-between align-items-center" >}}
 {{< column cols="col-md-5" >}}
+<img src="/img/Herowit.png" alt="" class="img-fluid" />
 {{< /column >}}
 {{< column cols="col-md-6" >}}
-## Blink van trots, het mag!
-Toegegeven, we vertellen niet graag over onze eigen verwezenlijkingen. Het lijkt op opscheppen, en daar houden we niet van. Toch zijn we trots: op onze familie, op de mensen in de zorg, op onze buren, op onze wetenschappers, op onze juffen en meesters, op al die spontane vrijwilligers die de handen uit de mouwen staken. We zijn ze ontzettend dankbaar. En terecht. 
-
-Daarom vragen we je om je schroom voor één keer opzij te zetten. Vertel je verhaal of spreek iemand aan waar jij trots op bent en spoor die aan zijn verhaal te delen. Beter nog, doe het samen!
+## Notre roi cherche
+A l'occasion de la Fête Nationale, le Palais Royal souhaite mettre en valeur ces histoires, les raconter et les partager avec tout le monde. Avez-vous un voisin, une tante, un collègue ou un enseignant qui a accompli un acte héroïque, qu’il soit petit ou grand? Êtes-vous fier de cette personne et aimeriez-vous partager cette histoire partout? Nous sommes à votre écoute!
+{{< button style="secondary" url="/participation" >}}Rejoignez-nous!{{< /button >}}
 {{< /column >}}
 {{< /columns >}}
 {{< /section >}}
 
 {{< section style="tertiary" >}}
-{{< columns extraClasses="justify-content-between" >}}
+{{< columns extraClasses="justify-content-between align-items-center" >}}
 {{< column cols="col-md-6" >}}
-## Een koninklijke beloning
-Heb jij meegedaan en je verhaal met ons en de rest van de wereld gedeeld? Dan wacht je misschien wel een extra verrassing. Zijne Majesteit Koning Filip kiest op basis van alle ingezonden verhalen 4 bijzondere Belgen. Die coronahelden krijgen een uitnodiging van Koning Filip hun verhaal te vertellen aan de koning tijdens een audiëntie. Een mooie erkenning van al je inspanningen in deze vreemde tijd!
+## La modestie Belge
+Certes, nous n'aimons pas forcément parler de nos propres réalisations. Pourtant, nous sommes fiers: de notre famille, des soignants, de nos voisins, de nos scientifiques, de nos professeurs et maîtres, de tous ces bénévoles spontanés qui se sont investi à fond. Nous leur sommes très reconnaissants. À juste titre. 
 
-{{< button style="primary" url="/meedoen" >}}Doe mee!{{< /button >}}
+{{< button style="primary" url="/histoires" >}}Découvrez nos héros!{{< /button >}}
 {{< /column >}}
 {{< column cols="col-md-5" >}}
+<img src="/img/KermisWit.png" alt="" class="img-fluid" />
+{{< /column >}}
+{{< /columns >}}
+{{< /section >}}
+
+{{< section style="blue" >}}
+{{< columns extraClasses="justify-content-between align-items-center" >}}
+{{< column cols="col-md-6" >}}
+<img src="/img/Doneer_Hero.svg" alt="" class="img-fluid" />
+{{< /column >}}
+{{< column cols="col-md-5" >}}
+## Eclatez de fierté, c'est permis!
+C'est pourquoi nous vous demandons de mettre de côté votre gêne pour une fois. Racontez votre histoire ou parlez à quelqu'un dont vous êtes fier et encouragez-le à partager son histoire. Mieux encore, faites-le ensemble!
+{{< button style="primary" url="/participation" >}}Rejoignez-nous{{< /button >}}
+{{< /column >}}
+{{< /columns >}}
+{{< /section >}}
+
+{{< section style="white" >}}
+{{< columns extraClasses="justify-content-between align-items-center" >}}
+{{< column cols="col-md-5" >}}
+## Une récompense royale
+Avez-vous participé et partagé votre histoire avec nous et le reste du monde? Ensuite, vous pourriez avoir une surprise supplémentaire. Sa Majesté le Roi Philippe choisit 4 Belges spéciaux parmi toutes les histoires soumises. Ces héros corona reçoivent une invitation du roi Philippe à assister au défilé du 21 juillet. Une grande reconnaissance de tous vos efforts en cette période étrange!
+{{< button style="secondary" url="/participation" >}}Convainquez le roi !{{< /button >}}
+{{< /column >}}
+{{< column cols="col-md-6" >}}
+<img src="/img/HeroZwart.png" alt="" class="img-fluid" />
 {{< /column >}}
 {{< /columns >}}
 {{< /section >}}

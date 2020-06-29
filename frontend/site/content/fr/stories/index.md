@@ -8,8 +8,8 @@ draft: true
 ---
 <div>
 {{< section style="primary" extraClasses="text-center" >}}
-# Verhalen
-<p class="lead">Ontdek hier de mooie verhalen van #HoopDoetLeven die jullie al met ons deelden.</p>
+# Histoires
+<p class="lead">Découvrez les belles histoires de #PleinDEspoir que vous avez déjà partagées avec nous.</p>
 {{< /section >}}
 {{< section style="tertiary" >}}
 {{< columns cols="col-md-4" >}}

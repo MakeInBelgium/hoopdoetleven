@@ -1,15 +1,15 @@
 ---
-title: "Verhalen"
+title: "Geschichten"
 description: ""
 translationKey: "stories"
-url: "verhalen"
+url: "geschichten"
 layout: single-full
 draft: false
 ---
 <div>
 {{< section style="primary" extraClasses="text-center" >}}
-# Verhalen
-<p class="lead">Ontdek hier de mooie verhalen van #HoopDoetLeven die jullie al met ons deelden.</p>
+# Geschichten
+<p class="lead">Entdecken Sie die großartigen Geschichten von #VollerHoffnung, die Sie bereits mit uns geteilt haben.</p>
 {{< /section >}}
 {{< section style="tertiary" >}}
 {{< columns cols="col-md-4" >}}

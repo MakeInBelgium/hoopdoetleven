@@ -55,7 +55,7 @@ Toegegeven, we vertellen niet graag over onze eigen verwezenlijkingen. Het lijkt
 {{< column cols="col-md-5" >}}
 ## Blink van trots, het mag!
 Daarom vragen we je om je schroom voor één keer opzij te zetten. Vertel je verhaal of spreek iemand aan waar jij trots op bent en spoor die aan zijn verhaal te delen. Beter nog, doe het samen!
-{{< button style="primary" url="/meedoen" >}}Bekijk onze helden{{< /button >}}
+{{< button style="primary" url="/meedoen" >}}Doe mee!{{< /button >}}
 {{< /column >}}
 {{< /columns >}}
 {{< /section >}}

@@ -29,7 +29,7 @@ params:
     brings: "Doet"
     life: "Leven"
   copyright: "&copy; Copyright 2020"
-  doormatInfo: "De Corona Denktank is een burgerbeweging die alternatieve oplossingen bedenkt en bouwt om het leed van COVID19 te verzachten en de verspreiding van SARS-CoV-2 te verminderen. Al snel na de Belgische lockdown, half maart 2020, is de burgerbeweging op enkele dagen uitgegroeid van enkelingen naar een netwerk van duizenden burgers die hun brede expertise bij elkaar gelegd hebben om oplossingen te bouwen. Van IT’ers tot naaisters en van spoedartsen tot communicatiespecialisten, iedereen werkt solidair, flexibel en doelgericht samen."
+  doormatInfo: "De Coronadenktank is een burgerbeweging die alternatieve oplossingen bedenkt en bouwt om het leed van COVID19 te verzachten en de verspreiding van SARS-CoV-2 te verminderen. Al snel na de Belgische lockdown, half maart 2020, is de burgerbeweging op enkele dagen uitgegroeid van enkelingen naar een netwerk van duizenden burgers die hun brede expertise bij elkaar gelegd hebben om oplossingen te bouwen. Van IT’ers tot naaisters en van spoedartsen tot communicatiespecialisten, iedereen werkt solidair, flexibel en doelgericht samen."
 
 ############################## navigation ###############################
 menu: 
@@ -91,6 +91,7 @@ languages:
       hope: "Plein"
       brings: "d"
       life: "Espoir"
+    doormatInfo: "Le Coronadenktank est un mouvement civil qui conçoit et construit des solutions alternatives pour soulager la souffrance de COVID19 et réduire la propagation du SRAS-CoV-2. Peu après le confinement de la Belgique à la mi-mars 2020, le mouvement citoyen est passé de quelques individus à un réseau de milliers de citoyens qui ont mis  à disposition leur vaste expertise pour construire des solutions. Des professionnels de l'informatique aux couturières, des urgentistes aux spécialistes de la communication, tous travaillent ensemble dans un esprit de solidarité, de flexibilité et de détermination."
     menu: 
       main:
         - identifier: stories
@@ -118,3 +119,15 @@ languages:
       hope: "Voller"
       brings: ""
       life: "Hoffnung"
+    doormatInfo: "Der Coronadenktank ist eine Bürgerbewegung, die alternative Lösungen entwirft und entwickelt, um das Leiden von COVID19 zu lindern und die Ausbreitung von SARS-CoV-2 einzudämmen. Kurz nach der Eindämmung Belgiens Mitte März 2020 wuchs die Bürgerbewegung von einigen wenigen Einzelpersonen zu einem Netzwerk von Tausenden von Bürgern, die ihr enormes Fachwissen bündelten, um Lösungen zu erarbeiten. Von IT-Fachleuten bis zu Näherinnen, von Notärzten bis zu Kommunikationsspezialisten arbeiten alle im Geiste der Solidarität, Flexibilität und Entschlossenheit zusammen."
+    menu: 
+      main:
+        - identifier: stories
+          name: Geschichten
+          url: geschichten
+          weight: 10
+      footer:
+        - identifier: disclaimer
+          name: Disclaimer
+          url: disclaimer
+          weight: 10
