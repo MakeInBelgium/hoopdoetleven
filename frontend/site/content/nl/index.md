@@ -6,7 +6,7 @@ layout: single-full
 ---
 
 {{< section style="secondary" >}}
-{{< columns extraClasses="justify-content-between" >}}
+{{< columns extraClasses="justify-content-between align-items-center" >}}
 {{< column cols="col-md-5" >}}
 # #HoopDoetLeven
 ## zoekt verhalen van een held
@@ -21,9 +21,9 @@ De Corona-lockdown was voor iedereen een stevige uitdaging. En we kennen allemaa
 {{< /section >}}
 
 {{< section style="primary" >}}
-{{< columns extraClasses="justify-content-between" >}}
+{{< columns extraClasses="justify-content-between align-items-center" >}}
 {{< column cols="col-md-5" >}}
-<img src="/img/kids-background.jpg" width="1400" height="900" alt="" class="img-fluid" />
+<img src="/img/Herowit.png" alt="" class="img-fluid" />
 {{< /column >}}
 {{< column cols="col-md-6" >}}
 ## De koning zoekt mee… 
@@ -34,7 +34,7 @@ Naar aanleiding van de Nationale feestdag wil Het Koninklijk Paleis deze verhale
 {{< /section >}}
 
 {{< section style="tertiary" >}}
-{{< columns extraClasses="justify-content-between" >}}
+{{< columns extraClasses="justify-content-between align-items-center" >}}
 {{< column cols="col-md-6" >}}
 ## Die Belgische bescheidenheid
 Toegegeven, we vertellen niet graag over onze eigen verwezenlijkingen. Het lijkt op opscheppen, en daar houden we niet van. Toch zijn we trots: op onze familie, op de mensen in de zorg, op onze buren, op onze wetenschappers, op onze juffen en meesters, op al die spontane vrijwilligers die de handen uit de mouwen staken. We zijn ze ontzettend dankbaar.
@@ -42,14 +42,15 @@ Toegegeven, we vertellen niet graag over onze eigen verwezenlijkingen. Het lijkt
 {{< button style="primary" url="/verhalen" >}}Bekijk onze helden!{{< /button >}}
 {{< /column >}}
 {{< column cols="col-md-5" >}}
-{{< youtube-embed id="lKmyjajxA68" >}}
+<img src="/img/KermisWit.png" alt="" class="img-fluid" />
 {{< /column >}}
 {{< /columns >}}
 {{< /section >}}
 
 {{< section style="blue" >}}
-{{< columns extraClasses="justify-content-between" >}}
+{{< columns extraClasses="justify-content-between align-items-center" >}}
 {{< column cols="col-md-6" >}}
+<img src="/img/Doneer_Hero.svg" alt="" class="img-fluid" />
 {{< /column >}}
 {{< column cols="col-md-5" >}}
 ## Blink van trots, het mag!
@@ -60,14 +61,14 @@ Daarom vragen we je om je schroom voor één keer opzij te zetten. Vertel je ver
 {{< /section >}}
 
 {{< section style="white" >}}
-{{< columns extraClasses="justify-content-between" >}}
+{{< columns extraClasses="justify-content-between align-items-center" >}}
 {{< column cols="col-md-5" >}}
 ## Een royale beloning
 Heb jij meegedaan en je verhaal met ons en de rest van de wereld gedeeld? Dan wacht je misschien wel een extra verrassing. Zijne Majesteit Koning Filip kiest op basis van alle ingezonden verhalen 4 bijzondere Belgen. Die coronahelden krijgen een uitnodiging van Koning Filip hun verhaal te vertellen aan de koning tijdens een audiëntie. Een mooie erkenning van al je inspanningen in deze vreemde tijd!
 {{< button style="secondary" url="/meedoen" >}}Overtuig de Koning{{< /button >}}
 {{< /column >}}
 {{< column cols="col-md-6" >}}
-<img src="/img/kids-background.jpg" width="1400" height="900" alt="" class="img-fluid" />
+<img src="/img/HeroZwart.png" alt="" class="img-fluid" />
 {{< /column >}}
 {{< /columns >}}
 {{< /section >}}
