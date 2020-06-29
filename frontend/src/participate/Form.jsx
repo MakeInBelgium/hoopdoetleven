@@ -4,12 +4,16 @@ import Wizard from "./Wizard";
 import FieldGroup from "./components/FieldGroup";
 import RadioGroup from "./components/RadioGroup";
 import Checkbox from "./components/Checkbox";
-
-const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+import Api from "./Api";
 
 const onSubmit = async (values) => {
-    await sleep(300);
-    window.alert(JSON.stringify(values, 0, 2));
+    try {
+        const result = await Api.doSubmission(values);
+        console.log(result);
+
+    } catch(error) {
+        console.error(error);
+    }
 };
 
 const initialValues = {
