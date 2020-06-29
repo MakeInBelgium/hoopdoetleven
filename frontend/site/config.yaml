@@ -55,6 +55,7 @@ languages:
     languageCode: nl
     contentDir: content/nl
     title: Home
+    baseurl: "/"
     description: ""
     hashTag: "#HoopDoetLeven"
     tagLine: 
@@ -68,6 +69,7 @@ languages:
     contentDir: content/en
     tag: HopeBringsLife
     title: Home
+    baseurl: "/"
     description: ""
     hashTag: "#HopeBringsLife"
     tagLine: 
@@ -81,6 +83,7 @@ languages:
     languageCode: fr
     contentDir: content/fr
     title: Home
+    baseurl: "/"
     description: ""
     hashTag: "#PleindEspoir"
     logo: 
@@ -109,6 +112,7 @@ languages:
     languageCode: de
     contentDir: content/de
     title: Home
+    baseurl: "/"
     description: ""
     hashTag: "#VollerHoffnung"
     logo: 
