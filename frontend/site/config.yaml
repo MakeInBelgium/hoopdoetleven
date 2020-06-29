@@ -20,12 +20,29 @@ params:
   title: Home
   description: Beschrijving
   hashTag: "#HoopDoetLeven"
+  logo: 
+    src: "/img/hoopdoetlevenNL.png"
+    width: 199
+    height: 182
   tagLine: 
     hope: "Hoop"
     brings: "Doet"
     life: "Leven"
   copyright: "&copy; Copyright 2020"
-  doormatInfo: "De Coronacrisis was voor iedereen een stevige uitdaging. We kennen allemaal wel iemand met een straf verhaal. Een verhaal over creativiteit en veerkracht. Een verhaal vol hoop en verbondenheid. Naar aanleiding van de nationale feestdag willen we die verhalen graag horen, doorvertellen en zo met iedereen delen."
+  doormatInfo: "De Coronadenktank is een burgerbeweging die alternatieve oplossingen bedenkt en bouwt om het leed van COVID19 te verzachten en de verspreiding van SARS-CoV-2 te verminderen. Al snel na de Belgische lockdown, half maart 2020, is de burgerbeweging op enkele dagen uitgegroeid van enkelingen naar een netwerk van duizenden burgers die hun brede expertise bij elkaar gelegd hebben om oplossingen te bouwen. Van IT’ers tot naaisters en van spoedartsen tot communicatiespecialisten, iedereen werkt solidair, flexibel en doelgericht samen."
+
+############################## navigation ###############################
+menu: 
+  main:
+    - identifier: stories
+      name: Verhalen
+      url: verhalen
+      weight: 10
+  # footer:
+  #   - identifier: disclaimer
+  #     name: Disclaimer
+  #     url: disclaimer
+  #     weight: 10
 
 ############################## languages ##########################
 defaultContentLanguage: nl
@@ -66,10 +83,26 @@ languages:
     title: Home
     description: ""
     hashTag: "#PleindEspoir"
+    logo: 
+      src: "/img/hoopdoetlevenFR.png"
+      width: 170
+      height: 184
     tagLine:
       hope: "Plein"
       brings: "d"
       life: "Espoir"
+    doormatInfo: "Le Coronadenktank est un mouvement civil qui conçoit et construit des solutions alternatives pour soulager la souffrance de COVID19 et réduire la propagation du SRAS-CoV-2. Peu après le confinement de la Belgique à la mi-mars 2020, le mouvement citoyen est passé de quelques individus à un réseau de milliers de citoyens qui ont mis  à disposition leur vaste expertise pour construire des solutions. Des professionnels de l'informatique aux couturières, des urgentistes aux spécialistes de la communication, tous travaillent ensemble dans un esprit de solidarité, de flexibilité et de détermination."
+    menu: 
+      main:
+        - identifier: stories
+          name: Histoires
+          url: histoires
+          weight: 10
+      # footer:
+      #   - identifier: disclaimer
+      #     name: Disclaimer
+      #     url: disclaimer
+      #     weight: 10
   de:
     weight: 2
     languageName: Deutsch
@@ -78,37 +111,23 @@ languages:
     title: Home
     description: ""
     hashTag: "#VollerHoffnung"
+    logo: 
+      src: "/img/hoopdoetlevenDE.png"
+      width: 218
+      height: 187
     tagLine: 
       hope: "Voller"
       brings: ""
       life: "Hoffnung"
-
-############################## navigation ###############################
-menu: 
-  main:
-    - identifier: stories
-      name: Verhalen
-      url: verhalen
-      weight: 10
-    - identifier: participate
-      name: Meedoen
-      url: meedoen
-      weight: 20
-  doormat:
-    - identifier: stories
-      name: Verhalen
-      url: verhalen
-      weight: 10
-    - identifier: participate
-      name: Meedoen
-      url: meedoen
-      weight: 10
-    - identifier: styleguide
-      name: Style guide
-      url: styleguide
-      weight: 100
-  footer:
-    - identifier: disclaimer
-      name: Disclaimer
-      url: disclaimer
-      weight: 10
+    doormatInfo: "Der Coronadenktank ist eine Bürgerbewegung, die alternative Lösungen entwirft und entwickelt, um das Leiden von COVID19 zu lindern und die Ausbreitung von SARS-CoV-2 einzudämmen. Kurz nach der Eindämmung Belgiens Mitte März 2020 wuchs die Bürgerbewegung von einigen wenigen Einzelpersonen zu einem Netzwerk von Tausenden von Bürgern, die ihr enormes Fachwissen bündelten, um Lösungen zu erarbeiten. Von IT-Fachleuten bis zu Näherinnen, von Notärzten bis zu Kommunikationsspezialisten arbeiten alle im Geiste der Solidarität, Flexibilität und Entschlossenheit zusammen."
+    menu: 
+      main:
+        - identifier: stories
+          name: Geschichten
+          url: geschichten
+          weight: 10
+      # footer:
+      #   - identifier: disclaimer
+      #     name: Disclaimer
+      #     url: disclaimer
+      #     weight: 10

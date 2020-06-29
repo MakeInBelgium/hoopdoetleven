@@ -1,17 +1,20 @@
 <nav id="primaryNavigation top" class="navbar navbar-expand-xl navbar-dark bg-primary sticky-top">
     <div class="container">
         <a class="navbar-brand text-uppercase font-weight-bold" href="{{ .Site.BaseURL | relLangURL }}">
-            {{ with .Params.TagLine }}
+            {{/*  {{ with .Params.TagLine }}
             <span>{{ .hope }}</span><span>{{ .brings }}</span><span>{{ .life }}</span>
             {{ else }}
             {{ with .Site.Params.tagLine }}
             <span>{{ .hope }}</span><span>{{ .brings }}</span><span>{{ .life }}</span>
             {{ end }}
+            {{ end }}  */}}
+            {{ with .Site.Params.logo }}
+            <img src="{{ .src }}" alt="{{ .alt }}" width="{{ .width }}" height="{{ .height }}" />
             {{ end }}
         </a>
         {{ if .IsTranslated }}
-        <div class="bg-light dropdown ml-auto mr-2 mx-xl-0 order-xl-last">
-            <button class="btn text-dark btn-sm btn-outline-light dropdown-toggle border-0" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Kies je taal">
+        <div class="bg-blue dropdown ml-auto mr-2 mx-xl-0 order-xl-last">
+            <button class="btn text-dark btn-sm btn-blue text-uppercase dropdown-toggle border-0" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Kies je taal">
                 {{ .Language.Lang }}
             </button>
 

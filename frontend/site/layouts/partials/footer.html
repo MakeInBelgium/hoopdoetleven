@@ -1,26 +1,18 @@
-<!-- Image -->
+{{/*  <!-- Image -->
 <div id="footerImage" class="section">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-8 col-md-7 col-lg-5"><img src="/img/kids-background.jpg" width="1400" height="900" alt="" class="img-fluid" /></div>
         </div>
     </div>
-</div>
+</div>  */}}
 <!-- /Image -->
 <!-- Doormat -->
 <footer id="doormat" class="section bg-primary text-white links-light">
     <div class="container">
         <div class="row justify-content-between">
-            <div class="col-md-4">
-                {{ .Site.Params.doormatInfo | markdownify }}
-            </div>
-            <div class="col-md-4">
-                <h3>Links</h3>
-                <ul class="list-unstyled">
-                {{ range .Site.Menus.doormat }}
-                    <li class="mb-2"><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
-                {{ end }}
-                </ul>
+            <div class="col-12">
+                <small>{{ .Site.Params.doormatInfo | markdownify }}</small>
             </div>
         </div>
     </div>

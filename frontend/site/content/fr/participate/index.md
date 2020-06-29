@@ -1,29 +1,44 @@
 ---
-title: "Over deze actie | #HoopDoetLeven"
-draft: false
+title: "Participatez!"
 description: ""
-url: "over"
 layout: single-full
+translationKey: "participate"
+url: "participation"
+showform: true
+draft: true
+menu:
+  main:
+    name: Participez
+    url: participation
+    weight: 20
 ---
 
-{{< section style="light" >}}
-# Wat is #HoopDoetLeven?
-{{< columns >}}
-{{< column cols="col-md-7" >}}
-De Coronacrisis was voor iedereen een stevige uitdaging. We kennen allemaal wel iemand met een straf verhaal. Een verhaal over creativiteit en veerkracht. Een verhaal vol hoop en verbondenheid.
+{{< section style="secondary" >}}
+{{< columns extraClasses="justify-content-around" >}}
+{{< column cols="col-md-5 col-lg-6" >}}
+# Hoe kan je meedoen?
+1. Maak een kort filmpje van jezelf en/of je held en zet het op Youtube (Let op, hou de nodige afstand in acht!)
+1. Deel de link van het filmpje samen met de hashtag #HoopDoetLeven op je sociale media (Facebook, Twitter, Instagram, …)
+1. Vul de URL van je Youtubefilmpje ook in op ons HoopDoetLeven-formulier op deze pagina
 
-Naar aanleiding van de nationale feestdag willen we die verhalen graag horen, doorvertellen en zo met iedereen delen. Ken jij zo’n verhaal en wil je dat het liefste van al van de daken schreeuwen?
 
-{{< button style="primary" url="/meedoen" >}}Doe mee!{{< /button >}}
+Zo ben je een bron van inspiratie voor iedereen die het nu wat moeilijk heeft en nood heeft aan een mooi, hoopgevend verhaal. Ben je niet zo’n fan van video? Dan kan je je verhaal ook schriftelijk indienen via ons HoopDoetLeven-formulier.
 {{< /column >}}
 {{< /columns >}}
 {{< /section >}}
 
-{{< section style="primary" >}}
-## Hoe kan je meedoen?
-Toegegeven, we vertellen niet zo graag over onze eigen verwezenlijkingen. Het lijkt op opscheppen, en daar houden we niet van. Maar we zijn wel trots: op onze familie, op de mensen in de zorg, op onze buren, op onze wetenschappers, op onze juffen en meesters, op al die spontane vrijwilligers die de handen uit de mouwen staken. En terecht. Daarom mag het voor een keer: vertel je verhaal of spreek iemand aan waar jij trots op bent en spoor die aan zijn verhaal te delen. Doe het desnoods samen.
+{{< section style="dark" >}}
+{{< columns cols="col-md-8 col-lg-6" extraClasses="align-items-center justify-content-md-between" >}}
+{{< column cols="col-md-4 col-lg-5" >}}
+## Bezorg ons jouw Coronaheld!
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora eaque porro enim magni, molestiae vero quasi ab.
 
-Maak er een filmpje van, zet het op Youtube en deel de link met de hashtag #hoopdoetleven op Facebook of Twitter. Zodat jullie een inspiratie zijn voor iedereen die het nu wat moeilijk heeft en nood heeft aan een hoopgevend verhaal.
+Numquam, voluptates! Eaque accusantium dignissimos harum dolore sint qui nulla voluptate, non totam cumque adipisci nobis autem, alias reprehenderit nemo assumenda culpa!
+{{< /column >}}
+{{< column >}}
+<div id="nominateForm"></div>
+{{< /column >}}
+{{< /columns >}}
 {{< /section >}}
 
 {{< section style="light" extraClasses="about-icons text-center" >}}
@@ -76,11 +91,4 @@ vermeld zeker de hashtag #hoopdoetleven
 deel je video vanaf 1 juli op je netwerk
 {{< /column >}}
 {{< /columns >}}
-{{< /section >}}
-
-{{< section style="dark" extraClasses="text-center" >}}
-## De mooiste verhalen worden beloond!
-Heb jij een mooi verhaal? Dan wil de Koning der Belgen misschien wel met je kennismaken! Hij nodigt de mensen met het mooiste verhaal uit voor een bezoek op het Koninklijk Paleis.
-
-{{< button style="primary" url="/meedoen" >}}Doe mee!{{< /button >}}
 {{< /section >}}

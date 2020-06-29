@@ -3,6 +3,7 @@ title: "Disclaimer"
 draft: false
 description: ""
 url: "disclaimer"
+translationKey: "disclaimer"
 ---
 
 # Disclaimer
