@@ -31,6 +31,19 @@ params:
   copyright: "&copy; Copyright 2020"
   doormatInfo: "De Corona Denktank is een burgerbeweging die alternatieve oplossingen bedenkt en bouwt om het leed van COVID19 te verzachten en de verspreiding van SARS-CoV-2 te verminderen. Al snel na de Belgische lockdown, half maart 2020, is de burgerbeweging op enkele dagen uitgegroeid van enkelingen naar een netwerk van duizenden burgers die hun brede expertise bij elkaar gelegd hebben om oplossingen te bouwen. Van IT’ers tot naaisters en van spoedartsen tot communicatiespecialisten, iedereen werkt solidair, flexibel en doelgericht samen."
 
+############################## navigation ###############################
+menu: 
+  main:
+    - identifier: stories
+      name: Verhalen
+      url: verhalen
+      weight: 10
+  footer:
+    - identifier: disclaimer
+      name: Disclaimer
+      url: disclaimer
+      weight: 10
+
 ############################## languages ##########################
 defaultContentLanguage: nl
 disableLanguages: ["en"]
@@ -78,6 +91,17 @@ languages:
       hope: "Plein"
       brings: "d"
       life: "Espoir"
+    menu: 
+      main:
+        - identifier: stories
+          name: Histoires
+          url: histoires
+          weight: 10
+      footer:
+        - identifier: disclaimer
+          name: Disclaimer
+          url: disclaimer
+          weight: 10
   de:
     weight: 2
     languageName: Deutsch
@@ -94,33 +118,3 @@ languages:
       hope: "Voller"
       brings: ""
       life: "Hoffnung"
-
-############################## navigation ###############################
-menu: 
-  main:
-    - identifier: stories
-      name: Verhalen
-      url: verhalen
-      weight: 10
-    - identifier: participate
-      name: Meedoen
-      url: meedoen
-      weight: 20
-  doormat:
-    - identifier: stories
-      name: Verhalen
-      url: verhalen
-      weight: 10
-    - identifier: participate
-      name: Meedoen
-      url: meedoen
-      weight: 10
-    - identifier: styleguide
-      name: Style guide
-      url: styleguide
-      weight: 100
-  footer:
-    - identifier: disclaimer
-      name: Disclaimer
-      url: disclaimer
-      weight: 10

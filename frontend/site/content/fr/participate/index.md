@@ -1,15 +1,15 @@
 ---
-title: "Meedoen!"
+title: "Participatez!"
 description: ""
 layout: single-full
 translationKey: "participate"
-url: "meedoen"
+url: "participation"
 showform: true
 draft: true
 menu:
   main:
-    name: Meedoen
-    url: meedoen
+    name: Participez
+    url: participation
     weight: 20
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Nominate someone! | #HopeBringsLife"
+title: "Nominate someone!"
 draft: true
 description: ""
 url: "participate"

@@ -1,11 +1,12 @@
 ---
-title: "Privacy policy"
+title: "Disclaimer"
 draft: false
 description: ""
-url: "privacy"
+url: "disclaimer"
+translationKey: "disclaimer"
 ---
 
-# Privacy Policy
+# Disclaimer
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. Lorem ipsum dolor sit amet consectetur,

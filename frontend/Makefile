@@ -4,6 +4,10 @@ include .env
 start:
 	@npm run start
 
+prebuild:
+	@echo "Removing dist"
+	@npm run prebuild
+
 build:
 	@echo "Building prod"
 	@npm run build
@@ -20,6 +24,6 @@ upload-prod:
 	@echo "Deploying to production"
 	@rsync -avz -e "ssh -p ${HDL_PROD_PORT}" --delete dist/ ${HDL_PROD_USER}@${HDL_PROD_HOST}:${HDL_PROD_PATH}
 
-deploy-staging: build-staging upload-staging
+deploy-staging: prebuild build-staging upload-staging
 
-deploy-prod: build upload-prod
+deploy-prod: prebuild build upload-prod
