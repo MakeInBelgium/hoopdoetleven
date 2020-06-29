@@ -38,11 +38,11 @@ menu:
       name: Verhalen
       url: verhalen
       weight: 10
-  footer:
-    - identifier: disclaimer
-      name: Disclaimer
-      url: disclaimer
-      weight: 10
+  # footer:
+  #   - identifier: disclaimer
+  #     name: Disclaimer
+  #     url: disclaimer
+  #     weight: 10
 
 ############################## languages ##########################
 defaultContentLanguage: nl
@@ -55,6 +55,7 @@ languages:
     languageCode: nl
     contentDir: content/nl
     title: Home
+    baseurl: https://staging.hoopdoetleven.be
     description: ""
     hashTag: "#HoopDoetLeven"
     tagLine: 
@@ -68,6 +69,7 @@ languages:
     contentDir: content/en
     tag: HopeBringsLife
     title: Home
+    baseurl: https://staging-en.hoopdoetleven.be
     description: ""
     hashTag: "#HopeBringsLife"
     tagLine: 
@@ -81,6 +83,7 @@ languages:
     languageCode: fr
     contentDir: content/fr
     title: Home
+    baseurl: https://staging.pleindespoir.be
     description: ""
     hashTag: "#PleindEspoir"
     logo: 
@@ -98,17 +101,18 @@ languages:
           name: Histoires
           url: histoires
           weight: 10
-      footer:
-        - identifier: disclaimer
-          name: Disclaimer
-          url: disclaimer
-          weight: 10
+      # footer:
+      #   - identifier: disclaimer
+      #     name: Disclaimer
+      #     url: disclaimer
+      #     weight: 10
   de:
     weight: 2
     languageName: Deutsch
     languageCode: de
     contentDir: content/de
     title: Home
+    baseurl: https://staging.vollerhoffnung.be
     description: ""
     hashTag: "#VollerHoffnung"
     logo: 
@@ -126,8 +130,8 @@ languages:
           name: Geschichten
           url: geschichten
           weight: 10
-      footer:
-        - identifier: disclaimer
-          name: Disclaimer
-          url: disclaimer
-          weight: 10
+      # footer:
+      #   - identifier: disclaimer
+      #     name: Disclaimer
+      #     url: disclaimer
+      #     weight: 10
