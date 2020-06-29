@@ -1,9 +1,10 @@
 ---
-title: "Inzendingen | #HoopDoetLeven"
-draft: false
+title: "Verhalen"
 description: ""
-url: "featured"
+translationKey: "stories"
+url: "verhalen"
 layout: single-full
+draft: false
 ---
 <div>
 {{< section style="primary" extraClasses="text-center" >}}

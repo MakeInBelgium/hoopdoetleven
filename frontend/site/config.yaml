@@ -17,7 +17,7 @@ markup:
       unsafe: true
 
 params:
-  title: Hoop doet leven
+  title: Home
   description: Beschrijving
   hashTag: "#HoopDoetLeven"
   tagLine: 
@@ -37,66 +37,21 @@ languages:
     languageName: Nederlands
     languageCode: nl
     contentDir: content/nl
-    title: Hoop doet leven
-    description: Beschrijving
+    title: Home
+    description: ""
     hashTag: "#HoopDoetLeven"
     tagLine: 
       hope: "Hoop"
       brings: "Doet"
       life: "Leven"
-    menu:
-      main:
-        # - identifier: about
-        #   name: Over
-        #   url: /over
-        #   weight: 30
-        - identifier: participate
-          name: Meedoen
-          url: /meedoen
-          weight: 50
-        - identifier: featured
-          name: Inzendingen
-          url: /featured
-          weight: 50
-        # - identifier: contact
-        #   name: Contacteer ons
-        #   url: /contact
-        #   weight: 100
-      doormat:
-        # - identifier: about
-        #   name: Over
-        #   url: /over
-        #   weight: 30
-        - identifier: participate
-          name: Meedoen
-          url: /meedoen
-          weight: 50
-        - identifier: styleguide
-          name: Stijlgids
-          url: /styleguide
-          weight: 100
-        # - identifier: contact
-        #   name: Contacteer ons
-        #   url: /contact
-        #   weight: 100
-      footer:
-        - identifier: disclaimer
-          name: Disclaimer
-          url: /disclaimer
-          weight: 10
-        - identifier: privacy
-          name: Privacy
-          url: /privacy
-          weight: 10
-   
   en:
     weight: 2
     languageName: English
     languageCode: en
     contentDir: content/en
     tag: HopeBringsLife
-    title: Hope brings life
-    description: some description stuff
+    title: Home
+    description: ""
     hashTag: "#HopeBringsLife"
     tagLine: 
       hope: "Hope"
@@ -108,7 +63,7 @@ languages:
     languageName: Français
     languageCode: fr
     contentDir: content/fr
-    title: Plein d'espoir
+    title: Home
     description: ""
     hashTag: "#PleindEspoir"
     tagLine:
@@ -120,52 +75,40 @@ languages:
     languageName: Deutsch
     languageCode: de
     contentDir: content/de
-    title: Hoffnung zum Leben
+    title: Home
     description: ""
-    hashTag: "#HoffnungZumLeben"
+    hashTag: "#VollerHoffnung"
     tagLine: 
-      hope: "Hoffnung"
-      brings: "Zum"
-      life: "Leben"
+      hope: "Voller"
+      brings: ""
+      life: "Hoffnung"
 
 ############################## navigation ###############################
 menu: 
   main:
-    # - identifier: about
-    #   name: About
-    #   url: /about
-    #   weight: 30
+    - identifier: stories
+      name: Verhalen
+      url: verhalen
+      weight: 10
     - identifier: participate
-      name: Participate
-      url: /participate
-      weight: 50
-    # - identifier: contact
-    #   name: Contact
-    #   url: /contact
-    #   weight: 100
+      name: Meedoen
+      url: meedoen
+      weight: 20
   doormat:
-    # - identifier: about
-    #   name: About
-    #   url: /about
-    #   weight: 30
+    - identifier: stories
+      name: Verhalen
+      url: verhalen
+      weight: 10
     - identifier: participate
-      name: Participate someone
-      url: /participate
-      weight: 50
+      name: Meedoen
+      url: meedoen
+      weight: 10
     - identifier: styleguide
       name: Style guide
-      url: /styleguide
+      url: styleguide
       weight: 100
-    # - identifier: contact
-    #   name: Contact
-    #   url: /contact
-    #   weight: 100
   footer:
     - identifier: disclaimer
       name: Disclaimer
-      url: /disclaimer
-      weight: 10
-    - identifier: privacy
-      name: Privacy
-      url: /privacy
+      url: disclaimer
       weight: 10
