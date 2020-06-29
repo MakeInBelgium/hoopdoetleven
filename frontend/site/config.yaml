@@ -46,10 +46,10 @@ languages:
       life: "Leven"
     menu:
       main:
-        - identifier: about
-          name: Over
-          url: /over
-          weight: 30
+        # - identifier: about
+        #   name: Over
+        #   url: /over
+        #   weight: 30
         - identifier: participate
           name: Meedoen
           url: /meedoen
@@ -63,10 +63,10 @@ languages:
         #   url: /contact
         #   weight: 100
       doormat:
-        - identifier: about
-          name: Over
-          url: /over
-          weight: 30
+        # - identifier: about
+        #   name: Over
+        #   url: /over
+        #   weight: 30
         - identifier: participate
           name: Meedoen
           url: /meedoen
@@ -131,10 +131,10 @@ languages:
 ############################## navigation ###############################
 menu: 
   main:
-    - identifier: about
-      name: About
-      url: /about
-      weight: 30
+    # - identifier: about
+    #   name: About
+    #   url: /about
+    #   weight: 30
     - identifier: participate
       name: Participate
       url: /participate
@@ -144,10 +144,10 @@ menu:
     #   url: /contact
     #   weight: 100
   doormat:
-    - identifier: about
-      name: About
-      url: /about
-      weight: 30
+    # - identifier: about
+    #   name: About
+    #   url: /about
+    #   weight: 30
     - identifier: participate
       name: Participate someone
       url: /participate
