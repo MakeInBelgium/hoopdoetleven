@@ -6,6 +6,10 @@ url: "featured"
 layout: single-full
 ---
 <div>
+{{< section style="primary" extraClasses="text-center" >}}
+# Verhalen
+Ontdek hier de mooie verhalen van #HoopDoetLeven die jullie al met ons deelden.
+{{< /section >}}
 {{< section style="tertiary" >}}
 {{< columns cols="col-md-4" >}}
 {{< column >}}

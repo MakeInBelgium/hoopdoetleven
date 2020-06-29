@@ -17,7 +17,7 @@
     <script src="{{ relURL . }}"></script>
   {{ end }}
 
-  {{ if (eq .Params.layout "participate") }}
+  {{ if .Params.showform }}
   {{ $script := .Site.Data.webpack.participate }}
   {{ with $script.js }}
     <script src="{{ relURL . }}"></script>
