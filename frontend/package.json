@@ -79,6 +79,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.10.3",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
     "bootstrap": "^4.5.0",
     "bootstrap-icons": "^1.0.0-alpha4",
     "classnames": "^2.2.6",
