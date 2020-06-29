@@ -16,6 +16,10 @@ build:
 	@echo "Building prod"
 	@npm run build
 
+build-staging: export HUGO_LANGUAGES_NL_BASEURL = https://staging.hoopdoetleven.be
+build-staging: export HUGO_LANGUAGES_FR_BASEURL = https://staging.pleindespoir.be
+build-staging: export HUGO_LANGUAGES_DE_BASEURL = https://staging.vollerhoffnung.be
+build-staging: export HUGO_LANGUAGES_EN_BASEURL = https://staging-en.hoopdoetleven.be
 build-staging:
 	@echo "Building preview"
 	@npm run build:preview

@@ -55,7 +55,6 @@ languages:
     languageCode: nl
     contentDir: content/nl
     title: Home
-    baseurl: https://staging.hoopdoetleven.be
     description: ""
     hashTag: "#HoopDoetLeven"
     tagLine: 
@@ -69,7 +68,6 @@ languages:
     contentDir: content/en
     tag: HopeBringsLife
     title: Home
-    baseurl: https://staging-en.hoopdoetleven.be
     description: ""
     hashTag: "#HopeBringsLife"
     tagLine: 
@@ -83,7 +81,6 @@ languages:
     languageCode: fr
     contentDir: content/fr
     title: Home
-    baseurl: https://staging.pleindespoir.be
     description: ""
     hashTag: "#PleindEspoir"
     logo: 
@@ -112,7 +109,6 @@ languages:
     languageCode: de
     contentDir: content/de
     title: Home
-    baseurl: https://staging.vollerhoffnung.be
     description: ""
     hashTag: "#VollerHoffnung"
     logo: 
