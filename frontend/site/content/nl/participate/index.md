@@ -3,6 +3,7 @@ title: "Meedoen!"
 draft: false
 description: ""
 url: "meedoen"
+layout: participate
 ---
 
 # Doe mee met deze actie!

@@ -50,7 +50,7 @@ languages:
           name: Over
           url: /over
           weight: 30
-        - identifier: nominate
+        - identifier: participate
           name: Meedoen
           url: /meedoen
           weight: 50
@@ -67,7 +67,7 @@ languages:
           name: Over
           url: /over
           weight: 30
-        - identifier: nominate
+        - identifier: participate
           name: Meedoen
           url: /meedoen
           weight: 50
@@ -135,9 +135,9 @@ menu:
       name: About
       url: /about
       weight: 30
-    - identifier: nominate
-      name: Nominate someone
-      url: /nominate
+    - identifier: participate
+      name: Participate
+      url: /participate
       weight: 50
     # - identifier: contact
     #   name: Contact
@@ -148,9 +148,9 @@ menu:
       name: About
       url: /about
       weight: 30
-    - identifier: nominate
-      name: Nominate someone
-      url: /nominate
+    - identifier: participate
+      name: Participate someone
+      url: /participate
       weight: 50
     - identifier: styleguide
       name: Style guide
