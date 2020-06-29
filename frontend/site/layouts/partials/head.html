@@ -5,7 +5,7 @@
   <base href="{{ if getenv "CONTEXT" }}{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}{{ else }}{{ $.Site.BaseURL }}{{ end }}">
 
   <!-- Primary Meta Tags -->
-  <title>{{ .Param "title" }}</title>
+  <title>{{ .Param "title" }} | {{ .Param "hashTag" }}</title>
   <meta name="description" content="{{ .Param "description" }}">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">

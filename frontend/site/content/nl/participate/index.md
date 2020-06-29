@@ -1,10 +1,11 @@
 ---
 title: "Meedoen!"
-draft: true
 description: ""
-url: "meedoen"
 layout: single-full
+translationKey: "participate"
+url: "meedoen"
 showform: true
+draft: false
 ---
 
 {{< section style="secondary" >}}

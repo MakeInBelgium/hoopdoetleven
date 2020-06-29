@@ -1,5 +1,5 @@
 ---
-title: "#HoopDoetLeven"
+title: "Home"
 draft: false
 description: ""
 layout: single-full
