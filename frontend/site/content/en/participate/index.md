@@ -1,6 +1,6 @@
 ---
 title: "Nominate someone! | #HopeBringsLife"
-draft: false
+draft: true
 description: ""
 url: "participate"
 layout: single-full

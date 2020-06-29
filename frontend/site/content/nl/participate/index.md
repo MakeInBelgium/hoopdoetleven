@@ -1,6 +1,6 @@
 ---
 title: "Meedoen!"
-draft: false
+draft: true
 description: ""
 url: "meedoen"
 layout: single-full
