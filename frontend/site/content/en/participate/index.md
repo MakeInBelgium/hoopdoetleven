@@ -1,8 +1,8 @@
 ---
-title: "Meedoen!"
+title: "Nominate someone! | #HopeBringsLife"
 draft: false
 description: ""
-url: "meedoen"
+url: "participate"
 layout: single-full
 showform: true
 ---
@@ -10,7 +10,7 @@ showform: true
 {{< section style="secondary" >}}
 {{< columns extraClasses="justify-content-around" >}}
 {{< column cols="col-md-5 col-lg-6" >}}
-# Hoe kan je meedoen?
+# How to participate
 1. Maak een kort filmpje van jezelf en/of je held en zet het op Youtube (Let op, hou de nodige afstand in acht!)
 1. Deel de link van het filmpje samen met de hashtag #HoopDoetLeven op je sociale media (Facebook, Twitter, Instagram, …)
 1. Vul de URL van je Youtubefilmpje ook in op ons HoopDoetLeven-formulier op deze pagina
