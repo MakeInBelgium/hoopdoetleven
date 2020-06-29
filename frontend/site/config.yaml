@@ -20,6 +20,10 @@ params:
   title: Home
   description: Beschrijving
   hashTag: "#HoopDoetLeven"
+  logo: 
+    src: "/img/hoopdoetlevenNL.png"
+    width: 199
+    height: 182
   tagLine: 
     hope: "Hoop"
     brings: "Doet"
@@ -66,6 +70,10 @@ languages:
     title: Home
     description: ""
     hashTag: "#PleindEspoir"
+    logo: 
+      src: "/img/hoopdoetlevenFR.png"
+      width: 170
+      height: 184
     tagLine:
       hope: "Plein"
       brings: "d"
@@ -78,6 +86,10 @@ languages:
     title: Home
     description: ""
     hashTag: "#VollerHoffnung"
+    logo: 
+      src: "/img/hoopdoetlevenDE.png"
+      width: 199
+      height: 182
     tagLine: 
       hope: "Voller"
       brings: ""
