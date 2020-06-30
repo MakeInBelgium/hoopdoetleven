@@ -17,11 +17,12 @@ module.exports = merge(common, {
     port: process.env.PORT || 3000,
     contentBase: path.join(process.cwd(), "./dist"),
     watchContentBase: true,
+    disableHostCheck: true,
     quiet: false,
     open: true,
     historyApiFallback: {
       rewrites: [{from: /./, to: "404.html"}]
-    }
+    },
   },
 
   plugins: [

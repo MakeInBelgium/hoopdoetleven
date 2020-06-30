@@ -15,6 +15,6 @@
 
   {{ $stylesheet := .Site.Data.webpack.main }}
   {{ with $stylesheet.css }}
-    <link href="{{ relURL . }}" rel="stylesheet">
+    <link href="{{ . }}" rel="stylesheet">
   {{ end }}
 </head>

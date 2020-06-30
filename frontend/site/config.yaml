@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseurl: "/"
+baseurl: "http://localhost:3000"
 # languageCode: nl-be
 # languageLang: nl
 # title: Hoop doet leven
@@ -46,6 +46,7 @@ menu:
 
 ############################## languages ##########################
 defaultContentLanguage: nl
+defaultContentLanguageInSubdir: false
 disableLanguages: ["en"]
 
 languages:
@@ -55,6 +56,7 @@ languages:
     languageCode: nl
     contentDir: content/nl
     title: Home
+    baseurl: "http://localhost:3000"
     description: ""
     hashTag: "#HoopDoetLeven"
     tagLine: 
@@ -68,6 +70,7 @@ languages:
     contentDir: content/en
     tag: HopeBringsLife
     title: Home
+    baseurl: "http://localhost:3000/en"
     description: ""
     hashTag: "#HopeBringsLife"
     tagLine: 
@@ -81,6 +84,7 @@ languages:
     languageCode: fr
     contentDir: content/fr
     title: Home
+    baseurl: "http://localhost:3000/fr"
     description: ""
     hashTag: "#PleindEspoir"
     logo: 
@@ -109,6 +113,7 @@ languages:
     languageCode: de
     contentDir: content/de
     title: Home
+    baseurl: "http://localhost:3000/de"
     description: ""
     hashTag: "#VollerHoffnung"
     logo: 
