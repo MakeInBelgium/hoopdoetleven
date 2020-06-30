@@ -22,7 +22,7 @@ Maak een kort filmpje met het verhaal van de held(en) die tijdens de coronacrisi
 {{< /column >}}
 {{< column cols="col-md-4 px-5" >}}
 ### 2. Deel
-eel de link van het filmpje samen met de hashtag #HoopDoetLeven op Youtube en/of op je sociale netwerken (Facebook, Twitter, Instagram, …). 
+Deel de link van het filmpje samen met de hashtag #HoopDoetLeven op Youtube en/of op je sociale netwerken (Facebook, Twitter, Instagram, …). 
 {{< /column >}}
 {{< column cols="col-md-4 px-5" >}}
 ### 3. Registreer

@@ -1,6 +1,7 @@
 import React from "react";
 import {Form} from "react-final-form";
 import Button from "./components/Button";
+import { translate } from "./utils";
 
 export default class Wizard extends React.Component {
   static Page = ({children}) => children;
@@ -64,13 +65,13 @@ export default class Wizard extends React.Component {
             <div className="buttons">
               {page > 0 && (
                 <Button type="button" onClick={this.previous}>
-                  « Previous
+                  {translate('buttons.previous')}
                 </Button>
               )}
-              {!isLastPage && <Button btnStyle="primary" type="submit">Next »</Button>}
+              {!isLastPage && <Button btnStyle="primary" type="submit">{translate('buttons.next')}</Button>}
               {isLastPage && (
                 <Button btnStyle="primary" type="submit" disabled={submitting}>
-                  Submit
+                  {translate('buttons.submit')}
                 </Button>
               )}
             </div>

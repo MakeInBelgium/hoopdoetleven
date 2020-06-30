@@ -1,3 +1,5 @@
+const endpointUrl = (endpoint) => `${window.HDL_CONF.apiLocation}/${endpoint}`;
+
 const doSubmission = async (data) => {
     const myHeaders = new Headers();
     myHeaders.append("accept", "application/ld+json");
@@ -12,9 +14,11 @@ const doSubmission = async (data) => {
       redirect: 'follow'
     };
 
-    const response = await fetch("https://localhost:8443/submissions", requestOptions);
+    const response = await fetch(endpointUrl("submissions"), requestOptions);
 
-    console.log(response.status);
+    if(response.status === 201) {
+      return true;
+    }
 
     const json = response.json();
 
