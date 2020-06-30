@@ -18,22 +18,20 @@ menu:
 {{< columns extraClasses="justify-content-between" >}}
 {{< column cols="col-md-4 px-5" >}}
 ### 1. Film
-Maak een kort filmpje van jezelf en/of je held en zet het op Youtube (Let op, hou de nodige afstand in acht!)
+Maak een kort filmpje met het verhaal van de held(en) die tijdens de coronacrisis uitzonderlijke veerkracht vertoonde(n). 
 {{< /column >}}
 {{< column cols="col-md-4 px-5" >}}
 ### 2. Deel
-Deel de link van het filmpje samen met de hashtag #HoopDoetLeven op je sociale media (Facebook, Twitter, Instagram, …)
+eel de link van het filmpje samen met de hashtag #HoopDoetLeven op Youtube en/of op je sociale netwerken (Facebook, Twitter, Instagram, …). 
 {{< /column >}}
 {{< column cols="col-md-4 px-5" >}}
 ### 3. Registreer
-Vul de URL van je Youtubefilmpje ook in op ons HoopDoetLeven-formulier op [www.hoopdoetleven.be](https://www.hoopdoetleven.be/meedoen)
+Vul de link van je filmpje in op ons HoopDoetLeven-formulier op [www.hoopdoetleven.be](https://www.hoopdoetleven.be/meedoen) zodat we je kunnen contacteren indien nodig.
 {{< /column >}}
 {{< /columns >}}
 {{< columns extraClasses="justify-content-center mt-5" >}}
 {{< column cols="col-md-8" extraClasses="text-center mt-5" >}}
-<p class="lead">Zo ben je een bron van inspiratie voor iedereen die het nu wat moeilijk heeft en nood heeft aan een mooi, hoopgevend verhaal.</p>
-
-<small>Ben je niet zo’n fan van video? Dan kan je je verhaal ook schriftelijk indienen via ons HoopDoetLeven-formulier.</small>
+<p class="lead">Ben je niet zo’n fan van video? Dan kan je je verhaal ook schriftelijk indienen via hoopdoetleven.be.</p>
 {{< /column >}}
 {{< /columns >}}
 {{< /section >}}
