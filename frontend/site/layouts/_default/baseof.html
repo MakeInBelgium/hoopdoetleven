@@ -18,6 +18,11 @@
   {{ end }}
 
   {{ if .Params.showform }}
+  <script>
+    window.HDL_CONF = window.HDL_CONF || {};
+
+    window.HDL_CONF.apiLocation = '{{ $.Site.Params.apiLocation }}';
+  </script>
   {{ $script := .Site.Data.webpack.participate }}
   {{ with $script.js }}
     <script src="{{ . }}"></script>

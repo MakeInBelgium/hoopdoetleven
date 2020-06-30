@@ -30,6 +30,7 @@ params:
     life: "Leven"
   copyright: "&copy; Copyright 2020"
   doormatInfo: "De Coronadenktank is een burgerbeweging die alternatieve oplossingen bedenkt en bouwt om het leed van COVID19 te verzachten en de verspreiding van SARS-CoV-2 te verminderen. Al snel na de Belgische lockdown, half maart 2020, is de burgerbeweging op enkele dagen uitgegroeid van enkelingen naar een netwerk van duizenden burgers die hun brede expertise bij elkaar gelegd hebben om oplossingen te bouwen. Van IT’ers tot naaisters en van spoedartsen tot communicatiespecialisten, iedereen werkt solidair, flexibel en doelgericht samen."
+  apiLocation: https://localhost:8443
 
 ############################## navigation ###############################
 menu: 
