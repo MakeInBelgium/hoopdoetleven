@@ -25,13 +25,13 @@ Machen Sie ein kurzes Video von sich und/oder Ihren Helden und stellen Sie es au
 Teilen Sie den Link des Videos mit dem Hashtag #VollerHoffnung in Ihren sozialen Netzwerken (Facebook, Twitter, Instagram, ...)
 {{< /column >}}
 {{< column cols="col-md-4 px-5" >}}
-### 3. Registreer
+### 3. Registrieren
 Geben Sie die URL Ihres YouTube-Videos ein und fügen Sie diese in unser VollerHoffnung-Formular auf [www.VollerHoffnung.be](https://www.VollerHoffnung.be/teilnehmen).
 {{< /column >}}
 {{< /columns >}}
 {{< columns extraClasses="justify-content-center mt-5" >}}
 {{< column cols="col-md-8" extraClasses="text-center mt-5" >}}
-<p class="lead">Ben je niet zo’n fan van video? Dan kan je je verhaal ook schriftelijk indienen via hoopdoetleven.be.</p>
+<p class="lead">Sie sind kein Videofan? Keine Sorge, Sie können Ihre Geschichte auch schriftlich über unser VollerHoffnung-Formular einreichen.</p>
 {{< /column >}}
 {{< /columns >}}
 {{< /section >}}
@@ -39,7 +39,7 @@ Geben Sie die URL Ihres YouTube-Videos ein und fügen Sie diese in unser VollerH
 {{< section style="dark" >}}
 {{< columns cols="col-md-8 col-lg-6" extraClasses="align-items-center justify-content-md-between" >}}
 {{< column cols="col-md-4 col-lg-5" >}}
-## Bezorg ons jouw Coronaheld!
+## Holen Sie uns Ihren Corona-Helden!
 Ist Ihr Film auf Youtube, möchten Sie ihn auf unsere Website stellen und die Chance haben, ein Treffen mit König Philippe zu gewinnen? Dann füllen Sie dieses Formular aus!
 {{< /column >}}
 {{< column >}}
