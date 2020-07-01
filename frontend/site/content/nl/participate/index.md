@@ -14,15 +14,24 @@ menu:
 ---
 
 {{< section style="secondary" >}}
-{{< columns extraClasses="justify-content-around" >}}
-{{< column cols="col-md-5 col-lg-6" >}}
 # Hoe kan je meedoen?
-1. Maak een kort filmpje van jezelf en/of je held en zet het op Youtube (Let op, hou de nodige afstand in acht!)
-1. Deel de link van het filmpje samen met de hashtag #HoopDoetLeven op je sociale media (Facebook, Twitter, Instagram, …)
-1. Vul de URL van je Youtubefilmpje ook in op ons HoopDoetLeven-formulier op deze pagina
-
-
-Zo ben je een bron van inspiratie voor iedereen die het nu wat moeilijk heeft en nood heeft aan een mooi, hoopgevend verhaal. Ben je niet zo’n fan van video? Dan kan je je verhaal ook schriftelijk indienen via ons HoopDoetLeven-formulier.
+{{< columns extraClasses="justify-content-between" >}}
+{{< column cols="col-md-4 px-5" >}}
+### 1. Film
+Maak een kort filmpje met het verhaal van de held(en) die tijdens de coronacrisis uitzonderlijke veerkracht vertoonde(n). 
+{{< /column >}}
+{{< column cols="col-md-4 px-5" >}}
+### 2. Deel
+Deel de link van het filmpje samen met de hashtag #HoopDoetLeven op Youtube en/of op je sociale netwerken (Facebook, Twitter, Instagram, …). 
+{{< /column >}}
+{{< column cols="col-md-4 px-5" >}}
+### 3. Registreer
+Vul de link van je filmpje in op ons HoopDoetLeven-formulier op [www.hoopdoetleven.be](https://www.hoopdoetleven.be/meedoen) zodat we je kunnen contacteren indien nodig.
+{{< /column >}}
+{{< /columns >}}
+{{< columns extraClasses="justify-content-center mt-5" >}}
+{{< column cols="col-md-8" extraClasses="text-center mt-5" >}}
+<p class="lead">Ben je niet zo’n fan van video? Dan kan je je verhaal ook schriftelijk indienen via hoopdoetleven.be.</p>
 {{< /column >}}
 {{< /columns >}}
 {{< /section >}}
@@ -41,7 +50,7 @@ Numquam, voluptates! Eaque accusantium dignissimos harum dolore sint qui nulla v
 {{< /columns >}}
 {{< /section >}}
 
-{{< section style="light" extraClasses="about-icons text-center" >}}
+{{< section style="blue" extraClasses="about-icons text-center" >}}
 ## Waar moet ik op letten?
 <p class="lead mb-5">Aandachtspunten voor het opnemen van een oproep</p>
 {{< columns cols="col-xs-6 col-md-4" extraClasses="font-large text-center justify-content-around" >}}
@@ -79,7 +88,7 @@ hou je camera op armlengte, niet te dicht en niet verder
 </svg>
 
 
-vermeld zeker de hashtag #hoopdoetleven
+vermeld zeker de hashtag #HoopDoetLeven
 {{< /column >}}
 {{< column extraClasses="mb-5" >}}
 <svg class="bi bi-camera-video" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -88,7 +97,7 @@ vermeld zeker de hashtag #hoopdoetleven
 </svg>
 
 
-deel je video vanaf 1 juli op je netwerk
+deel je video vanaf 2 juli op je netwerk
 {{< /column >}}
 {{< /columns >}}
 {{< /section >}}

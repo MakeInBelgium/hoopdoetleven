@@ -9,7 +9,7 @@
             {{ end }}
             {{ end }}  */}}
             {{ with .Site.Params.logo }}
-            <img src="{{ .src }}" alt="{{ .alt }}" width="{{ .width }}" height="{{ .height }}" />
+            <img src="{{ .src | relURL }}" alt="{{ .alt }}" width="{{ .width }}" height="{{ .height }}" />
             {{ end }}
         </a>
         {{ if .IsTranslated }}

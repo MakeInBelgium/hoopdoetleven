@@ -1,7 +1,7 @@
 <!-- section -->{{- $classNames := "section" -}}
 {{- with .Get "style" -}}
     {{ if (eq . "dark") }}
-    {{ $classNames = printf "%s %s" $classNames "bg-dark text-light" }}
+    {{ $classNames = printf "%s %s" $classNames "bg-dark text-light links-light" }}
     {{ else if (eq . "light") }}
     {{ $classNames = printf "%s %s" $classNames "bg-light text-dark" }}
     {{ else if (eq . "darkred") }}

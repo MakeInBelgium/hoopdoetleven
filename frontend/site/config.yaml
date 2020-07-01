@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseurl: "/"
+baseurl: "http://localhost:3000"
 # languageCode: nl-be
 # languageLang: nl
 # title: Hoop doet leven
@@ -30,6 +30,8 @@ params:
     life: "Leven"
   copyright: "&copy; Copyright 2020"
   doormatInfo: "De Coronadenktank is een burgerbeweging die alternatieve oplossingen bedenkt en bouwt om het leed van COVID19 te verzachten en de verspreiding van SARS-CoV-2 te verminderen. Al snel na de Belgische lockdown, half maart 2020, is de burgerbeweging op enkele dagen uitgegroeid van enkelingen naar een netwerk van duizenden burgers die hun brede expertise bij elkaar gelegd hebben om oplossingen te bouwen. Van IT’ers tot naaisters en van spoedartsen tot communicatiespecialisten, iedereen werkt solidair, flexibel en doelgericht samen."
+  apiLocation: https://localhost:8443
+  recaptchaKey: 6LdU3KoZAAAAAGdoYTdxt7JYa5uYaiYnkubbnaik
 
 ############################## navigation ###############################
 menu: 
@@ -46,6 +48,7 @@ menu:
 
 ############################## languages ##########################
 defaultContentLanguage: nl
+defaultContentLanguageInSubdir: true
 disableLanguages: ["en"]
 
 languages:
@@ -55,7 +58,7 @@ languages:
     languageCode: nl
     contentDir: content/nl
     title: Home
-    baseurl: "/"
+    baseurl: "http://localhost:3000/nl"
     description: ""
     hashTag: "#HoopDoetLeven"
     tagLine: 
@@ -69,7 +72,7 @@ languages:
     contentDir: content/en
     tag: HopeBringsLife
     title: Home
-    baseurl: "/"
+    baseurl: "http://localhost:3000/en"
     description: ""
     hashTag: "#HopeBringsLife"
     tagLine: 
@@ -83,7 +86,7 @@ languages:
     languageCode: fr
     contentDir: content/fr
     title: Home
-    baseurl: "/"
+    baseurl: "http://localhost:3000/fr"
     description: ""
     hashTag: "#PleindEspoir"
     logo: 
@@ -112,7 +115,7 @@ languages:
     languageCode: de
     contentDir: content/de
     title: Home
-    baseurl: "/"
+    baseurl: "http://localhost:3000/de"
     description: ""
     hashTag: "#VollerHoffnung"
     logo: 
