@@ -49,6 +49,16 @@ export default () => {
         try {
             const result = await Api.doSubmission(values);
 
+            if(result === true) {
+                setSubmitState({
+                    sent: true,
+                    valid: true,
+                    errors: [],
+                });
+
+                return {};
+            }
+
             if(result.violations) {
                 const errors = {};
                 const messages = result.violations.map(({propertyPath, message}) => `${translate(`fields.${propertyPath}`)}: ${translate(message)}`);
@@ -68,13 +78,18 @@ export default () => {
 
             setSubmitState({
                 sent: true,
-                valid: true,
+                valid: false,
                 errors: [],
-            });
-    
+            });    
         } catch(error) {
-            alert(translate('validation.panicMsg'));
-            console.error(error);
+           setSubmitState({
+                sent: true,
+                valid: false,
+                errors: [translate(error.message)],
+            });
+
+            return false;
+
         }
     }, [setSubmitState]);
 

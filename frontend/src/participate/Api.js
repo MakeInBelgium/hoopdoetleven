@@ -1,12 +1,27 @@
 const endpointUrl = (endpoint) => `${window.HDL_CONF.apiLocation}/${endpoint}`;
 
+const grecaptchaReady = () => {
+  return new Promise((resolve, reject) => {
+    grecaptcha.ready(function () {
+      resolve();
+    });
+  })
+}
+
 const doSubmission = async (data) => {
+  if (typeof grecaptcha === "undefined") {
+    return false;
+  }
+
+  try {
+    await grecaptchaReady();
+    const token = await grecaptcha.execute(`${window.HDL_CONF.recaptchaKey}`, { action: 'submit' });
+    const raw = JSON.stringify({ ...data, token });
+
     const myHeaders = new Headers();
     myHeaders.append("accept", "application/ld+json");
     myHeaders.append("Content-Type", "application/json");
-    
-    const raw = JSON.stringify(data);
-    
+
     const requestOptions = {
       method: 'POST',
       headers: myHeaders,
@@ -16,15 +31,27 @@ const doSubmission = async (data) => {
 
     const response = await fetch(endpointUrl("submissions"), requestOptions);
 
-    if(response.status === 201) {
-      return true;
+    if (response.status !== 201) {
+      if (response.status === 401) {
+        throw new Error('validation.failedVerification');
+      }
+
+
+      if (response.status === 400) {
+        // Validation errors
+        const json = response.json();
+        return json;
+      }
+
+      return false;
     }
 
-    const json = response.json();
-
-    return json;
+    return true;
+  } catch (error) {
+    throw new Error(error.message);
+  }
 };
 
 export default {
-    doSubmission,
+  doSubmission,
 };

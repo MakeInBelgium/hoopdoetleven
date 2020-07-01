@@ -22,8 +22,10 @@
     window.HDL_CONF = window.HDL_CONF || {};
 
     window.HDL_CONF.apiLocation = '{{ $.Site.Params.apiLocation }}';
+    window.HDL_CONF.recaptchaKey = '{{ $.Site.Params.recaptchaKey }}';
   </script>
   {{ $script := .Site.Data.webpack.participate }}
+  <script src="https://www.google.com/recaptcha/api.js?render={{ $.Site.Params.recaptchaKey }}" async></script>
   {{ with $script.js }}
     <script src="{{ . }}"></script>
   {{ end }}

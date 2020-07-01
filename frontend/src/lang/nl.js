@@ -28,6 +28,7 @@ export default {
         required: "Vereist",
         validationPassed: "Bedankt voor je inzending, deze werd goed ontvangen!",
         validationFailed: "Er traden fouten op tijdens het inzenden. Gelieve deze te corrigeren en daarna opnieuw te proberen.",
+        failedVerification: "Je inzending kon niet worden geverifieerd. Probeer het later opnieuw!",
         panicMsg: "Er ging iets mis tijdens het inzenden... Probeer het later opnieuw!",
         type: "Duid aan of je tekst of video wil insturen.",
         contactName: "Vul een geldige naam in.",
