@@ -26,7 +26,7 @@ Die Eindämmung war für alle eine besondere Herausforderung. Wir alle kennen je
 <img src="/img/Herowit.png" alt="" class="img-fluid" />
 {{< /column >}}
 {{< column cols="col-md-6" >}}
-## Der König sucht...
+## Der König sucht
 Anlässlich des Nationalfeiertags möchte der Königspalast diese Geschichten hervorheben, sie erzählen und mit allen teilen. Haben Sie einen Nachbarn, eine Tante, einen Kollegen oder einen Lehrer, der eine Heldentat vollbracht hat, sei sie groß oder klein? Sind Sie stolz auf diese Person und möchten Sie diese Geschichte überall weitergeben? Wir wollen von Ihnen hören!
 {{< button style="secondary" url="/teilnehmen" >}}Teilnehmen!{{< /button >}}
 {{< /column >}}
@@ -50,7 +50,7 @@ Natürlich sprechen wir nicht unbedingt gern über unsere eigenen Leistungen. Ab
 {{< section style="blue" >}}
 {{< columns extraClasses="justify-content-between align-items-center" >}}
 {{< column cols="col-md-6" >}}
-<img src="/img/Doneer_Hero.svg" alt="" class="img-fluid" />
+<img src="/img/Doneer_Hero.png" alt="" class="img-fluid" />
 {{< /column >}}
 {{< column cols="col-md-5" >}}
 ## Brüsten Sie sich mit Ihrem Stolz, es ist erlaubt!

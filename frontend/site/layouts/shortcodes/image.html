@@ -1,0 +1,11 @@
+<!-- image -->
+{{- $classNames := "img-fluid " -}}
+{{- $src := .Get "src" -}}
+{{- $width := "" -}}
+{{- $height := "" -}}
+{{- $alt := "" -}}
+{{- $src := .Get "src" -}}
+{{ with .Get "width" }}{{ $width := . }}{{ end }}
+{{ with .Get "height" }}{{ $height := . }}{{ end }}
+{{ with .Get "alt" }}{{ $alt := . }}{{ end }}
+<img class="{{ $classNames }}" src="{{ $src | absLangURL }}" width="{{ $width }}" height="{{ $height }}" alt="{{ $alt }}" />
