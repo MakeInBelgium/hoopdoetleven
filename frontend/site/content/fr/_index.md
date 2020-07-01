@@ -15,7 +15,7 @@ Le confinement était un défi particulier pour tout le monde. Nous connaissons 
 {{< button style="primary" url="/participation" >}}Rejoignez-nous!{{< /button >}}
 {{< /column >}}
 {{< column cols="col-md-6" >}}
-{{< youtube-embed id="lKmyjajxA68" >}}
+{{< youtube-embed id="Hk05RqV7HiY" >}}
 {{< /column >}}
 {{< /columns >}}
 {{< /section >}}

@@ -15,7 +15,7 @@ De Corona-lockdown was voor iedereen een stevige uitdaging. En we kennen allemaa
 {{< button style="primary" url="/meedoen" >}}Doe mee!{{< /button >}}
 {{< /column >}}
 {{< column cols="col-md-6" >}}
-{{< youtube-embed id="lKmyjajxA68" >}}
+{{< youtube-embed id="HWC98KUiE6A" >}}
 {{< /column >}}
 {{< /columns >}}
 {{< /section >}}
