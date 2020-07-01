@@ -40,9 +40,9 @@ Vul de link van je filmpje in op ons HoopDoetLeven-formulier op [www.hoopdoetlev
 {{< columns cols="col-md-8 col-lg-6" extraClasses="align-items-center justify-content-md-between" >}}
 {{< column cols="col-md-4 col-lg-5" >}}
 ## Bezorg ons jouw Coronaheld!
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora eaque porro enim magni, molestiae vero quasi ab.
+Staat je filmpje op youtube, wil je je filmpje graag op onze website en kans maken op een audiëntie bij Koning Filip? Vul dan dit formulier in!
 
-Numquam, voluptates! Eaque accusantium dignissimos harum dolore sint qui nulla voluptate, non totam cumque adipisci nobis autem, alias reprehenderit nemo assumenda culpa!
+Ben je geen filmpjes mens maar wel een heldenverhaal? Vul dan ook dit formulier in!
 {{< /column >}}
 {{< column >}}
 <div id="nominateForm"></div>
@@ -52,7 +52,7 @@ Numquam, voluptates! Eaque accusantium dignissimos harum dolore sint qui nulla v
 
 {{< section style="blue" extraClasses="about-icons text-center" >}}
 ## Waar moet ik op letten?
-<p class="lead mb-5">Aandachtspunten voor het opnemen van een oproep</p>
+<p class="lead mb-5">Aandachtspunten voor het opnemen van een verhaal</p>
 {{< columns cols="col-xs-6 col-md-4" extraClasses="font-large text-center justify-content-around" >}}
 {{< column extraClasses="mb-5" >}}
 <svg class="bi bi-phone" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -97,7 +97,7 @@ vermeld zeker de hashtag #HoopDoetLeven
 </svg>
 
 
-deel je video vanaf 2 juli op je netwerk
+deel je video vanaf 2 juli met je netwerk
 {{< /column >}}
 {{< /columns >}}
 {{< /section >}}
