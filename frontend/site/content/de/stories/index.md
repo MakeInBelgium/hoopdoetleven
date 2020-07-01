@@ -9,7 +9,7 @@ draft: false
 <div>
 {{< section style="primary" extraClasses="text-center" >}}
 # Geschichten
-<p class="lead">Entdecken Sie die großartigen Geschichten von #VollerHoffnung, die Sie bereits mit uns geteilt haben.</p>
+<p class="lead">Entdecken Sie die großartigen Geschichten von #VollerHoffnung, die Sie bereits mit uns geteilt haben..</p>
 {{< /section >}}
 {{< section style="tertiary" >}}
 {{< columns cols="col-md-4" >}}

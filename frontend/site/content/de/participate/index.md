@@ -14,15 +14,24 @@ menu:
 ---
 
 {{< section style="secondary" >}}
-{{< columns extraClasses="justify-content-around" >}}
-{{< column cols="col-md-5 col-lg-6" >}}
-# Hoe kan je meedoen?
-1. Maak een kort filmpje van jezelf en/of je held en zet het op Youtube (Let op, hou de nodige afstand in acht!)
-1. Deel de link van het filmpje samen met de hashtag #HoopDoetLeven op je sociale media (Facebook, Twitter, Instagram, …)
-1. Vul de URL van je Youtubefilmpje ook in op ons HoopDoetLeven-formulier op deze pagina
-
-
-Zo ben je een bron van inspiratie voor iedereen die het nu wat moeilijk heeft en nood heeft aan een mooi, hoopgevend verhaal. Ben je niet zo’n fan van video? Dan kan je je verhaal ook schriftelijk indienen via ons HoopDoetLeven-formulier.
+# Wie können Sie teilnehmen?
+{{< columns extraClasses="justify-content-between" >}}
+{{< column cols="col-md-4 px-5" >}}
+### 1. Video
+Machen Sie ein kurzes Video von sich und/oder Ihren Helden und stellen Sie es auf Youtube ein (Vorsicht, respektieren Sie soziale Distanzierung!).
+{{< /column >}}
+{{< column cols="col-md-4 px-5" >}}
+### 2. Teilen
+Teilen Sie den Link des Videos mit dem Hashtag #VollerHoffnung in Ihren sozialen Netzwerken (Facebook, Twitter, Instagram, ...)
+{{< /column >}}
+{{< column cols="col-md-4 px-5" >}}
+### 3. Registreer
+Geben Sie die URL Ihres YouTube-Videos ein und fügen Sie diese in unser VollerHoffnung-Formular auf [www.VollerHoffnung.be](https://www.VollerHoffnung.be/teilnehmen).
+{{< /column >}}
+{{< /columns >}}
+{{< columns extraClasses="justify-content-center mt-5" >}}
+{{< column cols="col-md-8" extraClasses="text-center mt-5" >}}
+<p class="lead">Ben je niet zo’n fan van video? Dan kan je je verhaal ook schriftelijk indienen via hoopdoetleven.be.</p>
 {{< /column >}}
 {{< /columns >}}
 {{< /section >}}
@@ -31,9 +40,7 @@ Zo ben je een bron van inspiratie voor iedereen die het nu wat moeilijk heeft en
 {{< columns cols="col-md-8 col-lg-6" extraClasses="align-items-center justify-content-md-between" >}}
 {{< column cols="col-md-4 col-lg-5" >}}
 ## Bezorg ons jouw Coronaheld!
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora eaque porro enim magni, molestiae vero quasi ab.
-
-Numquam, voluptates! Eaque accusantium dignissimos harum dolore sint qui nulla voluptate, non totam cumque adipisci nobis autem, alias reprehenderit nemo assumenda culpa!
+Ist Ihr Film auf Youtube, möchten Sie ihn auf unsere Website stellen und die Chance haben, ein Treffen mit König Philippe zu gewinnen? Dann füllen Sie dieses Formular aus!
 {{< /column >}}
 {{< column >}}
 <div id="nominateForm"></div>
@@ -41,9 +48,9 @@ Numquam, voluptates! Eaque accusantium dignissimos harum dolore sint qui nulla v
 {{< /columns >}}
 {{< /section >}}
 
-{{< section style="light" extraClasses="about-icons text-center" >}}
-## Waar moet ik op letten?
-<p class="lead mb-5">Aandachtspunten voor het opnemen van een oproep</p>
+{{< section style="blue" extraClasses="about-icons text-center" >}}
+## Worauf muss ich achten?
+<p class="lead mb-5">Aufmerksamkeitspunkte bei der Aufnahme einer Geschichte</p>
 {{< columns cols="col-xs-6 col-md-4" extraClasses="font-large text-center justify-content-around" >}}
 {{< column extraClasses="mb-5" >}}
 <svg class="bi bi-phone" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -52,7 +59,7 @@ Numquam, voluptates! Eaque accusantium dignissimos harum dolore sint qui nulla v
 </svg>
 
 
-filmen kan met je telefoon
+sie können mit Ihrem Telefon filmen
 {{< /column >}}
 {{< column extraClasses="mb-5" >}}
 <svg class="bi bi-phone-landscape" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -61,7 +68,7 @@ filmen kan met je telefoon
 </svg>
 
 
-film in landscape, niet in portrait
+landschaftsfilm, nicht Porträt
 {{< /column >}}
 {{< column extraClasses="mb-5" >}}
 <svg class="bi bi-arrows-angle-expand" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -71,7 +78,7 @@ film in landscape, niet in portrait
 </svg>
 
 
-hou je camera op armlengte, niet te dicht en niet verder
+halten Sie Ihre Kamera auf Armeslänge, nicht zu nah und nicht zu weit.
 {{< /column >}}
 {{< column extraClasses="mb-5" >}}
 <svg class="bi bi-chat" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -79,7 +86,7 @@ hou je camera op armlengte, niet te dicht en niet verder
 </svg>
 
 
-vermeld zeker de hashtag #hoopdoetleven
+vergessen Sie nicht, den Hashtag #VollerHoffnung zu erwähnen
 {{< /column >}}
 {{< column extraClasses="mb-5" >}}
 <svg class="bi bi-camera-video" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -88,7 +95,7 @@ vermeld zeker de hashtag #hoopdoetleven
 </svg>
 
 
-deel je video vanaf 1 juli op je netwerk
+geben Sie das Video an Ihr Netzwerk weiter
 {{< /column >}}
 {{< /columns >}}
 {{< /section >}}

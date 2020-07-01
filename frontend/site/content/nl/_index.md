@@ -11,7 +11,8 @@ layout: single-full
 # #HoopDoetLeven
 ## zoekt verhalen van een held
 De Corona-lockdown was voor iedereen een stevige uitdaging. En we kennen allemaal wel iemand die het verschil gemaakt heeft. Door boodschappen te doen voor de oudere mensen in de straat. Door mondmaskers te naaien. Door muziek te maken voor de buren, de wijk. Door online voor te lezen voor de kleinkinderen. Door de eigen onderneming aan de situatie aan te passen en zo mensen aan het werk te houden. Er zijn zo tal van verhalen over creativiteit, veerkracht en verbondenheid die het verdienen om verteld te worden.
-<!-- {{< button style="primary" url="/meedoen" >}}Doe mee!{{< /button >}} -->
+
+{{< button style="primary" url="/meedoen" >}}Doe mee!{{< /button >}}
 {{< /column >}}
 {{< column cols="col-md-6" >}}
 {{< youtube-embed id="lKmyjajxA68" >}}
@@ -27,7 +28,7 @@ De Corona-lockdown was voor iedereen een stevige uitdaging. En we kennen allemaa
 {{< column cols="col-md-6" >}}
 ## De koning zoekt mee… 
 Naar aanleiding van de Nationale feestdag wil Het Koninklijk Paleis deze verhalen van helden vinden, doorvertellen en met iedereen delen. Heb jij een buurman, tante, collega of juf die zo’n kleine of grote heldendaad heeft verricht? Ben je trots op die persoon en wil je dat verhaal graag van de daken schreeuwen? Wij en de koning luisteren!
-<!-- {{< button style="secondary" url="/meedoen" >}}Participeer!{{< /button >}} -->
+{{< button style="secondary" url="/meedoen" >}}Participeer!{{< /button >}}
 {{< /column >}}
 {{< /columns >}}
 {{< /section >}}

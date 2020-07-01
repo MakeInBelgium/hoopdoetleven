@@ -64,7 +64,7 @@ C'est pourquoi nous vous demandons de mettre de côté votre gêne pour une fois
 {{< columns extraClasses="justify-content-between align-items-center" >}}
 {{< column cols="col-md-5" >}}
 ## Une récompense royale
-Avez-vous participé et partagé votre histoire avec nous et le reste du monde? Ensuite, vous pourriez avoir une surprise supplémentaire. Sa Majesté le Roi Philippe choisit 4 Belges spéciaux parmi toutes les histoires soumises. Ces héros corona reçoivent une invitation du roi Philippe à assister au défilé du 21 juillet. Une grande reconnaissance de tous vos efforts en cette période étrange!
+Avez-vous participé et partagé votre histoire avec nous et le reste du monde? Ensuite, vous pourriez avoir une surprise supplémentaire. Sa Majesté le Roi Philippe choisit 4 Belges spéciaux parmi toutes les histoires soumises. Ces héros corona reçoivent une invitation du roi Philippe à assister au défilé du 21 juillet. Une grande reconnaissance de tous vos efforts en cette période étrange
 {{< button style="secondary" url="/participation" >}}Convainquez le roi !{{< /button >}}
 {{< /column >}}
 {{< column cols="col-md-6" >}}

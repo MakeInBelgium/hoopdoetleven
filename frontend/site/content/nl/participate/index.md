@@ -97,7 +97,7 @@ vermeld zeker de hashtag #HoopDoetLeven
 </svg>
 
 
-deel je video vanaf 2 juli met je netwerk
+deel je video met je netwerk
 {{< /column >}}
 {{< /columns >}}
 {{< /section >}}
