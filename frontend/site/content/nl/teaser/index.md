@@ -5,11 +5,11 @@ layout: single-full
 translationKey: "teaser"
 url: "teaser"
 draft: true
-menu:
-  main:
-    name: Teaser
-    url: teaser
-    weight: 20
+# menu:
+#   main:
+#     name: Teaser
+#     url: teaser
+#     weight: 20
 ---
 
 {{< section style="secondary" extraClasses="text-center" >}}
