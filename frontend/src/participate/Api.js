@@ -16,7 +16,7 @@ const doSubmission = async (data) => {
   try {
     await grecaptchaReady();
     const token = await grecaptcha.execute(`${window.HDL_CONF.recaptchaKey}`, { action: 'submit' });
-    const raw = JSON.stringify({ ...data, token });
+    const raw = JSON.stringify({ ...data, token, from: window.location.hostname });
 
     const myHeaders = new Headers();
     myHeaders.append("accept", "application/ld+json");
