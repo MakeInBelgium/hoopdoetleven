@@ -9,8 +9,8 @@ layout: single-full
 {{< columns extraClasses="justify-content-between align-items-center" >}}
 {{< column cols="col-md-5" >}}
 # #HoopDoetLeven
-## zoekt verhalen van een held
-De coronalockdown, dat was een stevige uitdaging! We kennen allemaal wel een persoon of organisatie die het verschil gemaakt heeft. Door boodschappen te doen voor risicopatiënten, door mondmaskers te naaien, door muziek te maken voor de buren, kindjes te entertainen, of zelfs de onderneming heruit te vinden en zo mensen aan het werk te houden. Deze verhalen nemen we voor vanzelfsprekend, maar ze verdienen het om verteld te worden.
+## zoekt jouw verhalen
+De coronalockdown, dat was een stevige uitdaging! We kennen allemaal wel een persoon of organisatie die het verschil gemaakt heeft. Door boodschappen te doen voor risicopatiënten, door mondmaskers te naaien, kindjes te entertainen, of zelfs de onderneming heruit te vinden en zo mensen aan het werk te houden. Deze verhalen nemen we voor vanzelfsprekend, maar ze verdienen het om verteld te worden.
 
 {{< button style="primary" url="/meedoen" >}}Doe mee!{{< /button >}}
 {{< /column >}}
