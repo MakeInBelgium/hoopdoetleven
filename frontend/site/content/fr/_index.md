@@ -26,8 +26,8 @@ Le confinement était un défi particulier pour tout le monde. Nous connaissons 
 <img src="/img/Herowit.png" alt="" class="img-fluid" />
 {{< /column >}}
 {{< column cols="col-md-6" >}}
-## Notre roi cherche
-A l'occasion de la Fête Nationale, le Palais Royal souhaite mettre en valeur ces histoires, les raconter et les partager avec tout le monde. Avez-vous un voisin, une tante, un collègue ou un enseignant qui a accompli un acte héroïque, qu’il soit petit ou grand? Êtes-vous fier de cette personne et aimeriez-vous partager cette histoire partout? Nous sommes à votre écoute!
+## Notre roi à l'écoute
+A l'occasion de la Fête Nationale, le Palais Royal souhaite mettre en valeur ces histoires, les raconter et les partager avec tout le monde. Avez-vous un voisin, une tante, un collègue ou un enseignant qui a accompli un acte héroïque, qu’il soit petit ou grand ? Êtes-vous fier de cette personne et aimeriez-vous partager cette histoire partout? Nous sommes à votre écoute !
 {{< button style="secondary" url="/participation" >}}Rejoignez-nous!{{< /button >}}
 {{< /column >}}
 {{< /columns >}}
@@ -36,10 +36,10 @@ A l'occasion de la Fête Nationale, le Palais Royal souhaite mettre en valeur ce
 {{< section style="tertiary" >}}
 {{< columns extraClasses="justify-content-between align-items-center" >}}
 {{< column cols="col-md-6" >}}
-## La modestie Belge
-Certes, nous n'aimons pas forcément parler de nos propres réalisations. Pourtant, nous sommes fiers: de notre famille, des soignants, de nos voisins, de nos scientifiques, de nos professeurs et maîtres, de tous ces bénévoles spontanés qui se sont investi à fond. Nous leur sommes très reconnaissants. À juste titre. 
+## La modestie belge
+Certes, nous n'aimons pas forcément parler de nos propres réalisations. Pourtant, nous sommes fiers: de notre famille, des soignants, de nos voisins, de nos scientifiques, de nos professeurs et maîtres, de tous ces bénévoles spontanés qui se sont investis à fond. Nous leur sommes très reconnaissants. À juste titre. 
 
-{{< button style="primary" url="/histoires" >}}Découvrez nos héros!{{< /button >}}
+{{< button style="primary" url="/histoires" >}}Découvrez nos héros !{{< /button >}}
 {{< /column >}}
 {{< column cols="col-md-5" >}}
 <img src="/img/KermisWit.png" alt="" class="img-fluid" />
@@ -53,9 +53,9 @@ Certes, nous n'aimons pas forcément parler de nos propres réalisations. Pourta
 <img src="/img/Doneer_Hero.png" alt="" class="img-fluid" />
 {{< /column >}}
 {{< column cols="col-md-5" >}}
-## Eclatez de fierté, c'est permis!
-C'est pourquoi nous vous demandons de mettre de côté votre gêne pour une fois. Racontez votre histoire ou parlez à quelqu'un dont vous êtes fier et encouragez-le à partager son histoire. Mieux encore, faites-le ensemble!
-{{< button style="primary" url="/participation" >}}Rejoignez-nous{{< /button >}}
+## Eclatez de fierté, c'est permis !
+C'est pourquoi nous vous demandons de mettre de côté votre réserve pour une fois. Racontez votre histoire ou parlez à quelqu'un dont vous êtes fier et encouragez-le à partager son histoire. Mieux encore, faites-le ensemble !
+{{< button style="primary" url="/participation" >}}Rejoignez-nous !{{< /button >}}
 {{< /column >}}
 {{< /columns >}}
 {{< /section >}}
@@ -63,8 +63,8 @@ C'est pourquoi nous vous demandons de mettre de côté votre gêne pour une fois
 {{< section style="white" >}}
 {{< columns extraClasses="justify-content-between align-items-center" >}}
 {{< column cols="col-md-5" >}}
-## Une récompense royale
-Avez-vous participé et partagé votre histoire avec nous et le reste du monde? Ensuite, vous pourriez avoir une surprise supplémentaire. Sa Majesté le Roi Philippe choisit 4 Belges spéciaux parmi toutes les histoires soumises. Ces héros corona reçoivent une invitation du roi Philippe à assister au défilé du 21 juillet. Une grande reconnaissance de tous vos efforts en cette période étrange
+## Une audience royale
+Avez-vous participé et partagé votre histoire avec nous et le reste du monde? Ensuite, vous pourriez avoir une surprise supplémentaire. Avec sa Majesté le Roi Philippe nous choisirons 4 Belges extraordinaires parmi. Ces héros corona et les producteur des vidéos seront invités par le Roi Philippe à raconter leur histoire lors d'une audience royale. Une grande reconnaissance de tous vos efforts en cette période étrange. 
 {{< button style="secondary" url="/participation" >}}Convainquez le roi !{{< /button >}}
 {{< /column >}}
 {{< column cols="col-md-6" >}}
