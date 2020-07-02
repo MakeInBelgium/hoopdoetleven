@@ -29,11 +29,7 @@ Deel de link van het filmpje samen met de hashtag #HoopDoetLeven op Youtube en/o
 Vul de link van je filmpje in op ons HoopDoetLeven-formulier op [www.hoopdoetleven.be](https://www.hoopdoetleven.be/meedoen) zodat we je kunnen contacteren indien nodig.
 {{< /column >}}
 {{< /columns >}}
-{{< columns extraClasses="justify-content-center mt-5" >}}
-{{< column cols="col-md-8" extraClasses="text-center mt-5" >}}
-<p class="lead">Ben je niet zo’n fan van video? Dan kan je je verhaal ook neerschrijven en insturen via hoopdoetleven.be.</p>
-{{< /column >}}
-{{< /columns >}}
+
 {{< /section >}}
 
 {{< section style="dark" >}}
