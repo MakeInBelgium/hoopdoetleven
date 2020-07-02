@@ -24,6 +24,9 @@ module.exports = merge(common, {
     historyApiFallback: {
       rewrites: [{from: /./, to: "404.html"}]
     },
+    proxy: {
+      '/img': 'http://localhost:3000/nl'
+    },
   },
 
   plugins: [
