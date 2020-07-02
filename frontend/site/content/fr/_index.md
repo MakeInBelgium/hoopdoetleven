@@ -23,7 +23,7 @@ Le confinement a été un défi un peu particulier pour chacun d’entre nous. E
 {{< section style="primary" >}}
 {{< columns extraClasses="justify-content-between align-items-center" >}}
 {{< column cols="col-md-5" >}}
-<img src="/img/king-thumbsup.png" alt="" class="img-fluid" />
+<img src="/img/Herowit.png" alt="" class="img-fluid" />
 {{< /column >}}
 {{< column cols="col-md-6" >}}
 ## Notre roi à l’écoute
@@ -60,15 +60,17 @@ C’est pourquoi nous vous demandons de mettre votre modestie de côté pour une
 {{< /columns >}}
 {{< /section >}}
 
-{{< section style="white" >}}
+{{< section style="secondary" >}}
 {{< columns extraClasses="justify-content-between align-items-center" >}}
 {{< column cols="col-md-5" >}}
 ## Une audience royale
-Vous avez décidé de participer et de partager votre histoire avec nous et avec le reste du monde ? Vous pourriez bien avoir une petite surprise supplémentaire. En compagnie de sa Majesté le Roi Philippe, nous allons choisir quatre Belges extraordinaires sur base des vidéos envoyées. Ces héros en temps de pandémie seront invités par le roi Philippe à raconter leur histoire lors d’une audience royale. Une belle reconnaissance pour de grands mérites en cette bien étrange période.
-{{< button style="secondary" url="/participation" >}}Persuadez le roi !{{< /button >}}
+Vous avez décidé de participer et de partager votre histoire avec nous et avec le reste du monde ? Vous pourriez bien avoir une petite surprise supplémentaire. En compagnie de sa Majesté le Roi Philippe, nous allons choisir quatre Belges extraordinaires sur base des vidéos envoyées. Ces héros en temps de pandémie seront invités par le roi Philippe à raconter leur histoire lors d’une audience royale. 
+
+Une belle reconnaissance pour de grands mérites en cette bien étrange période.
+{{< button style="primary" url="/participation" >}}Persuadez le roi !{{< /button >}}
 {{< /column >}}
 {{< column cols="col-md-6" >}}
-<img src="/img/HeroZwart.png" alt="" class="img-fluid" />
+<img src="/img/king-thumbsup.png" alt="" class="img-fluid" />
 {{< /column >}}
 {{< /columns >}}
 {{< /section >}}

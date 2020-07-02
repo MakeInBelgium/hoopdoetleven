@@ -23,7 +23,7 @@ De coronalockdown, dat was een stevige uitdaging! We kennen allemaal wel een per
 {{< section style="primary" >}}
 {{< columns extraClasses="justify-content-between align-items-center" >}}
 {{< column cols="col-md-5" >}}
-<img src="/img/king-thumbsup.png" alt="" class="img-fluid" />
+<img src="/img/Herowit.png" alt="" class="img-fluid" />
 {{< /column >}}
 {{< column cols="col-md-6" >}}
 ## Onze koning luistert mee… 
@@ -60,15 +60,17 @@ Daarom vragen we je om je schroom voor één keer opzij te zetten. Vertel jouw v
 {{< /columns >}}
 {{< /section >}}
 
-{{< section style="white" >}}
+{{< section style="secondary" >}}
 {{< columns extraClasses="justify-content-between align-items-center" >}}
 {{< column cols="col-md-5" >}}
 ## Koninklijke audiëntie
-Heb je jouw verhaal met ons en de rest van het land gedeeld? Dan wacht je misschien wel een extra verrassing. Samen met het Koninklijk Paleis kiezen we op basis van alle ingezonden verhalen 4 bijzondere Belgen. Die coronahelden krijgen een uitnodiging van Koning Filip om samen met de inzender hun verhaal te vertellen tijdens een koninklijke audiëntie. Een mooie erkenning van alle inspanningen tijdens deze ongewone periode. 
-{{< button style="secondary" url="/meedoen" >}}Overtuig de Koning{{< /button >}}
+Heb je jouw verhaal met ons en de rest van het land gedeeld? Dan wacht je misschien wel een extra verrassing. Samen met het Koninklijk Paleis kiezen we op basis van alle ingezonden verhalen 4 bijzondere Belgen. Die coronahelden krijgen een uitnodiging van Koning Filip om samen met de inzender hun verhaal te vertellen tijdens een koninklijke audiëntie. 
+
+Een mooie erkenning van alle inspanningen tijdens deze ongewone periode. 
+{{< button style="primary" url="/meedoen" >}}Overtuig de Koning{{< /button >}}
 {{< /column >}}
 {{< column cols="col-md-6" >}}
-<img src="/img/HeroZwart.png" alt="" class="img-fluid" />
+<img src="/img/king-thumbsup.png" alt="" class="img-fluid" />
 {{< /column >}}
 {{< /columns >}}
 {{< /section >}}
