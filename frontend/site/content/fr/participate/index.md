@@ -39,7 +39,7 @@ Saisissez l’URL de votre vidéo YouTube et ajoutez-la ici : www.pleindespoir.b
 {{< section style="dark" >}}
 {{< columns cols="col-md-8 col-lg-6" extraClasses="align-items-center justify-content-md-between" >}}
 {{< column cols="col-md-4 col-lg-5" >}}
-Votre film est-il sur youtube, souhaitez-vous le mettre sur notre site et avoir une chance de gagner un rencontre avec le Roi Philippe ? Alors, remplissez ce formulaire !
+Votre film est-il sur youtube et vous souhaitez le partager sur notre site afin d’avoir une chance de gagner une rencontre avec le roi Philippe ? Alors, remplissez ce formulaire !
 {{< /column >}}
 {{< column >}}
 <div id="nominateForm"></div>
