@@ -15,7 +15,7 @@ Die Eindämmung war für alle eine besondere Herausforderung. Wir alle kennen je
 {{< button style="primary" url="/teilnehmen" >}}Nehmen Sie teil{{< /button >}}
 {{< /column >}}
 {{< column cols="col-md-6" >}}
-{{< youtube-embed id="lKmyjajxA68" >}}
+{{< youtube-embed id="Hk05RqV7HiY" >}}
 {{< /column >}}
 {{< /columns >}}
 {{< /section >}}
