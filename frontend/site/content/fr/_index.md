@@ -23,7 +23,7 @@ Le confinement a été un défi un peu particulier pour chacun d’entre nous. E
 {{< section style="primary" >}}
 {{< columns extraClasses="justify-content-between align-items-center" >}}
 {{< column cols="col-md-5" >}}
-<img src="/img/Herowit.png" alt="" class="img-fluid" />
+<img src="/img/king-thumbsup.png" alt="" class="img-fluid" />
 {{< /column >}}
 {{< column cols="col-md-6" >}}
 ## Notre roi à l’écoute
