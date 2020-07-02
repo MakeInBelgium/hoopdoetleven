@@ -39,7 +39,7 @@ Saisissez l’URL de votre vidéo YouTube et ajoutez-la ici : www.pleindespoir.b
 {{< section style="dark" >}}
 {{< columns cols="col-md-8 col-lg-6" extraClasses="align-items-center justify-content-md-between" >}}
 {{< column cols="col-md-4 col-lg-5" >}}
-Votre film est-il sur youtube et vous souhaitez le partager sur notre site afin d’avoir une chance de gagner une rencontre avec le roi Philippe ? Alors, remplissez ce formulaire !
+Votre vidéo est sur YouTube et vous souhaitez la partager sur notre site afin d’avoir une chance de gagner une rencontre avec le roi Philippe ? Alors, remplissez ce formulaire !
 {{< /column >}}
 {{< column >}}
 <div id="nominateForm"></div>
@@ -49,7 +49,7 @@ Votre film est-il sur youtube et vous souhaitez le partager sur notre site afin 
 
 {{< section style="blue" extraClasses="about-icons text-center" >}}
 ## À quoi dois-je faire attention ?
-<p class="lead mb-5">Quelques points à observer pour enregistrer au mieux votre histoire</p>
+<p class="lead mb-5">Quelques points d’attention pour enregistrer au mieux votre histoire.</p>
 {{< columns cols="col-xs-6 col-md-4" extraClasses="font-large text-center justify-content-around" >}}
 {{< column extraClasses="mb-5" >}}
 <svg class="bi bi-phone" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
