@@ -5,7 +5,7 @@ layout: single-full
 translationKey: "participate"
 url: "participation"
 showform: true
-draft: true
+draft: false
 menu:
   main:
     name: Participez
@@ -39,7 +39,6 @@ Saisissez l'URL de votre vidéo YouTube et ajoutez-le sur notre formulaire Plein
 {{< section style="dark" >}}
 {{< columns cols="col-md-8 col-lg-6" extraClasses="align-items-center justify-content-md-between" >}}
 {{< column cols="col-md-4 col-lg-5" >}}
-## Bezorg ons jouw Coronaheld!
 Votre film est-il sur youtube, souhaitez-vous le mettre sur notre site et avoir une chance de gagner un rencontre avec le Roi Philippe ? Alors, remplissez ce formulaire !
 {{< /column >}}
 {{< column >}}
