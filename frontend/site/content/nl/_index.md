@@ -50,7 +50,7 @@ Toegegeven, we vertellen niet graag over onze eigen verwezenlijkingen. Het lijkt
 {{< section style="blue" >}}
 {{< columns extraClasses="justify-content-between align-items-center" >}}
 {{< column cols="col-md-6" >}}
-<img src="/img/Doneer_Hero.png" alt="" class="img-fluid" />
+<img src="/img/SelfieWit.png" alt="" class="img-fluid" />
 {{< /column >}}
 {{< column cols="col-md-5" >}}
 ## Zet jouw held in de kijker!
