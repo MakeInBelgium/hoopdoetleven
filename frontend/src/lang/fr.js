@@ -37,7 +37,7 @@ export default {
         gaveConsent: "Sans votre autorisation nous ne pouvons pas soumettre votre requête.",
         abstract: {
             min: "Votre résumé doit contenir au moins 10 caractères.",
-            max: "Votre résumé ne peut pas dépasser les 300 caractères.",
+            max: "Votre résumé ne peut pas dépasser les 1000 caractères.",
         },
         content: {
             min: "Votre histoire doit contenir au moins 100 caractères.",

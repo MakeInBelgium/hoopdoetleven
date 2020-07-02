@@ -12,12 +12,12 @@ const initialValues = window.location.hostname === 'localhost' ? {
     contactEmail: 'koen@neok.be',
     contactPhone: '+32498207303',
     gaveConsent: false,
-    type: 'text',
+    type: 'video',
     heroName: 'Joke De Nul',
     abstract: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora eaque porro enim magni, molestiae vero quasi ab.',
     content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora eaque porro enim magni, molestiae vero quasi ab. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora eaque porro enim magni, molestiae vero quasi ab. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora eaque porro enim magni, molestiae vero quasi ab.',
 } : {
-    type: 'text',
+    type: 'video',
     gaveConsent: false,
 };
 
@@ -113,7 +113,7 @@ export default () => {
                 name="heroName"
                 isRequired={true}
             />
-            <RadioGroup
+            {/* <RadioGroup
                 label={translate('fields.type')}
                 name="type"
                 isRequired={true}
@@ -121,7 +121,7 @@ export default () => {
                     {value: "text", label: translate('typeLabels.text')},
                     {value: "video", label:translate('typeLabels.video')},
                 ]}
-            />
+            /> */}
         </Wizard.Page>
         <Wizard.Page>
             <FieldGroup
@@ -129,7 +129,7 @@ export default () => {
                 name="abstract"
                 component="textarea"
                 isRequired={true}
-                validate={minMax(10, 300, 'validation.abstract.min', 'validation.abstract.max')}
+                validate={minMax(10, 1000, 'validation.abstract.min', 'validation.abstract.max')}
             />
             <FormSpy subscription={{ values: true }}>
             {({ values }) => {

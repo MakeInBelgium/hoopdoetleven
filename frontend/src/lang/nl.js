@@ -37,7 +37,7 @@ export default {
         gaveConsent: "Zonder jouw goedkeuring kunnen we je inzending niet verwerken",
         abstract: {
             min: "Je korte uitleg moet minstens 10 tekens lang zijn.",
-            max: "Je korte uitleg mag maximum 300 tekens lang zijn.",
+            max: "Je korte uitleg mag maximum 1000 tekens lang zijn.",
         },
         content: {
             min: "Je verhaal moet minstens 100 tekens lang zijn.",

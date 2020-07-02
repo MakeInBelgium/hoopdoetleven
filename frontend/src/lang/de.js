@@ -37,7 +37,7 @@ export default {
         gaveConsent: "Ohne Ihre Zustimmung können wir Ihren Eintrag nicht bearbeiten.",
         abstract: {
             min: "Ihre kurze Erklärung muss mindestens 10 Zeichen lang sein.",
-            max: "Ihre kurze Erklärung kann bis zu 300 Zeichen lang sein.",
+            max: "Ihre kurze Erklärung kann bis zu 1000 Zeichen lang sein.",
         },
         content: {
             min: "Ihre Geschichte muss mindestens 100 Zeichen lang sein.",
