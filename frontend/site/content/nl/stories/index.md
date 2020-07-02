@@ -2,7 +2,12 @@
 title: "Verhalen"
 description: ""
 translationKey: "stories"
-url: "verhalen"
+url: verhalen
+menu:
+  main:
+    name: Verhalen
+    url: verhalen
+    weight: 10
 layout: single-full
 draft: false
 ---

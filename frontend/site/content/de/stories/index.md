@@ -2,7 +2,11 @@
 title: "Geschichten"
 description: ""
 translationKey: "stories"
-url: "geschichten"
+menu:
+  main:
+    name: Geschichten
+    url: geschichten
+    weight: 10
 layout: single-full
 draft: false
 ---

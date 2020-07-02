@@ -1,13 +1,6 @@
 <nav id="primaryNavigation top" class="navbar navbar-expand-xl navbar-dark bg-primary sticky-top">
     <div class="container">
         <a class="navbar-brand text-uppercase font-weight-bold" href="{{ .Site.BaseURL | relLangURL }}">
-            {{/*  {{ with .Params.TagLine }}
-            <span>{{ .hope }}</span><span>{{ .brings }}</span><span>{{ .life }}</span>
-            {{ else }}
-            {{ with .Site.Params.tagLine }}
-            <span>{{ .hope }}</span><span>{{ .brings }}</span><span>{{ .life }}</span>
-            {{ end }}
-            {{ end }}  */}}
             {{ with .Site.Params.logo }}
             <img src="{{ .src | relURL }}" alt="{{ .alt }}" width="{{ .width }}" height="{{ .height }}" />
             {{ end }}
@@ -33,9 +26,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navContent">
             <ul class="navbar-nav">
+            {{ $currentPage := . }}
             {{ range .Site.Menus.main }}
             {{ if .HasChildren }}
-            <li class="nav-item dropdown">
+            <li class="nav-item{{ if $currentPage.IsMenuCurrent "main" . }} active{{ end }} dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">
                 {{ .Name }}
                 </a>
@@ -46,7 +40,7 @@
                 </div>
             </li>
             {{ else }}
-            <li class="nav-item">
+            <li class="nav-item{{ if $currentPage.IsMenuCurrent "main" . }} active{{ end }}">
                 <a class="nav-link" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
             </li>
             {{ end }}
