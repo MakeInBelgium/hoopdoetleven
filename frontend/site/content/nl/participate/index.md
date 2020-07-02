@@ -14,11 +14,11 @@ menu:
 ---
 
 {{< section style="secondary" >}}
-# Hoe kan je meedoen?
+# Zo doe je mee...
 {{< columns extraClasses="justify-content-between" >}}
 {{< column cols="col-md-4 px-5" >}}
 ### 1. Film
-Maak een kort filmpje met het verhaal van de held(en) die tijdens de coronacrisis uitzonderlijke veerkracht vertoonde(n). 
+Maak een kort filmpje met het verhaal van de held(en) die tijdens de coronacrisis uitzonderlijke veerkracht en creativiteit vertoonde(n). 
 {{< /column >}}
 {{< column cols="col-md-4 px-5" >}}
 ### 2. Deel
@@ -31,7 +31,7 @@ Vul de link van je filmpje in op ons HoopDoetLeven-formulier op [www.hoopdoetlev
 {{< /columns >}}
 {{< columns extraClasses="justify-content-center mt-5" >}}
 {{< column cols="col-md-8" extraClasses="text-center mt-5" >}}
-<p class="lead">Ben je niet zo’n fan van video? Dan kan je je verhaal ook schriftelijk indienen via hoopdoetleven.be.</p>
+<p class="lead">Ben je niet zo’n fan van video? Dan kan je je verhaal ook neerschrijven en insturen via hoopdoetleven.be.</p>
 {{< /column >}}
 {{< /columns >}}
 {{< /section >}}
@@ -39,10 +39,10 @@ Vul de link van je filmpje in op ons HoopDoetLeven-formulier op [www.hoopdoetlev
 {{< section style="dark" >}}
 {{< columns cols="col-md-8 col-lg-6" extraClasses="align-items-center justify-content-md-between" >}}
 {{< column cols="col-md-4 col-lg-5" >}}
-## Bezorg ons jouw Coronaheld!
+## Bezorg ons jouw coronaheld!
 Staat je filmpje op youtube, wil je je filmpje graag op onze website en kans maken op een audiëntie bij Koning Filip? Vul dan dit formulier in!
 
-Ben je geen filmpjes mens maar wel een heldenverhaal? Vul dan ook dit formulier in!
+Ben je geen filmpjes-mens maar heb je wel een heldenverhaal? Vul dan ook dit formulier in!
 {{< /column >}}
 {{< column >}}
 <div id="nominateForm"></div>
@@ -61,7 +61,7 @@ Ben je geen filmpjes mens maar wel een heldenverhaal? Vul dan ook dit formulier 
 </svg>
 
 
-filmen kan met je telefoon
+Filmen kan met je smartphone.
 {{< /column >}}
 {{< column extraClasses="mb-5" >}}
 <svg class="bi bi-phone-landscape" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -70,7 +70,7 @@ filmen kan met je telefoon
 </svg>
 
 
-film in landscape, niet in portrait
+Film in landscape (horizontaal), niet in portrait. 
 {{< /column >}}
 {{< column extraClasses="mb-5" >}}
 <svg class="bi bi-arrows-angle-expand" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -80,7 +80,7 @@ film in landscape, niet in portrait
 </svg>
 
 
-hou je camera op armlengte, niet te dicht en niet verder
+Hou je camera op armlengte, niet te dicht en niet verder.
 {{< /column >}}
 {{< column extraClasses="mb-5" >}}
 <svg class="bi bi-chat" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -88,7 +88,7 @@ hou je camera op armlengte, niet te dicht en niet verder
 </svg>
 
 
-vermeld zeker de hashtag #HoopDoetLeven
+Vermeld zeker de hashtag #HoopDoetLeven!
 {{< /column >}}
 {{< column extraClasses="mb-5" >}}
 <svg class="bi bi-camera-video" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -97,7 +97,7 @@ vermeld zeker de hashtag #HoopDoetLeven
 </svg>
 
 
-deel je video met je netwerk
+Deel je video met je netwerk.
 {{< /column >}}
 {{< /columns >}}
 {{< /section >}}
