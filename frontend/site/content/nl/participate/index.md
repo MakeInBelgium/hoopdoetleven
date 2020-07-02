@@ -5,7 +5,7 @@ layout: single-full
 translationKey: "participate"
 url: "meedoen"
 showform: true
-draft: true
+draft: false
 menu:
   main:
     name: Meedoen

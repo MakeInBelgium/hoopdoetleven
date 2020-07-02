@@ -18,8 +18,10 @@ markup:
 
 params:
   title: Home
-  description: Beschrijving
+  description: "#HoopDoetLeven zoekt met het Koninklijk Paleis verhalen van helden tijdens de Corona-lockdown. Ken jij iemand die kleine of grote heldendaad heeft verricht? Laat het ons weten!"
+  ogImage: "/img/OGNL.png"
   hashTag: "#HoopDoetLeven"
+  analyticsCode: "UA-160941697-5"
   logo: 
     src: "/img/hoopdoetlevenNL.png"
     width: 199
@@ -28,7 +30,7 @@ params:
     hope: "Hoop"
     brings: "Doet"
     life: "Leven"
-  copyright: "&copy; Copyright 2020"
+  copyright: "Made with ❤️ by [Coronadenktank](https://www.coronadenktank.be/)"
   doormatInfo: "De Coronadenktank is een burgerbeweging die alternatieve oplossingen bedenkt en bouwt om het leed van COVID-19 te verzachten en de verspreiding van SARS-CoV-2 te verminderen. Al snel na de Belgische lockdown, half maart 2020, is de burgerbeweging op enkele dagen uitgegroeid van enkelingen naar een netwerk van duizenden burgers die hun brede expertise bij elkaar gelegd hebben om oplossingen te bouwen. Van IT’ers tot naaisters en van spoedartsen tot communicatiespecialisten, iedereen werkt solidair, flexibel en doelgericht samen."
   apiLocation: https://localhost:8443
   recaptchaKey: 6LdU3KoZAAAAAGdoYTdxt7JYa5uYaiYnkubbnaik
@@ -40,11 +42,11 @@ menu:
       name: Verhalen
       url: verhalen
       weight: 10
-  # footer:
-  #   - identifier: disclaimer
-  #     name: Disclaimer
-  #     url: disclaimer
-  #     weight: 10
+  footer:
+    - identifier: disclaimer
+      name: Disclaimer
+      url: disclaimer
+      weight: 10
 
 ############################## languages ##########################
 defaultContentLanguage: nl
@@ -59,8 +61,9 @@ languages:
     contentDir: content/nl
     title: Home
     baseurl: "http://localhost:3000/nl"
-    description: ""
+    ogImage: "/img/OGNL.png"
     hashTag: "#HoopDoetLeven"
+    analyticsCode: "UA-160941697-5"
     tagLine: 
       hope: "Hoop"
       brings: "Doet"
@@ -74,7 +77,9 @@ languages:
     title: Home
     baseurl: "http://localhost:3000/en"
     description: ""
+    ogImage: "/img/OGNL.png"
     hashTag: "#HopeBringsLife"
+    analyticsCode: "UA-160941697-5"
     tagLine: 
       hope: "Hope"
       brings: "Brings"
@@ -88,7 +93,9 @@ languages:
     title: Home
     baseurl: "http://localhost:3000/fr"
     description: ""
+    ogImage: "/img/OGFR.png"
     hashTag: "#PleindEspoir"
+    analyticsCode: "UA-160941697-6"
     logo: 
       src: "/img/hoopdoetlevenFR.png"
       width: 170
@@ -104,11 +111,11 @@ languages:
           name: Histoires
           url: histoires
           weight: 10
-      # footer:
-      #   - identifier: disclaimer
-      #     name: Disclaimer
-      #     url: disclaimer
-      #     weight: 10
+      footer:
+        - identifier: disclaimer
+          name: Disclaimer
+          url: disclaimer
+          weight: 10
   de:
     weight: 2
     languageName: Deutsch
@@ -117,7 +124,9 @@ languages:
     title: Home
     baseurl: "http://localhost:3000/de"
     description: ""
+    ogImage: "/img/OGDE.png"
     hashTag: "#VollerHoffnung"
+    analyticsCode: "UA-160941697-7"
     logo: 
       src: "/img/hoopdoetlevenDE.png"
       width: 218
@@ -133,8 +142,8 @@ languages:
           name: Geschichten
           url: geschichten
           weight: 10
-      # footer:
-      #   - identifier: disclaimer
-      #     name: Disclaimer
-      #     url: disclaimer
-      #     weight: 10
+      footer:
+        - identifier: disclaimer
+          name: Disclaimer
+          url: disclaimer
+          weight: 10

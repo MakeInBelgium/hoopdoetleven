@@ -1,7 +1,7 @@
 ---
 title: "Home"
 draft: false
-description: ""
+description: ~
 layout: single-full
 ---
 
