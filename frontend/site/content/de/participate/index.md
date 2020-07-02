@@ -29,11 +29,7 @@ Teilen Sie den Link des Videos mit dem Hashtag #VollerHoffnung in Ihren sozialen
 Geben Sie die URL Ihres YouTube-Videos ein und fügen Sie diese in unser VollerHoffnung-Formular auf [www.VollerHoffnung.be](https://www.VollerHoffnung.be/teilnehmen).
 {{< /column >}}
 {{< /columns >}}
-{{< columns extraClasses="justify-content-center mt-5" >}}
-{{< column cols="col-md-8" extraClasses="text-center mt-5" >}}
-<p class="lead">Sie sind kein Videofan? Keine Sorge, Sie können Ihre Geschichte auch schriftlich über unser VollerHoffnung-Formular einreichen.</p>
-{{< /column >}}
-{{< /columns >}}
+
 {{< /section >}}
 
 {{< section style="dark" >}}
