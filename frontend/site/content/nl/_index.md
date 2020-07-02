@@ -37,7 +37,7 @@ Naar aanleiding van de nationale feestdag wil het Koninklijk Paleis deze verhale
 {{< columns extraClasses="justify-content-between align-items-center" >}}
 {{< column cols="col-md-6" >}}
 ## De Belgische bescheidenheid
-Toegegeven, we vertellen niet graag over onze eigen verwezenlijkingen. Het lijkt op opscheppen, en daar houden we niet van. Toch zijn we trots: op onze familie, op de mensen in de zorg, op onze buren, op onze wetenschappers, op onze juffen en meesters, op al die spontane vrijwilligers die de handen uit de mouwen staken. We zijn ze ontzettend dankbaar.
+Toegegeven, we vertellen niet graag over onze eigen verwezenlijkingen. Het lijkt op opscheppen en daar houden we niet van. Toch zijn we trots: op onze familie, op de mensen in de zorg, op onze buren, op onze wetenschappers, op onze juffen en meesters, op al die spontane vrijwilligers die de handen uit de mouwen staken. We zijn hen ontzettend dankbaar.
 
 {{< button style="primary" url="/verhalen" >}}Ontdek de verhalen!{{< /button >}}
 {{< /column >}}
@@ -54,7 +54,7 @@ Toegegeven, we vertellen niet graag over onze eigen verwezenlijkingen. Het lijkt
 {{< /column >}}
 {{< column cols="col-md-5" >}}
 ## Zet jouw held in de kijker!
-Daarom vragen we je om je schroom voor één keer opzij te zetten. Vertel jouw verhaal of het verhaal van een persoon of organisatie die voor jou het verschil heeft gemaakt tijdens de coronacrisis. 
+Daarom vragen we je om je schroom voor één keer opzij te zetten. Vertel jouw verhaal of het verhaal van een persoon of organisatie die voor jou het verschil gemaakt heeft tijdens de coronacrisis. 
 {{< button style="primary" url="/meedoen" >}}Doe mee!{{< /button >}}
 {{< /column >}}
 {{< /columns >}}
