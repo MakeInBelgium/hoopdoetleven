@@ -22,15 +22,15 @@
 <footer id="copyright" class="bg-dark text-light links-light">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 order-1 order-md-2 text-center text-md-right my-4 my-md-0">
+                {{ .Site.Params.copyright | markdownify  }}
+            </div>
+            <div class="col-md-6 order-2 order-md-1 text-center text-md-left small">
                 <ul class="list-unstyled list-inline mb-0">
                 {{ range .Site.Menus.footer }}
                     <li class="list-inline-item"><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
                 {{ end }}
                 </ul>
-            </div>
-            <div class="col-md-6 text-md-right">
-                {{ .Site.Params.copyright | markdownify  }}
             </div>
         </div>
     </div>
