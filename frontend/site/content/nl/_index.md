@@ -10,7 +10,7 @@ layout: single-full
 {{< column cols="col-md-5" >}}
 # #HoopDoetLeven
 ## zoekt verhalen van een held
-De coronalockdown, dat was een stevige uitdaging! We kennen allemaal wel een persoon of organisatie die het verschil gemaakt heeft. Door boodschappen te doen voor de oudere mensen in de straat. Door mondmaskers te naaien. Door muziek te maken voor de buren. Door online voor te lezen voor de kleinkinderen. Door de eigen onderneming aan de situatie aan te passen en zo mensen aan het werk te houden. Deze verhalen over veerkracht en creativiteit nemen we voor vanzelfsprekend, maar ze verdienen het om verteld te worden.
+De coronalockdown, dat was een stevige uitdaging! We kennen allemaal wel een persoon of organisatie die het verschil gemaakt heeft. Door boodschappen te doen voor risicopatiënten, door mondmaskers te naaien, door muziek te maken voor de buren, kindjes te entertainen, of zelfs de onderneming heruit te vinden en zo mensen aan het werk te houden. Deze verhalen nemen we voor vanzelfsprekend, maar ze verdienen het om verteld te worden.
 
 {{< button style="primary" url="/meedoen" >}}Doe mee!{{< /button >}}
 {{< /column >}}
@@ -53,8 +53,8 @@ Toegegeven, we vertellen niet graag over onze eigen verwezenlijkingen. Het lijkt
 <img src="/img/Doneer_Hero.png" alt="" class="img-fluid" />
 {{< /column >}}
 {{< column cols="col-md-5" >}}
-## Blink van trots, het mag!
-Daarom vragen we je om je schroom voor één keer opzij te zetten. Vertel je verhaal of het verhaal een persoon of vereniging die voor jou het verschil heeft gemaakt tijdens de coronacrisis. 
+## Zet jouw held in de kijker!
+Daarom vragen we je om je schroom voor één keer opzij te zetten. Vertel jouw verhaal of het verhaal een persoon of organisatie die voor jou het verschil heeft gemaakt tijdens de coronacrisis. 
 {{< button style="primary" url="/meedoen" >}}Doe mee!{{< /button >}}
 {{< /column >}}
 {{< /columns >}}
@@ -64,7 +64,7 @@ Daarom vragen we je om je schroom voor één keer opzij te zetten. Vertel je ver
 {{< columns extraClasses="justify-content-between align-items-center" >}}
 {{< column cols="col-md-5" >}}
 ## Een royale beloning
-Heb je jouw verhaal met ons en de rest van het land gedeeld? Dan wacht je misschien wel een extra verrassing. Zijne Majesteit Koning Filip kiest op basis van alle ingezonden verhalen 4 bijzondere Belgen. Die coronahelden krijgen een uitnodiging van Koning Filip hun verhaal te vertellen aan de koning tijdens een audiëntie. Een mooie erkenning van alle inspanningen in deze vreemde tijd!
+Heb je jouw verhaal met ons en de rest van het land gedeeld? Dan wacht je misschien wel een extra verrassing. Zijne Majesteit Koning Filip kiest op basis van alle ingezonden verhalen 4 bijzondere Belgen. Die coronahelden krijgen een uitnodiging van Koning Filip om samen met de inzender hun verhaal te vertellen tijdens een koninklijk audiëntie. Een mooie erkenning van alle inspanningen! 
 {{< button style="secondary" url="/meedoen" >}}Overtuig de Koning{{< /button >}}
 {{< /column >}}
 {{< column cols="col-md-6" >}}
