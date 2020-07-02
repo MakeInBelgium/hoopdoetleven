@@ -31,6 +31,12 @@
   {{ end }}
   {{ end }}
 
+  {{ if .Page.Scratch.Get "hasPlaylist" }}
+  {{ $script := .Site.Data.webpack.youtubePlaylist }}
+  {{ with $script.js }}
+    <script src="{{ . }}"></script>
+  {{ end }}
+  {{ end }}
 </body>
 
 </html>

@@ -15,7 +15,7 @@ Le confinement a été un défi un peu particulier pour chacun d’entre nous. E
 {{< button style="primary" url="/participation" >}}Rejoignez-nous !{{< /button >}}
 {{< /column >}}
 {{< column cols="col-md-6" >}}
-{{< youtube-embed id="Hk05RqV7HiY" >}}
+{{< youtube-playlist id="PLSCIBAIpdi0Ko8rrQvA53bDzN4WtHEya8" shuffle="true" length="3" >}}
 {{< /column >}}
 {{< /columns >}}
 {{< /section >}}

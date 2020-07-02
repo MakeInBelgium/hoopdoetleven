@@ -1,0 +1,10 @@
+{{ $playlistId := .Get "id" }}
+{{ $shuffle := "false" }}
+{{ $length := "5" }}
+{{ with .Get "shuffle" }}{{ $shuffle = printf "%s" . }}{{ end }}
+{{ with .Get "length" }}{{ $length = printf "%s" . }}{{ end }}
+{{- .Page.Scratch.Set "hasPlaylist" true }}
+{{/*  The length parameter is used to generate a random number between zero and $length, to set the starting index of the playlist  */}}
+<div class="mb-5 embed-responsive embed-responsive-16by9" style="max-width: 800px">
+    <div class="youtube-playlist embed-responsive-item" data-playlist="{{ $playlistId }}" data-shuffle="{{ $shuffle }}" data-length="{{ $length }}"></div> 
+</div>
