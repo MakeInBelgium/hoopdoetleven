@@ -13,6 +13,7 @@ build: export HUGO_LANGUAGES_FR_BASEURL = https://www.pleindespoir.be
 build: export HUGO_LANGUAGES_DE_BASEURL = https://www.vollerhoffnung.be
 build: export HUGO_LANGUAGES_EN_BASEURL = https://en.hoopdoetleven.be
 build: export HUGO_PARAMS_APILOCATION = ${HDL_PROD_API}
+build: export CONTEXT = production
 build:
 	@echo "Building prod"
 	@npm run build
@@ -22,6 +23,7 @@ build-staging: export HUGO_LANGUAGES_FR_BASEURL = https://staging.pleindespoir.b
 build-staging: export HUGO_LANGUAGES_DE_BASEURL = https://staging.vollerhoffnung.be
 build-staging: export HUGO_LANGUAGES_EN_BASEURL = https://staging-en.hoopdoetleven.be
 build-staging: export HUGO_PARAMS_APILOCATION = ${HDL_STAG_API}
+build-staging: export CONTEXT = staging
 build-staging:
 	@echo "Building preview"
 	@npm run build:preview
