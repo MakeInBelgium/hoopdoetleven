@@ -13,7 +13,7 @@ draft: false
 <img src="/img/KermisWit.png" alt="" class="img-fluid" />
 {{< /column >}}
 {{< column cols="col-12" >}}
-<p class="lead">Ontdek hier binnenkort de mooie verhalen van #HoopDoetLeven.</p>
+<p class="lead">Ontdek hier de mooie verhalen van #HoopDoetLeven.</p>
 {{< /column >}}
 {{< /columns >}}
 {{< /section >}}
