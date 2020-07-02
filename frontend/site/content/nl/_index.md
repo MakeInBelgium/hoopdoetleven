@@ -28,7 +28,7 @@ De coronalockdown, dat was een stevige uitdaging! We kennen allemaal wel een per
 {{< column cols="col-md-6" >}}
 ## Onze koning luistert mee… 
 Naar aanleiding van de nationale feestdag wil Het Koninklijk Paleis deze verhalen van helden graag horen. Heb jij een buurman, tante, collega of juf die zo’n kleine of grote heldendaad heeft verricht? Ben je trots op die persoon en wil je dat verhaal graag van de daken schreeuwen? Wij en de koning luisteren!
-{{< button style="secondary" url="/meedoen" >}}Participeer!{{< /button >}}
+{{< button style="secondary" url="/meedoen" >}}Doe mee!{{< /button >}}
 {{< /column >}}
 {{< /columns >}}
 {{< /section >}}
