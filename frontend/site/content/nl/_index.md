@@ -15,7 +15,7 @@ De coronalockdown, dat was een stevige uitdaging! We kennen allemaal wel een per
 {{< button style="primary" url="/meedoen" >}}Doe mee!{{< /button >}}
 {{< /column >}}
 {{< column cols="col-md-6" >}}
-{{< youtube-embed id="PLSCIBAIpdi0IVDmv9uKOalGOkM-m4AYDF" >}}
+{{< youtube-playlist id="PLSCIBAIpdi0IVDmv9uKOalGOkM-m4AYDF" shuffle="true" length="7" >}}
 {{< /column >}}
 {{< /columns >}}
 {{< /section >}}
