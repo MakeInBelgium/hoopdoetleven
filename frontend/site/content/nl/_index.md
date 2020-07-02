@@ -27,7 +27,7 @@ De coronalockdown, dat was een stevige uitdaging! We kennen allemaal wel een per
 {{< /column >}}
 {{< column cols="col-md-6" >}}
 ## Onze koning luistert mee… 
-Naar aanleiding van de nationale feestdag wil Het Koninklijk Paleis deze verhalen van helden graag horen. Heb jij een buurman, tante, collega of juf die zo’n kleine of grote heldendaad heeft verricht? Ben je trots op die persoon en wil je dat verhaal graag van de daken schreeuwen? Wij en de koning luisteren!
+Naar aanleiding van de nationale feestdag wil het Koninklijk Paleis deze verhalen van helden graag horen. Heb jij een buurman, tante, collega of juf die zo’n kleine of grote heldendaad heeft verricht? Ben je trots op die persoon en wil je dat verhaal graag van de daken schreeuwen? Wij en de koning luisteren!
 {{< button style="secondary" url="/meedoen" >}}Doe mee!{{< /button >}}
 {{< /column >}}
 {{< /columns >}}
@@ -36,7 +36,7 @@ Naar aanleiding van de nationale feestdag wil Het Koninklijk Paleis deze verhale
 {{< section style="tertiary" >}}
 {{< columns extraClasses="justify-content-between align-items-center" >}}
 {{< column cols="col-md-6" >}}
-## Die Belgische bescheidenheid
+## De Belgische bescheidenheid
 Toegegeven, we vertellen niet graag over onze eigen verwezenlijkingen. Het lijkt op opscheppen, en daar houden we niet van. Toch zijn we trots: op onze familie, op de mensen in de zorg, op onze buren, op onze wetenschappers, op onze juffen en meesters, op al die spontane vrijwilligers die de handen uit de mouwen staken. We zijn ze ontzettend dankbaar.
 
 {{< button style="primary" url="/verhalen" >}}Ontdek de verhalen!{{< /button >}}
@@ -54,7 +54,7 @@ Toegegeven, we vertellen niet graag over onze eigen verwezenlijkingen. Het lijkt
 {{< /column >}}
 {{< column cols="col-md-5" >}}
 ## Zet jouw held in de kijker!
-Daarom vragen we je om je schroom voor één keer opzij te zetten. Vertel jouw verhaal of het verhaal een persoon of organisatie die voor jou het verschil heeft gemaakt tijdens de coronacrisis. 
+Daarom vragen we je om je schroom voor één keer opzij te zetten. Vertel jouw verhaal of het verhaal van een persoon of organisatie die voor jou het verschil heeft gemaakt tijdens de coronacrisis. 
 {{< button style="primary" url="/meedoen" >}}Doe mee!{{< /button >}}
 {{< /column >}}
 {{< /columns >}}
@@ -63,8 +63,8 @@ Daarom vragen we je om je schroom voor één keer opzij te zetten. Vertel jouw v
 {{< section style="white" >}}
 {{< columns extraClasses="justify-content-between align-items-center" >}}
 {{< column cols="col-md-5" >}}
-## Een royale beloning
-Heb je jouw verhaal met ons en de rest van het land gedeeld? Dan wacht je misschien wel een extra verrassing. Zijne Majesteit Koning Filip kiest op basis van alle ingezonden verhalen 4 bijzondere Belgen. Die coronahelden krijgen een uitnodiging van Koning Filip om samen met de inzender hun verhaal te vertellen tijdens een koninklijk audiëntie. Een mooie erkenning van alle inspanningen! 
+## Koninklijke audiëntie
+Heb je jouw verhaal met ons en de rest van het land gedeeld? Dan wacht je misschien wel een extra verrassing. Samen met het Koninklijk Paleis kiezen we op basis van alle ingezonden verhalen 4 bijzondere Belgen. Die coronahelden krijgen een uitnodiging van Koning Filip om samen met de inzender hun verhaal te vertellen tijdens een koninklijke audiëntie. Een mooie erkenning van alle inspanningen! 
 {{< button style="secondary" url="/meedoen" >}}Overtuig de Koning{{< /button >}}
 {{< /column >}}
 {{< column cols="col-md-6" >}}
