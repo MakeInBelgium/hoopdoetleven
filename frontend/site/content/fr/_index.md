@@ -65,7 +65,7 @@ C’est pourquoi nous vous demandons de mettre votre modestie de côté pour une
 {{< column cols="col-md-5" >}}
 ## Une audience royale
 Vous avez décidé de participer et de partager votre histoire avec nous et avec le reste du monde ? Vous pourriez bien avoir une petite surprise supplémentaire. En compagnie de sa Majesté le Roi Philippe, nous allons choisir quatre Belges extraordinaires sur base des vidéos envoyées. Ces héros en temps de pandémie seront invités par le roi Philippe à raconter leur histoire lors d’une audience royale. Une belle reconnaissance pour de grands mérites en cette bien étrange période.
-{{< button style="secondary" url="/participation" >}}Convainquez le roi !{{< /button >}}
+{{< button style="secondary" url="/participation" >}}Persuadez le roi !{{< /button >}}
 {{< /column >}}
 {{< column cols="col-md-6" >}}
 <img src="/img/HeroZwart.png" alt="" class="img-fluid" />
