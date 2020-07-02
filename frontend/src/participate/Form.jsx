@@ -5,7 +5,7 @@ import FieldGroup from "./components/FieldGroup";
 import RadioGroup from "./components/RadioGroup";
 import Checkbox from "./components/Checkbox";
 import Api from "./Api";
-import { translate } from "./utils";
+import { translate, minMax } from "./utils";
 
 const initialValues = window.location.hostname === 'localhost' ? {
     contactName: 'Koen Van den Wijngaert',
@@ -129,6 +129,7 @@ export default () => {
                 name="abstract"
                 component="textarea"
                 isRequired={true}
+                validate={minMax(10, 300, 'validation.abstract.min', 'validation.abstract.max')}
             />
             <FormSpy subscription={{ values: true }}>
             {({ values }) => {
@@ -147,6 +148,7 @@ export default () => {
                     component="textarea"
                     rows="5"
                     isRequired={true}
+                    validate={minMax(100, 2500, 'validation.content.min', 'validation.content.max')}
                 />
             )
             }}

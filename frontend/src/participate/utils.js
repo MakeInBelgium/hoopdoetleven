@@ -14,4 +14,18 @@ const messages = {
 };
 
 export const translate = (key) => get(messages[language], key, key);
-export const required = (value) => (value ? undefined : "vereist");
+export const required = (value) => (value ? undefined : translate('validation.required'));
+
+export const minMax = (min, max, minMsg, maxMsg) => (value = '') => {
+    const length = value.length || 0;
+
+    if(length < min) {
+        return translate(minMsg);
+    }
+
+    if(length > max) {
+        return translate(maxMsg);
+    }
+
+    return undefined;
+};
