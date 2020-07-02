@@ -10,7 +10,7 @@ draft: false
 # Verhalen van Coronahelden
 {{< columns extraClasses="justify-content-around" >}}
 {{< column cols="col-md-4" >}}
-<img src="/nl/img/KermisWit.png" alt="" class="img-fluid" />
+<img src="/img/KermisWit.png" alt="" class="img-fluid" />
 {{< /column >}}
 {{< column cols="col-12" >}}
 <p class="lead">Ontdek hier binnenkort de mooie verhalen van #HoopDoetLeven.</p>

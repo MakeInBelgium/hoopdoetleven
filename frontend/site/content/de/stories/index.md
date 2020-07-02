@@ -10,7 +10,7 @@ draft: false
 # Geschichten von Corona-Helden
 {{< columns extraClasses="justify-content-around" >}}
 {{< column cols="col-md-4" >}}
-<img src="/nl/img/KermisWit.png" alt="" class="img-fluid" />
+<img src="/img/KermisWit.png" alt="" class="img-fluid" />
 {{< /column >}}
 {{< column cols="col-12" >}}
 <p class="lead">Entdecken Sie hier bald die großartigen Geschichten von #VollerHoffnung.</p>
