@@ -29,11 +29,7 @@ Partagez le lien de la vidéo avec le hashtag #PleinDEspoir sur vos réseaux soc
 Saisissez l’URL de votre vidéo YouTube et ajoutez-la ici : www.pleindespoir.be.
 {{< /column >}}
 {{< /columns >}}
-{{< columns extraClasses="justify-content-center mt-5" >}}
-{{< column cols="col-md-8" extraClasses="text-center mt-5" >}}
-<p class="lead">Vous n’êtes pas un(e) fan de vidéo ? Pas de souci, vous pouvez également soumettre votre histoire par écrit via notre formulaire Pleindespoir.be</p>
-{{< /column >}}
-{{< /columns >}}
+
 {{< /section >}}
 
 {{< section style="dark" >}}
