@@ -20,6 +20,7 @@ module.exports = merge(common, {
     disableHostCheck: true,
     quiet: false,
     open: true,
+    openPage: '/nl',
     historyApiFallback: {
       rewrites: [{from: /./, to: "404.html"}]
     },

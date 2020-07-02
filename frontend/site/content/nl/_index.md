@@ -23,7 +23,7 @@ De coronalockdown, dat was een stevige uitdaging! We kennen allemaal wel een per
 {{< section style="primary" >}}
 {{< columns extraClasses="justify-content-between align-items-center" >}}
 {{< column cols="col-md-5" >}}
-<img src="/img/Herowit.png" alt="" class="img-fluid" />
+<img src="/img/king-thumbsup.png" alt="" class="img-fluid" />
 {{< /column >}}
 {{< column cols="col-md-6" >}}
 ## Onze koning luistert mee… 

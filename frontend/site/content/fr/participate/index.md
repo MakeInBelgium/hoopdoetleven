@@ -14,24 +14,24 @@ menu:
 ---
 
 {{< section style="secondary" >}}
-# Comment pouvez-vous participer?
+# Comment participer ?
 {{< columns extraClasses="justify-content-between" >}}
 {{< column cols="col-md-4 px-5" >}}
-### 1. Vidéo
-Faites une courte vidéo de vous et / ou de vos héros et mettez-la sur Youtube (Attention, respectez la distanciation sociale!)
+### 1. Filmez
+Faites une courte vidéo de vous et/ou de votre/vos héros et mettez-la sur Youtube 
 {{< /column >}}
 {{< column cols="col-md-4 px-5" >}}
 ### 2. Partagez
 Partagez le lien de la vidéo avec le hashtag #PleinDEspoir sur vos réseaux sociaux (Facebook, Twitter, Instagram, ...)
 {{< /column >}}
 {{< column cols="col-md-4 px-5" >}}
-### 3. Régistrez
-Saisissez l'URL de votre vidéo YouTube et ajoutez-le sur notre formulaire PleinDEspoir sur [www.pleindespoir.be](https://www.pleindespoir.be/participation).
+### 3. Inscrivez-vous
+Saisissez l’URL de votre vidéo YouTube et ajoutez-la ici : www.pleindespoir.be.
 {{< /column >}}
 {{< /columns >}}
 {{< columns extraClasses="justify-content-center mt-5" >}}
 {{< column cols="col-md-8" extraClasses="text-center mt-5" >}}
-<p class="lead">Vous n'êtes pas fan de vidéo? Pas de soucis, vous pouvez également soumettre votre histoire par écrit via notre formulaire Pleindespoir.</p>
+<p class="lead">Vous n’êtes pas un(e) fan de vidéo ? Pas de souci, vous pouvez également soumettre votre histoire par écrit via notre formulaire Pleindespoir.be</p>
 {{< /column >}}
 {{< /columns >}}
 {{< /section >}}
@@ -39,7 +39,7 @@ Saisissez l'URL de votre vidéo YouTube et ajoutez-le sur notre formulaire Plein
 {{< section style="dark" >}}
 {{< columns cols="col-md-8 col-lg-6" extraClasses="align-items-center justify-content-md-between" >}}
 {{< column cols="col-md-4 col-lg-5" >}}
-Votre film est-il sur youtube, souhaitez-vous le mettre sur notre site et avoir une chance de gagner un rencontre avec le Roi Philippe ? Alors, remplissez ce formulaire !
+Votre film est-il sur youtube et vous souhaitez le partager sur notre site afin d’avoir une chance de gagner une rencontre avec le roi Philippe ? Alors, remplissez ce formulaire !
 {{< /column >}}
 {{< column >}}
 <div id="nominateForm"></div>
@@ -49,7 +49,7 @@ Votre film est-il sur youtube, souhaitez-vous le mettre sur notre site et avoir 
 
 {{< section style="blue" extraClasses="about-icons text-center" >}}
 ## À quoi dois-je faire attention ?
-<p class="lead mb-5">Points d'attention pour l'enregistrement d'une histoire</p>
+<p class="lead mb-5">Quelques points à observer pour enregistrer au mieux votre histoire</p>
 {{< columns cols="col-xs-6 col-md-4" extraClasses="font-large text-center justify-content-around" >}}
 {{< column extraClasses="mb-5" >}}
 <svg class="bi bi-phone" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -58,7 +58,7 @@ Votre film est-il sur youtube, souhaitez-vous le mettre sur notre site et avoir 
 </svg>
 
 
-vous pouvez filmer avec votre téléphone
+Filmez avec votre téléphone.
 {{< /column >}}
 {{< column extraClasses="mb-5" >}}
 <svg class="bi bi-phone-landscape" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -66,7 +66,7 @@ vous pouvez filmer avec votre téléphone
   <path fill-rule="evenodd" d="M14 7.5a1 1 0 1 0-2 0 1 1 0 0 0 2 0z"/>
 </svg>
 
-filmez en paysage, pas en portrait
+Filmez en format paysage, pas en portrait.
 {{< /column >}}
 {{< column extraClasses="mb-5" >}}
 <svg class="bi bi-arrows-angle-expand" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -76,7 +76,7 @@ filmez en paysage, pas en portrait
 </svg>
 
 
-gardez votre caméra à bout de bras, pas trop près et pas plus loin.
+Gardez votre caméra à bout de bras, ni trop près, ni trop loin.
 {{< /column >}}
 {{< column extraClasses="mb-5" >}}
 <svg class="bi bi-chat" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -84,7 +84,7 @@ gardez votre caméra à bout de bras, pas trop près et pas plus loin.
 </svg>
 
 
-n'oubliez pas de mentionner le hashtag #pleindespoir
+N’oubliez pas de mentionner le hashtag #pleindespoir.
 {{< /column >}}
 {{< column extraClasses="mb-5" >}}
 <svg class="bi bi-camera-video" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -92,7 +92,7 @@ n'oubliez pas de mentionner le hashtag #pleindespoir
   <path fill-rule="evenodd" d="M11.25 5.65l2.768-1.605a.318.318 0 0 1 .482.263v7.384c0 .228-.26.393-.482.264l-2.767-1.605-.502.865 2.767 1.605c.859.498 1.984-.095 1.984-1.129V4.308c0-1.033-1.125-1.626-1.984-1.128L10.75 4.785l.502.865z"/>
 </svg>
 
-partagez la vidéo avec votre réseau
+Partagez la vidéo avec votre réseau.
 {{< /column >}}
 {{< /columns >}}
 {{< /section >}}

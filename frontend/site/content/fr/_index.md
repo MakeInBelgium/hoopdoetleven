@@ -10,9 +10,9 @@ layout: single-full
 {{< column cols="col-md-5" >}}
 # #PleindEspoir
 ## recherche des histoires
-Le confinement était un défi particulier pour tout le monde. Nous connaissons tous quelqu'un qui a fait la différence. En faisant du shopping pour les personnes âgées dans la rue. En cousant des masques buccaux. En faisant de la musique pour les voisins, le quartier. En lisant des histoires aux petits-enfants par téléphone. En adaptant votre entreprise à la situation et en gardant ainsi les personnes au travail. Il y a tellement d'histoires sur la créativité, la résilience et la connexion entre les Belges.
+Le confinement a été un défi un peu particulier pour chacun d’entre nous. Et nous connaissons tous quelqu’un qui a fait la différence. En faisant les courses pour des personnes âgées . En cousant des masques. En jouant de la musique pour les voisins, pour le quartier. En lisant des histoires à ses petits-enfants au téléphone. En adaptant son entreprise à la situation et en permettant ainsi à ses employés de garder un emploi. Il y a tellement d’histoires sur la créativité, la résilience des Belges et la relation entre citoyens.
 
-{{< button style="primary" url="/participation" >}}Rejoignez-nous!{{< /button >}}
+{{< button style="primary" url="/participation" >}}Rejoignez-nous !{{< /button >}}
 {{< /column >}}
 {{< column cols="col-md-6" >}}
 {{< youtube-embed id="Hk05RqV7HiY" >}}
@@ -23,12 +23,12 @@ Le confinement était un défi particulier pour tout le monde. Nous connaissons 
 {{< section style="primary" >}}
 {{< columns extraClasses="justify-content-between align-items-center" >}}
 {{< column cols="col-md-5" >}}
-<img src="/img/Herowit.png" alt="" class="img-fluid" />
+<img src="/img/king-thumbsup.png" alt="" class="img-fluid" />
 {{< /column >}}
 {{< column cols="col-md-6" >}}
-## Notre roi à l'écoute
-A l'occasion de la Fête Nationale, le Palais Royal souhaite mettre en valeur ces histoires, les raconter et les partager avec tout le monde. Avez-vous un voisin, une tante, un collègue ou un enseignant qui a accompli un acte héroïque, qu’il soit petit ou grand ? Êtes-vous fier de cette personne et aimeriez-vous partager cette histoire partout? Nous sommes à votre écoute !
-{{< button style="secondary" url="/participation" >}}Rejoignez-nous!{{< /button >}}
+## Notre roi à l’écoute
+A l’occasion de la Fête Nationale, le Palais Royal souhaite mettre en valeur ces histoires, les raconter et les partager avec le plus grand monde. Connaissez-vous un voisin, une tante, un collègue ou un enseignant qui a accompli un acte héroïque, petit ou grand ? Êtes-vous fier de cette personne et aimeriez-vous partager son histoire partout ? Nous sommes à votre écoute !
+{{< button style="secondary" url="/participation" >}}Rejoignez-nous !{{< /button >}}
 {{< /column >}}
 {{< /columns >}}
 {{< /section >}}
@@ -37,7 +37,7 @@ A l'occasion de la Fête Nationale, le Palais Royal souhaite mettre en valeur ce
 {{< columns extraClasses="justify-content-between align-items-center" >}}
 {{< column cols="col-md-6" >}}
 ## La modestie belge
-Certes, nous n'aimons pas forcément parler de nos propres réalisations. Pourtant, nous sommes fiers: de notre famille, des soignants, de nos voisins, de nos scientifiques, de nos professeurs et maîtres, de tous ces bénévoles spontanés qui se sont investis à fond. Nous leur sommes très reconnaissants. À juste titre. 
+Certes, nous n’aimons pas forcément parler de nos propres réalisations. Pourtant, nous sommes fiers : de notre famille, des soignants, de nos voisins, de nos scientifiques, de nos professeurs et maîtres, de tous ces bénévoles spontanés qui se sont investis totalement. Nous leur sommes extrêmement reconnaissants. À juste titre.
 
 {{< button style="primary" url="/histoires" >}}Découvrez nos héros !{{< /button >}}
 {{< /column >}}
@@ -53,8 +53,8 @@ Certes, nous n'aimons pas forcément parler de nos propres réalisations. Pourta
 <img src="/img/SelfieWit.png" alt="" class="img-fluid" />
 {{< /column >}}
 {{< column cols="col-md-5" >}}
-## Eclatez de fierté, c'est permis !
-C'est pourquoi nous vous demandons de mettre de côté votre réserve pour une fois. Racontez votre histoire ou parlez à quelqu'un dont vous êtes fier et encouragez-le à partager son histoire. Mieux encore, faites-le ensemble !
+## Mettez les héros à l’honneur !
+C’est pourquoi nous vous demandons de mettre votre modestie de côté pour une fois. Racontez votre histoire ou relayez l’information à quelqu’un dont vous êtes fier et encouragez cette personne à partager son histoire. Mieux encore, faites-le ensemble !
 {{< button style="primary" url="/participation" >}}Rejoignez-nous !{{< /button >}}
 {{< /column >}}
 {{< /columns >}}
@@ -64,8 +64,8 @@ C'est pourquoi nous vous demandons de mettre de côté votre réserve pour une f
 {{< columns extraClasses="justify-content-between align-items-center" >}}
 {{< column cols="col-md-5" >}}
 ## Une audience royale
-Avez-vous participé et partagé votre histoire avec nous et le reste du monde? Ensuite, vous pourriez avoir une surprise supplémentaire. Avec sa Majesté le Roi Philippe nous choisirons 4 Belges extraordinaires parmi. Ces héros corona et les producteur des vidéos seront invités par le Roi Philippe à raconter leur histoire lors d'une audience royale. Une grande reconnaissance de tous vos efforts en cette période étrange. 
-{{< button style="secondary" url="/participation" >}}Convainquez le roi !{{< /button >}}
+Vous avez décidé de participer et de partager votre histoire avec nous et avec le reste du monde ? Vous pourriez bien avoir une petite surprise supplémentaire. En compagnie de sa Majesté le Roi Philippe, nous allons choisir quatre Belges extraordinaires sur base des vidéos envoyées. Ces héros en temps de pandémie seront invités par le roi Philippe à raconter leur histoire lors d’une audience royale. Une belle reconnaissance pour de grands mérites en cette bien étrange période.
+{{< button style="secondary" url="/participation" >}}Persuadez le roi !{{< /button >}}
 {{< /column >}}
 {{< column cols="col-md-6" >}}
 <img src="/img/HeroZwart.png" alt="" class="img-fluid" />
