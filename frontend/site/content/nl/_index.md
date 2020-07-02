@@ -64,7 +64,7 @@ Daarom vragen we je om je schroom voor één keer opzij te zetten. Vertel jouw v
 {{< columns extraClasses="justify-content-between align-items-center" >}}
 {{< column cols="col-md-5" >}}
 ## Koninklijke audiëntie
-Heb je jouw verhaal met ons en de rest van het land gedeeld? Dan wacht je misschien wel een extra verrassing. Samen met het Koninklijk Paleis kiezen we op basis van alle ingezonden verhalen 4 bijzondere Belgen. Die coronahelden krijgen een uitnodiging van Koning Filip om samen met de inzender hun verhaal te vertellen tijdens een koninklijke audiëntie. Een mooie erkenning van alle inspanningen! 
+Heb je jouw verhaal met ons en de rest van het land gedeeld? Dan wacht je misschien wel een extra verrassing. Samen met het Koninklijk Paleis kiezen we op basis van alle ingezonden verhalen 4 bijzondere Belgen. Die coronahelden krijgen een uitnodiging van Koning Filip om samen met de inzender hun verhaal te vertellen tijdens een koninklijke audiëntie. Een mooie erkenning van alle inspanningen tijdens deze ongewone periode. 
 {{< button style="secondary" url="/meedoen" >}}Overtuig de Koning{{< /button >}}
 {{< /column >}}
 {{< column cols="col-md-6" >}}
