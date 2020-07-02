@@ -1,4 +1,10 @@
-{{ $videoId := .Get "id" }}
+{{ $playlistId := .Get "id" }}
+{{ partial "youtube-embed" . | safeJS }}
 <div class="mb-5 embed-responsive embed-responsive-16by9" style="max-width: 800px">
-    <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube-nocookie.com/embed/{{ $videoId }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
+    <div id="player"></div>
+
+    
+
+    <!-- <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list={{ $playlistId }}&shuffle=true" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 </div>
