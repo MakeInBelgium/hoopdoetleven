@@ -38,7 +38,6 @@ Vul de link van je filmpje in op ons HoopDoetLeven-formulier op [www.hoopdoetlev
 ## Bezorg ons jouw coronaheld!
 Staat je filmpje op youtube, wil je je filmpje graag op onze website en kans maken op een audiëntie bij Koning Filip? Vul dan dit formulier in!
 
-Ben je geen filmpjes-mens maar heb je wel een heldenverhaal? Vul dan ook dit formulier in!
 {{< /column >}}
 {{< column >}}
 <div id="nominateForm"></div>
