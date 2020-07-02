@@ -3,7 +3,9 @@ import dutchMessages from '../lang/nl';
 import frenchMessages from '../lang/fr';
 import germanMessages from '../lang/de';
 
-const language = document.querySelector('html').getAttribute('lang') || 'nl';
+export const currentLang = () => document.querySelector('html').getAttribute('lang') || 'nl';
+
+const language = currentLang();
 
 const messages = {
     nl: dutchMessages,

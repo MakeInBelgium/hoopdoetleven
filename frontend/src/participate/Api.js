@@ -1,3 +1,5 @@
+import {currentLang} from './utils';
+
 const endpointUrl = (endpoint) => `${window.HDL_CONF.apiLocation}/${endpoint}`;
 
 const grecaptchaReady = () => {
@@ -16,7 +18,7 @@ const doSubmission = async (data) => {
   try {
     await grecaptchaReady();
     const token = await grecaptcha.execute(`${window.HDL_CONF.recaptchaKey}`, { action: 'submit' });
-    const raw = JSON.stringify({ ...data, token, from: window.location.hostname });
+    const raw = JSON.stringify({ ...data, token, from: window.location.hostname, contactLang: currentLang() });
 
     const myHeaders = new Headers();
     myHeaders.append("accept", "application/ld+json");
