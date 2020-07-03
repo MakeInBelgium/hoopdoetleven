@@ -14,7 +14,7 @@
 
   {{ $script := .Site.Data.webpack.main }}
   {{ with $script.js }}
-    <script src="{{ . }}"></script>
+    <script src="{{ . }}" async></script>
   {{ end }}
 
   {{ if .Params.showform }}
@@ -27,14 +27,14 @@
   {{ $script := .Site.Data.webpack.participate }}
   <script src="https://www.google.com/recaptcha/api.js?render={{ $.Site.Params.recaptchaKey }}" async></script>
   {{ with $script.js }}
-    <script src="{{ . }}"></script>
+    <script src="{{ . }}" async></script>
   {{ end }}
   {{ end }}
 
   {{ if .Page.Scratch.Get "hasPlaylist" }}
   {{ $script := .Site.Data.webpack.youtubePlaylist }}
   {{ with $script.js }}
-    <script src="{{ . }}"></script>
+    <script src="{{ . }}" async></script>
   {{ end }}
   {{ end }}
 </body>
