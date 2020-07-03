@@ -1,10 +1,11 @@
 <!-- image -->
 {{- $classNames := "img-fluid " -}}
 {{- $src := .Get "src" -}}
-{{- $imgData := imageConfig (printf "static/%s" $src) -}}
+{{ $imgData := imageConfig (printf "static/%s" $src) }}
+{{ $imgHash := $imgData.ColorModel | jsonify | md5 }}
 {{- $alt := "" -}}
 {{ with .Get "alt" }}{{ $alt := . }}{{- end -}}
 {{- with .Get "extraClasses" -}}
 {{ $classNames = printf "%s %s" $classNames . }}
 {{- end -}}
-<img class="{{ $classNames }}" src="{{ $src | absLangURL }}" width="{{ $imgData.Width }}" height="{{ $imgData.Height }}" loading="lazy" alt="{{ $alt }}" />
+<img class="{{ $classNames }}" src="{{ $src | absLangURL }}?v={{ substr $imgHash 0 5 }}" width="{{ $imgData.Width }}" height="{{ $imgData.Height }}" loading="lazy" alt="{{ $alt }}" />
