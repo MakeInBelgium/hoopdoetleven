@@ -32,6 +32,7 @@ const setUpPlayList = (element) => () => {
   const playlistId = element.getAttribute('data-playlist');
   const shuffle = element.getAttribute('data-shuffle') === 'true';
   const maxNum = element.getAttribute('data-length') || 7;
+  const loop = element.getAttribute('data-loop') === 'true';
 
   const numPl = Math.floor((Math.random() * parseInt(maxNum)) + 1);
 
@@ -44,6 +45,7 @@ const setUpPlayList = (element) => () => {
       list: playlistId,
       autoplay: 0,
       index: numPl,
+      loop: loop
     },
     events: {
       'onReady': function (event) {
