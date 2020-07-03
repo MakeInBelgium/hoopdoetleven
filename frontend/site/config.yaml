@@ -109,7 +109,7 @@ languages:
     menu: 
       main:
         - identifier: home
-          name: Acceuil
+          name: Accueil
           url: /
           weight: 5
       footer:
