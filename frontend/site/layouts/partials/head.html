@@ -3,9 +3,6 @@
   {{ if (eq "production" (getenv "CONTEXT")) }}
   <link rel="preconnect" href="https://www.youtube.com">
   <link rel="preconnect" href="https://www.google-analytics.com">
-  {{ partial "google-analytics" . }}
-  {{ end }}
-  {{- end }}
   {{- $stylesheet := .Site.Data.webpack.main }}
   {{ with $stylesheet.css }}
     <link href="{{ . }}" rel="preload" as="style">
@@ -14,6 +11,9 @@
   {{ with $script.js }}
     <link href="{{ . }}" rel="preload" as="script">
   {{ end }}
+  {{ partial "google-analytics" . }}
+  {{ end }}
+  {{- end }}
 
   <meta charset="utf-8" />
   <meta http-equiv="content-type" content="text/html;charset=utf-8" />
@@ -22,7 +22,7 @@
   <base href="{{ $.Site.BaseURL }}">
 
   <!-- Primary Meta Tags -->
-  <title>{{ .Param "title" }} | {{ .Param "hashTag" }}</title>
+  <title>{{ with .Param "titleOverride" }}{{ . }}{{ else }}{{ .Param "title" }} | {{ .Param "hashTag" }}{{ end }}</title>
   <link rel="apple-touch-icon" sizes="180x180" href="{{ relURL "/apple-touch-icon.png" }}">
   <link rel="icon" type="image/png" sizes="32x32" href="{{ relURL "/favicon-32x32.png" }}">
   <link rel="icon" type="image/png" sizes="16x16" href="{{ relURL "/favicon-16x16.png" }}">

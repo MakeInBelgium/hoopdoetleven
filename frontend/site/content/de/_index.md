@@ -1,5 +1,5 @@
 ---
-title: 'Startseite'
+titleOverride: "#VollerHoffnung"
 draft: false
 description: ""
 layout: single-full
