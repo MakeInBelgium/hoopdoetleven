@@ -1,0 +1,39 @@
+.single-story {
+    max-width: 100%;
+    overflow-x: hidden;
+
+    .video-wrapper {
+        position: relative;
+
+        &::before {
+            $width: 138px;
+            $height: 136px;
+
+            display: block;
+            position: absolute;
+            width: $width/2;
+            height: $height/2;
+            content: '';
+            background: url('/img/hdl-crown.png') no-repeat;
+            background-size: 100% 100%;
+            top: -$height/4;
+            right: -$width/4;
+            z-index: 2;
+            transform: rotate(30deg);
+        }
+    }
+}
+
+.slinks {
+    list-style-type: none;
+    padding: 0;
+
+    > li {
+        display: inline-block;
+    }
+
+    svg.icon {
+        width: 24px;
+        height: 24px;
+    }
+}

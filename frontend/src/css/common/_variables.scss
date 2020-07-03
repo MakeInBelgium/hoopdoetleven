@@ -6,6 +6,8 @@ $dark: #13132d;
 $blue: #a5d6d7;
 $light-orange: #fff7f3;
 
+
+
 /* https://coolors.co/06aed5-086788-f0c808-fff1d0-dd1c1a */
 $cerulean-crayola: rgba(6, 174, 213, 1);
 $blue-sapphire: rgba(8, 103, 136, 1);
@@ -24,7 +26,12 @@ $theme-colors: (
   blue: $cerulean-crayola,
   dark: $blue-sapphire-dark,
   darkred: $maximum-red-dark,
-  tertiary: $maximum-red
+  tertiary: $maximum-red,
+  // Social:
+  fcb: #1877f2,
+  twt: #1da1f2,
+  ins: #c32aa3,
+  wht: #25d366,
 );
 
 // $body-color: $dark;
