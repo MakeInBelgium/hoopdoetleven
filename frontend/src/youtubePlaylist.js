@@ -17,7 +17,7 @@ if (!window.requestAnimationFrame) {
   };
 }
 
-window.setTimeout(function() {
+window.addEventListener('load', (event) => {
   window.requestAnimationFrame(function() {    
     // 2. This code loads the IFrame Player API code asynchronously.
     const tag = document.createElement('script');
@@ -26,7 +26,7 @@ window.setTimeout(function() {
     const firstScriptTag = document.getElementsByTagName('script')[0];
     firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
   });
-}, 250);
+});
 
 const setUpPlayList = (element) => () => {
   const playlistId = element.getAttribute('data-playlist');
