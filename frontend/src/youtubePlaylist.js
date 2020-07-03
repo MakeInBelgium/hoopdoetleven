@@ -18,14 +18,14 @@ if (!window.requestAnimationFrame) {
 }
 
 window.addEventListener('load', (event) => {
-  window.requestAnimationFrame(function() {    
+  window.setTimeout(function() {    
     // 2. This code loads the IFrame Player API code asynchronously.
     const tag = document.createElement('script');
 
     tag.src = "//www.youtube.com/iframe_api";
     const firstScriptTag = document.getElementsByTagName('script')[0];
     firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-  });
+  }, 150);
 });
 
 const setUpPlayList = (element) => () => {
