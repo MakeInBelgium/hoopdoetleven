@@ -19,7 +19,7 @@ markup:
 params:
   title: "#HoopDoetLeven"
   description: "#HoopDoetLeven zoekt met het Koninklijk Paleis verhalen van helden tijdens de coronalockdown. Ken jij iemand die een kleine of grote heldendaad heeft verricht? Laat het ons weten!"
-  ogImage: "/img/OGNL.png"
+  ogImage: "/img/OG-NL.png"
   hashTag: "#HoopDoetLeven"
   analyticsCode: "UA-160941697-5"
   logo: 
@@ -62,7 +62,7 @@ languages:
     contentDir: content/nl
     title: "#HoopDoetLeven"
     baseurl: "http://localhost:3000/nl"
-    ogImage: "/img/OGNL.png"
+    ogImage: "/img/OG-NL.png"
     hashTag: "#HoopDoetLeven"
     analyticsCode: "UA-160941697-5"
     tagLine: 
@@ -94,7 +94,7 @@ languages:
     title: "#PleindEspoir"
     baseurl: "http://localhost:3000/fr"
     description: ""
-    ogImage: "/img/OGFR.png"
+    ogImage: "/img/OG-FR.png"
     hashTag: "#PleindEspoir"
     analyticsCode: "UA-160941697-6"
     logo: 
