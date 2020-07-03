@@ -5,7 +5,10 @@
 {{- $height := "" -}}
 {{- $alt := "" -}}
 {{- $src := .Get "src" -}}
-{{ with .Get "width" }}{{ $width := . }}{{ end }}
+{{- with .Get "width" }}{{ $width := . }}{{ end }}
 {{ with .Get "height" }}{{ $height := . }}{{ end }}
-{{ with .Get "alt" }}{{ $alt := . }}{{ end }}
-<img class="{{ $classNames }}" src="{{ $src | absLangURL }}" width="{{ $width }}" height="{{ $height }}" alt="{{ $alt }}" />
+{{ with .Get "alt" }}{{ $alt := . }}{{- end -}}
+{{- with .Get "extraClasses" -}}
+{{ $classNames = printf "%s %s" $classNames . }}
+{{- end -}}
+<img class="{{ $classNames }}" src="{{ $src | absLangURL }}" width="{{ $width }}" height="{{ $height }}" loading="lazy" alt="{{ $alt }}" />

@@ -23,7 +23,7 @@ De coronalockdown, dat was een stevige uitdaging! We kennen allemaal wel een per
 {{< section style="primary" >}}
 {{< columns extraClasses="justify-content-between align-items-center" >}}
 {{< column cols="col-md-5" >}}
-<img src="/img/Herowit.png" alt="" class="img-fluid" />
+{{< image src="/img/Herowit.png" >}}
 {{< /column >}}
 {{< column cols="col-md-6" >}}
 ## Onze koning luistert mee… 
@@ -42,7 +42,7 @@ Toegegeven, we vertellen niet graag over onze eigen verwezenlijkingen. Het lijkt
 {{< button style="primary" url="/verhalen" >}}Ontdek de verhalen!{{< /button >}}
 {{< /column >}}
 {{< column cols="col-md-5" >}}
-<img src="/img/KermisWit.png" alt="" class="img-fluid" />
+{{< image src="/img/KermisWit.png" >}}
 {{< /column >}}
 {{< /columns >}}
 {{< /section >}}
@@ -50,7 +50,7 @@ Toegegeven, we vertellen niet graag over onze eigen verwezenlijkingen. Het lijkt
 {{< section style="blue" >}}
 {{< columns extraClasses="justify-content-between align-items-center" >}}
 {{< column cols="col-md-6" >}}
-<img src="/img/SelfieWit.png" alt="" class="img-fluid" />
+{{< image src="/img/SelfieWit.png" >}}
 {{< /column >}}
 {{< column cols="col-md-5" >}}
 ## Zet jouw held in de kijker!
@@ -70,7 +70,7 @@ Een mooie erkenning van alle inspanningen tijdens deze ongewone periode.
 {{< button style="primary" url="/meedoen" >}}Overtuig de Koning{{< /button >}}
 {{< /column >}}
 {{< column cols="col-md-6" >}}
-<img src="/img/king-thumbsup.png" alt="" class="img-fluid" />
+{{< image src="/img/king-thumbsup.png" >}}
 {{< /column >}}
 {{< /columns >}}
 {{< /section >}}
