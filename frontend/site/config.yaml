@@ -93,7 +93,7 @@ languages:
     contentDir: content/fr
     title: "#PleindEspoir"
     baseurl: "http://localhost:3000/fr"
-    description: ""
+    description: "#PleinDEspoir et le Palais Royal recherchent des histoires de héros qui ont fait la différence pendant le confinement. Vous connaissez quelqu'un qui a accompli un acte héroïque, qu'il soit petit ou grand ? Faites-le nous savoir !"
     ogImage: "/img/OG-FR.png"
     hashTag: "#PleindEspoir"
     analyticsCode: "UA-160941697-6"

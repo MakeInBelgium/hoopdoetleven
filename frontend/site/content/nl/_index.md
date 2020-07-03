@@ -7,14 +7,14 @@ layout: single-full
 
 {{< section style="secondary" >}}
 {{< columns extraClasses="justify-content-between align-items-center" >}}
-{{< column cols="col-md-5" >}}
+{{< column cols="col-lg-5" >}}
 # #HoopDoetLeven
 ## zoekt jouw verhalen
 De coronalockdown, dat was een stevige uitdaging! We kennen allemaal wel een persoon of organisatie die het verschil gemaakt heeft. Door boodschappen te doen voor risicopatiënten, door mondmaskers te naaien, kindjes te entertainen, of zelfs de onderneming heruit te vinden en zo mensen aan het werk te houden. Deze verhalen nemen we voor vanzelfsprekend, maar ze verdienen het om verteld te worden.
 
 {{< button style="primary" url="/meedoen" >}}Doe mee!{{< /button >}}
 {{< /column >}}
-{{< column cols="col-md-6" >}}
+{{< column cols="col-lg-6" >}}
 {{< youtube-playlist id="PLSCIBAIpdi0IVDmv9uKOalGOkM-m4AYDF" shuffle="true" length="7" >}}
 {{< /column >}}
 {{< /columns >}}
