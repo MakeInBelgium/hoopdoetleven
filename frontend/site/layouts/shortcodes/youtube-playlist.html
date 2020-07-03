@@ -6,5 +6,5 @@
 {{- .Page.Scratch.Set "hasPlaylist" true }}
 {{/*  The length parameter is used to generate a random number between zero and $length, to set the starting index of the playlist  */}}
 <div class="embed-responsive embed-responsive-16by9">
-    <div class="youtube-playlist embed-responsive-item" data-playlist="{{ $playlistId }}" data-shuffle="{{ $shuffle }}" data-length="{{ $length }}"></div> 
+    <div class="youtube-playlist embed-responsive-item" loading="lazy" data-playlist="{{ $playlistId }}" data-shuffle="{{ $shuffle }}" data-length="{{ $length }}"></div> 
 </div>

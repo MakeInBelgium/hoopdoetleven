@@ -11,15 +11,11 @@ export default ({ name, children, showErrors = true, touched, error, isRequired 
         "required": isRequired,
     })}
     {...props}>
-    {children && React.Children.map(children, child => {
-        console.log(child);
-
-        return React.cloneElement(child, {
-            ...child.props,
-            hasError,
-            touched,
-        });
-    })}
+    {children && React.Children.map(children, child => React.cloneElement(child, {
+        ...child.props,
+        hasError,
+        touched,
+    }))}
     {hasError && (<div className="invalid-feedback">{error}</div>)}
 </div>)
 };

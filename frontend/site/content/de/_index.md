@@ -23,7 +23,7 @@ Die Eindämmung war für alle eine besondere Herausforderung. Wir alle kennen je
 {{< section style="primary" >}}
 {{< columns extraClasses="justify-content-between align-items-center" >}}
 {{< column cols="col-md-5" >}}
-<img src="/img/Herowit.png" alt="" class="img-fluid" />
+{{< image src="/img/Herowit.png" >}}
 {{< /column >}}
 {{< column cols="col-md-6" >}}
 ## Der König sucht
@@ -42,7 +42,7 @@ Natürlich sprechen wir nicht unbedingt gern über unsere eigenen Leistungen. Ab
 {{< button style="primary" url="/geschichten" >}}unsere Helden{{< /button >}}
 {{< /column >}}
 {{< column cols="col-md-5" >}}
-<img src="/img/KermisWit.png" alt="" class="img-fluid" />
+{{< image src="/img/KermisWit.png" >}}
 {{< /column >}}
 {{< /columns >}}
 {{< /section >}}
@@ -50,7 +50,7 @@ Natürlich sprechen wir nicht unbedingt gern über unsere eigenen Leistungen. Ab
 {{< section style="blue" >}}
 {{< columns extraClasses="justify-content-between align-items-center" >}}
 {{< column cols="col-md-6" >}}
-<img src="/img/SelfieWit.png" alt="" class="img-fluid" />
+{{< image src="/img/SelfieWit.png" >}}
 {{< /column >}}
 {{< column cols="col-md-5" >}}
 ## Brüsten Sie sich mit Ihrem Stolz, es ist erlaubt!
@@ -70,7 +70,7 @@ Eine große Anerkennung für all Ihre Bemühungen in dieser seltsamen Zeit.
 {{< button style="primary" url="/teilnehmen" >}}Überzeugen Sie den König{{< /button >}}
 {{< /column >}}
 {{< column cols="col-md-6" >}}
-<img src="/img/king-thumbsup.png" alt="" class="img-fluid" />
+{{< image src="/img/king-thumbsup.png" >}}
 {{< /column >}}
 {{< /columns >}}
 {{< /section >}}

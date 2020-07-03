@@ -23,7 +23,7 @@ Le confinement a été un défi un peu particulier pour chacun d’entre nous. E
 {{< section style="primary" >}}
 {{< columns extraClasses="justify-content-between align-items-center" >}}
 {{< column cols="col-md-5" >}}
-<img src="/img/Herowit.png" alt="" class="img-fluid" />
+{{< image src="/img/Herowit.png" >}}
 {{< /column >}}
 {{< column cols="col-md-6" >}}
 ## Notre roi à l’écoute
@@ -42,7 +42,7 @@ Certes, nous n’aimons pas forcément parler de nos propres réalisations. Pour
 {{< button style="primary" url="/histoires" >}}Découvrez nos héros !{{< /button >}}
 {{< /column >}}
 {{< column cols="col-md-5" >}}
-<img src="/img/KermisWit.png" alt="" class="img-fluid" />
+{{< image src="/img/KermisWit.png" >}}
 {{< /column >}}
 {{< /columns >}}
 {{< /section >}}
@@ -50,7 +50,7 @@ Certes, nous n’aimons pas forcément parler de nos propres réalisations. Pour
 {{< section style="blue" >}}
 {{< columns extraClasses="justify-content-between align-items-center" >}}
 {{< column cols="col-md-6" >}}
-<img src="/img/SelfieWit.png" alt="" class="img-fluid" />
+{{< image src="/img/SelfieWit.png" >}}
 {{< /column >}}
 {{< column cols="col-md-5" >}}
 ## Mettez les héros à l’honneur !
@@ -70,7 +70,7 @@ Une belle reconnaissance pour de grands mérites en cette bien étrange période
 {{< button style="primary" url="/participation" >}}Persuadez le roi !{{< /button >}}
 {{< /column >}}
 {{< column cols="col-md-6" >}}
-<img src="/img/king-thumbsup.png" alt="" class="img-fluid" />
+{{< image src="/img/king-thumbsup.png" >}}
 {{< /column >}}
 {{< /columns >}}
 {{< /section >}}
