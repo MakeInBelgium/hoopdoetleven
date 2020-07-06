@@ -8,7 +8,6 @@ menu:
     name: Verhalen
     url: verhalen
     weight: 10
-layout: single-full
 draft: false
 ---
 {{< section style="tertiary" extraClasses="text-center" >}}

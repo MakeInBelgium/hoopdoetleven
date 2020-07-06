@@ -36,7 +36,7 @@ params:
   recaptchaKey: 6LdU3KoZAAAAAGdoYTdxt7JYa5uYaiYnkubbnaik
 
 ############################## navigation ###############################
-SectionPagesMenu: main
+#SectionPagesMenu: main
 menu: 
   main:
     - identifier: home

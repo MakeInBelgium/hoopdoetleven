@@ -1,0 +1,30 @@
+{{ define "main" }}
+{{ .Content }}
+{{ $sections := slice "bg-white" "bg-secondary" "bg-tertiary" }}
+
+{{/*  <section class="section bg-secondary">
+    <div class="container">
+    <div class="row justify-content-center align-items-center">  */}}
+        {{ range $index, $element := .Pages }}
+        {{ $sectionIndex := mod (div $index 3) 3 }}
+        {{ if (modBool $index 3) }}
+        {{ if ne $index 0 }}
+        
+    </div>
+</div>
+</section>
+{{ end}}
+        <section class="section {{ index $sections $sectionIndex }}">
+            <div class="container">
+            <div class="row justify-content-center align-items-center">
+        {{ end }}
+        <div class="col-6 col-md-4">
+            {{ with $element }}
+            {{ .Render "story" }}
+            {{ end }}
+        </div>
+        {{ end }}
+    </div>    
+    </div>
+</section>
+{{ end }}
