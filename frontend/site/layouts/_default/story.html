@@ -1,12 +1,6 @@
-<div class="card p-0 border-primary rounded-0 hover-shadow">
-    <img class="card-img-top rounded-0" src="//img.youtube.com/vi/{{ .Params.videoId }}/0.jpg" alt="{{ .Title }}">
+<div class="card p-0 rounded-0 border-0 shadow-sm bg-dark">
+    <a class="thumb" href="{{ .Permalink }}"><img class="card-img-top rounded-0" src="//img.youtube.com/vi/{{ .Params.videoId }}/maxresdefault.jpg" alt="{{ .Title }}"></a>
     <div class="card-body">
-        <ul class="list-inline mb-2">
-        <li class="list-inline-item"><i class="ti-calendar"></i> {{ .Params.Duration }}</li>
-        </ul>
-        <h4 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-        <p class="card-text mb-4">{{ .Summary | truncate 100 }}</p>
-        <a href="{{ .Permalink }}" class="btn btn-primary btn-sm">{{ i18n "view_story"}}</a>
+        <h4 class="card-title text-center"><a href="{{ .Permalink }}" class="text-blue">{{ .Title }}</a></h4>
     </div>
-    <a href="{{ .Permalink }}" class="stretched-link"></a>
 </div>
