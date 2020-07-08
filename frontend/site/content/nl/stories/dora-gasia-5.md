@@ -1,1 +1,0 @@
-{"title":"Dora Gasia","heroName":"Dora Gasia","description":"Joke vertelt over hoe haar vriendin, Dora Gasia, veel meer deed dan alleen haar bedrijf en gezin recht te houden. Ze was immers de bezielster van de Facebookgroep Techies for Schools!","videoUrl":"https://youtu.be/jo11LzhbTiw","videoId":"jo11LzhbTiw","videoType":"youtube","type":"stories","url":"verhalen/dora-gasia-5"}
