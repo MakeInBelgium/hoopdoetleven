@@ -55,15 +55,11 @@ Sommigen beweren dat het typisch Belgisch is om bescheiden te blijven, maar dat 
 {{< image src="/img/SelfieWit.png" >}}
 {{< /column >}}
 {{< column cols="col-md-5" >}}
-
 ## Koninklijke audiëntie
 Heb je jouw verhaal met ons en de rest van het land gedeeld? Dan wacht je misschien wel een extra verrassing. Samen met het Koninklijk Paleis kiezen we op basis van alle ingezonden verhalen 4 bijzondere Belgen. Die coronahelden krijgen een uitnodiging van Koning Filip om samen met de inzender hun verhaal te vertellen tijdens een koninklijke audiëntie. 
 
 Een mooie erkenning van alle inspanningen tijdens deze ongewone periode. 
 {{< button style="primary" url="/meedoen" >}}Overtuig de Koning{{< /button >}}
-{{< /column >}}
-{{< column cols="col-md-6" >}}
-{{< image src="/img/king-thumbsup.png" >}}
 {{< /column >}}
 {{< /columns >}}
 {{< /section >}}

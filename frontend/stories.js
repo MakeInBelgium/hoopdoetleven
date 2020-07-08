@@ -107,7 +107,7 @@ const buildStories = async (add, force) => {
      title: submission.heroName,
      heroName: submission.heroName,
      date: submission.createdAt,
-     description: submission.abstract,
+     description: '',
      videoId: parseYoutube(submission.videoUrl),
      isFeatured: submission.featured,
      videoType: 'youtube',
