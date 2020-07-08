@@ -1,0 +1,37 @@
+{{ define "main" }}
+<section class="section bg-darkred text-light single-story">
+<div class="container">
+<div class="row justify-content-around">
+    {{ if .Description }}
+    <div class="col-md-5 col-lg-6">
+        <div class="video-wrapper">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/{{ .Params.videoId }}?modestbranding=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div></div>
+        {{ partial "share-icons" . }}
+        </div>
+        <div class="col-md-6 col-lg-5">
+        <h1>{{ .Title }}</h1>
+        <h2>{{ i18n "is_special" }}</h2>
+        <p class="lead">{{ .Description }}</p>
+        </div>
+    {{ else }}
+    <div class="col-md-6 col-lg-5 text-center">
+        <h1>{{ .Title }}</h1>
+        <h2>{{ i18n "is_special" }}</h2>
+    </div>
+    <div class="w-100"></div>
+    <div class="col-md-5 col-lg-6 text-center">
+        <div class="video-wrapper">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/{{ .Params.videoId }}?modestbranding=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div></div>
+        {{ partial "share-icons" . }}
+        </div>
+    {{ end }}
+
+</div>
+</div>
+</section>
+
+{{ end }}

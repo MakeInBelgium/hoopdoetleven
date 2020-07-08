@@ -1,0 +1,39 @@
+{
+    "path": "verhalen",
+    "stories": [
+        {
+            "path": "philippe-simons",
+            "fields": {
+                "title": "Philippe Simons",
+                "heroName": "Philippe Simons",
+                "date": "2020-07-07T20:09:45+00:00",
+                "description": "Philippe is 23 en studeerde af op 1 februari 2020 als verpleger. Zijn carrière startte op 2 maart, exact in de week dat het Corona-virus uitbrak. Zonder enige werkervaring, zonder de nodige ondersteuning wegens onderbemand en veel te druk, heeft hij zich staande gehouden in een gesloten afdeling van een woonzorgcentrum, tussen demente en hulpbehoevende bejaarden. Hij was er uiteindelijk niet alleen de lichamelijk verzorgende verpleger maar hij beurde de ouderen op, maar danste met hen tegen de eenzaamheid, luisterde naar de ouderen die zich in de steek gelaten voelden. Hij legde zichzelf en heel het gezin strenge hygiëneregels op om toch maar elke dag Corona-vrij te kunnen blijven en naar \"zijn\" patiënten te kunnen blijven gaan.\nWat een verantwoordelijkheid en burgerzin , Philippe en dit bij de start van je carriere !\nDikke pluim \nMans en paps",
+                "videoUrl": "https://youtu.be/MSrf3ppER4w",
+                "videoId": "MSrf3ppER4w",
+                "videoType": "youtube"
+            }
+        },
+        {
+            "path": "luc-verhoene",
+            "fields": {
+                "title": "Luc Verhoene",
+                "heroName": "Luc Verhoene",
+                "date": "2020-07-07T17:23:05+00:00",
+                "description": "",
+                "videoId": "yPlj29o-Cg0",
+                "videoType": "youtube"
+            }
+        },
+        {
+            "path": "priscila-jijon",
+            "fields": {
+                "title": "Priscila Jijon",
+                "heroName": "Priscila Jijon",
+                "date": "2020-07-06T16:00:31+00:00",
+                "description": "",
+                "videoId": "O4umLv0ujyA",
+                "videoType": "youtube"
+            }
+        }
+    ]
+}

@@ -2,3 +2,5 @@ node_modules/
 dist/
 site/data/webpack.json
 .env
+site/content/*/stories/*
+!site/content/*/stories/_index.md
