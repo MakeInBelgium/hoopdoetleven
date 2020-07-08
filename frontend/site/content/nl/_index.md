@@ -10,7 +10,8 @@ layout: single-full
 {{< column cols="col-lg-5" >}}
 # #HoopDoetLeven
 ## zoekt jouw verhalen
-De coronalockdown, dat was een stevige uitdaging! We kennen allemaal wel een persoon of organisatie die het verschil gemaakt heeft. Door boodschappen te doen voor risicopatiënten, door mondmaskers te naaien, kindjes te entertainen, of zelfs de onderneming heruit te vinden en zo mensen aan het werk te houden. Deze verhalen nemen we voor vanzelfsprekend, maar ze verdienen het om verteld te worden.
+De afgelopen maanden waren voor velen intens. We kennen allemaal wel een persoon of organisatie die voor anderen tot het uiterste is gegaan. Een verpleegster die urenlange shifts draaide, een naaiatelier dat massaal mondmaskers maakte, een werkgever die op enkele dagen tijd zijn of haar bedrijf moest heruitvinden om iedereen aan het werk te houden… Deze verhalen nemen we misschien voor vanzelfsprekend, maar ze verdienen het om verteld te worden. Door video’s te verzamelen waarin die mensen in de bloemetjes gezet worden, willen we die verhalen verspreiden.
+
 
 {{< button style="primary" url="/meedoen" >}}Doe mee!{{< /button >}}
 {{< /column >}}
@@ -26,8 +27,9 @@ De coronalockdown, dat was een stevige uitdaging! We kennen allemaal wel een per
 {{< image src="/img/Herowit.png" >}}
 {{< /column >}}
 {{< column cols="col-md-6" >}}
-## Onze koning luistert mee… 
-Naar aanleiding van de nationale feestdag wil het Koninklijk Paleis deze verhalen van helden graag horen. Heb jij een buurman, tante, collega of juf die zo’n kleine of grote heldendaad heeft verricht? Ben je trots op die persoon en wil je dat verhaal graag van de daken schreeuwen? Wij luisteren!
+## Onze Koning luistert mee! 
+Op 21 juli viert België haar nationale feestdag. Het is een dag waarop we, nu nog meer dan anders, stilstaan bij al wie iets betekend heeft voor het land. Het Koninklijk Paleis kijkt en luistert namelijk mee naar alle ingezonden video’s! Wie weet mag jouw held op virtuele audiëntie komen. Samen met het Koninklijk Paleis kiezen we namelijk op basis van alle ingezonden verhalen 4 bijzondere Belgen. Die corona-helden krijgen een uitnodiging van Koning Filip om samen met de inzender hun verhaal te vertellen tijdens een koninklijke audiëntie. 
+
 {{< button style="secondary" url="/meedoen" >}}Doe mee!{{< /button >}}
 {{< /column >}}
 {{< /columns >}}
@@ -37,7 +39,7 @@ Naar aanleiding van de nationale feestdag wil het Koninklijk Paleis deze verhale
 {{< columns extraClasses="justify-content-between align-items-center" >}}
 {{< column cols="col-md-6" >}}
 ## De Belgische bescheidenheid
-Toegegeven, we vertellen niet graag over onze eigen verwezenlijkingen. Het lijkt op opscheppen en daar houden we niet van. Toch zijn we trots: op onze familie, op de mensen in de zorg, op onze buren, op onze wetenschappers, op onze juffen en meesters, op al die spontane vrijwilligers die de handen uit de mouwen staken. We zijn hen ontzettend dankbaar.
+Sommigen beweren dat het typisch Belgisch is om bescheiden te blijven, maar dat is deze keer absoluut niet nodig. Wees dus trots op je familie, de mensen in de zorg, je buurman of buurvrouw, onze wetenschappers, die ene juf of meester, alle vrijwilligers die spontaan de handen uit de mouwen staken… Wij zijn hen ontzettend dankbaar!
 
 {{< button style="primary" url="/verhalen" >}}Ontdek de verhalen!{{< /button >}}
 {{< /column >}}
@@ -53,16 +55,7 @@ Toegegeven, we vertellen niet graag over onze eigen verwezenlijkingen. Het lijkt
 {{< image src="/img/SelfieWit.png" >}}
 {{< /column >}}
 {{< column cols="col-md-5" >}}
-## Zet jouw held in de kijker!
-Daarom vragen we je om je schroom voor één keer opzij te zetten. Vertel jouw verhaal of het verhaal van een persoon of organisatie die voor jou het verschil gemaakt heeft tijdens de coronacrisis. 
-{{< button style="primary" url="/meedoen" >}}Doe mee!{{< /button >}}
-{{< /column >}}
-{{< /columns >}}
-{{< /section >}}
 
-{{< section style="secondary" >}}
-{{< columns extraClasses="justify-content-between align-items-center" >}}
-{{< column cols="col-md-5" >}}
 ## Koninklijke audiëntie
 Heb je jouw verhaal met ons en de rest van het land gedeeld? Dan wacht je misschien wel een extra verrassing. Samen met het Koninklijk Paleis kiezen we op basis van alle ingezonden verhalen 4 bijzondere Belgen. Die coronahelden krijgen een uitnodiging van Koning Filip om samen met de inzender hun verhaal te vertellen tijdens een koninklijke audiëntie. 
 
