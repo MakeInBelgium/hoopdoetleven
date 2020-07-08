@@ -140,6 +140,7 @@ export default () => {
                 return values.type === 'video' ? (<FieldGroup
                 label={translate('fields.videoUrl')}
                 name="videoUrl"
+                type="url"
                 isRequired={true}
             />) : (
                 <FieldGroup
