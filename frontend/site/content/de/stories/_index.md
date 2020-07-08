@@ -2,12 +2,12 @@
 title: "Geschichten"
 description: ""
 translationKey: "stories"
+url: geschichten
 menu:
   main:
     name: Geschichten
     url: geschichten
     weight: 10
-layout: single-full
 draft: false
 ---
 {{< section style="tertiary" extraClasses="text-center" >}}
@@ -17,7 +17,7 @@ draft: false
 <img src="/img/KermisWit.png" alt="" class="img-fluid" />
 {{< /column >}}
 {{< column cols="col-12" >}}
-<p class="lead">Entdecken Sie hier bald die großartigen Geschichten von #VollerHoffnung.</p>
+<p class="lead">Entdecken Sie hier bald die großartigen Geschichten von #VollerHoffnung, die Sie bereits mit uns geteilt haben..</p>
 {{< /column >}}
 {{< /columns >}}
 {{< /section >}}

@@ -8,7 +8,6 @@ menu:
     name: Histoires
     url: histoires
     weight: 10
-layout: single-full
 draft: false
 ---
 {{< section style="tertiary" extraClasses="text-center" >}}
@@ -18,7 +17,7 @@ draft: false
 <img src="/img/KermisWit.png" alt="" class="img-fluid" />
 {{< /column >}}
 {{< column cols="col-12" >}}
-<p class="lead">Découvrez ici bientôt les belles histoires de #PleinDEspoir.</p>
+<p class="lead">Découvrez les belles histoires de #PleinDEspoir que vous avez déjà partagées avec nous..</p>
 {{< /column >}}
 {{< /columns >}}
 {{< /section >}}
