@@ -18,15 +18,15 @@ menu:
 {{< columns extraClasses="justify-content-between" >}}
 {{< column cols="col-md-4 px-5" >}}
 ### 1. Film
-Maak een kort filmpje met het verhaal van de held(en) die tijdens de coronacrisis uitzonderlijke veerkracht en creativiteit vertoonde(n). 
+Maak een kort filmpje met het verhaal van de held(en) die tijdens de coronacrisis uitzonderlijke veerkracht en creativiteit vertoonde(n). Die video plaats je vervolgens op YouTube. Heb je dat nog nooit gedaan? <a href="https://support.google.com/youtube/answer/57407?co=GENIE.Platform%3DDesktop&hl=nl">Hier</a> vind je de stappen die je moet volgen!
 {{< /column >}}
 {{< column cols="col-md-4 px-5" >}}
 ### 2. Deel
-Deel de link van het filmpje samen met de hashtag #HoopDoetLeven op Youtube en/of op je sociale netwerken (Facebook, Twitter, Instagram, …). 
+Deel de link van het filmpje samen met de hashtag #HoopDoetLeven op YouTube.
 {{< /column >}}
 {{< column cols="col-md-4 px-5" >}}
 ### 3. Registreer
-Vul de link van je filmpje in op ons HoopDoetLeven-formulier op [www.hoopdoetleven.be](https://www.hoopdoetleven.be/meedoen) zodat we je kunnen contacteren indien nodig.
+Vul de link van je filmpje in op het formulier hieronder, zodat we je kunnen contacteren indien nodig.
 {{< /column >}}
 {{< /columns >}}
 
@@ -35,7 +35,7 @@ Vul de link van je filmpje in op ons HoopDoetLeven-formulier op [www.hoopdoetlev
 {{< section style="dark" >}}
 {{< columns cols="col-md-8 col-lg-6" extraClasses="align-items-center justify-content-md-between" >}}
 {{< column cols="col-md-4 col-lg-5" >}}
-## Bezorg ons jouw coronaheld!
+## Bezorg ons jouw coronaverhaal!
 Staat je filmpje op youtube, wil je je filmpje graag op onze website en kans maken op een audiëntie bij Koning Filip? Vul dan dit formulier in!
 
 {{< /column >}}
