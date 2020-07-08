@@ -43,5 +43,6 @@ export default {
             min: "Je verhaal moet minstens 100 tekens lang zijn.",
             max: "Je verhaal mag maximum 2500 tekens lang zijn.",
         },
+        videoUrl: "Vul een geldige video link in.",
     }
 };

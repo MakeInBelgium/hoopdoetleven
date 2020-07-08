@@ -43,5 +43,6 @@ export default {
             min: "Ihre Geschichte muss mindestens 100 Zeichen lang sein.",
             max: "Ihre Geschichte kann bis zu 2500 Zeichen lang sein.",
         },
+        videoUrl: "Bitte geben Sie einen gültigen Videolink an.",
     }
 };

@@ -43,5 +43,6 @@ export default {
             min: "Votre histoire doit contenir au moins 100 caractères.",
             max: "Votre histoire ne peut pas dépasser les 2500 caractères.",
         },
+        videoUrl: "Remplissez un lien vidéo valide.",
     }
 };
