@@ -17,10 +17,14 @@ De afgelopen maanden waren voor velen intens. We kennen allemaal wel een persoon
 {{< /column >}}
 {{< column cols="col-lg-6" >}}
 {{< youtube-playlist id="PLSCIBAIpdi0IVDmv9uKOalGOkM-m4AYDF" shuffle="true" length="7" loop="true" >}}
-{{< /column >}}
+{{< /column >}} 
 {{< /columns >}}
-{{< /section >}}
+{{< /section >}} 
 
+{{< section style="tertiary" >}}
+{{< stories >}}
+{{< /section >}}
+ 
 {{< section style="primary" >}}
 {{< columns extraClasses="justify-content-between align-items-center" >}}
 {{< column cols="col-md-5" >}}

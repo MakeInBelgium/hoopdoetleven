@@ -1,5 +1,8 @@
 view_story:
     other: "Bekijken"
 
+all_stories:
+    other: "Alle verhalen"
+
 is_special:
     other: "is zeer bijzonder."

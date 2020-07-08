@@ -20,6 +20,10 @@ Le confinement a été un défi un peu particulier pour chacun d’entre nous. E
 {{< /columns >}}
 {{< /section >}}
 
+{{< section style="tertiary" >}}
+{{< stories link="histoires" >}}
+{{< /section >}}
+
 {{< section style="primary" >}}
 {{< columns extraClasses="justify-content-between align-items-center" >}}
 {{< column cols="col-md-5" >}}

@@ -1,0 +1,13 @@
+{{ $link := "verhalen" }}
+{{ with .Get "link" }}{{ $link = printf "%s" . }}{{ end }}
+<!-- Stories -->
+<div class="row justify-content-md-center align-items-md-center story-list">
+{{ range first 3 (where (where .Site.RegularPages "Section" "stories") ".Params.isfeatured" true) }}
+<div class="col-sm-6 col-md-4 mb-5">
+{{ .Render "story" }}
+</div>
+{{ end }}
+</div>
+<div class="text-center mt-5">
+    <a href="{{ $link | absLangURL }}" class="btn btn-primary">{{ i18n "all_stories" }}</a>
+</div>

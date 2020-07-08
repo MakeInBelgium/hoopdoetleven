@@ -43,7 +43,7 @@ const setUpPlayList = (element) => () => {
     playerVars: {
       listType: 'playlist',
       list: playlistId,
-      autoplay: 0,
+      autoplay: 1,
       index: numPl,
       loop: loop
     },
