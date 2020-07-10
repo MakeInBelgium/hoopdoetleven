@@ -39,3 +39,12 @@ upload-prod:
 deploy-staging: prebuild build-staging upload-staging
 
 deploy-prod: prebuild build upload-prod
+
+# Should clean all language stories (except for _index.md, that would suck)
+clean-stories: 
+	@echo "Cleaning stories"	
+	@rm -f ./site/content/*/stories/[a-z]*
+
+sync-stories: clean-stories
+	@echo "Synchronising stories, get your log in info ready"
+	@node stories.js
