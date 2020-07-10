@@ -22,6 +22,29 @@
             transform: rotate(30deg);
         }
     }
+
+    .pagination {
+        top: 50%;
+        background-repeat: no-repeat;
+        background-size: 8rem 8rem;
+        position: absolute;
+        display: inline-block;
+        z-index: 999;
+        width: 8rem;
+        height: 8rem;
+        text-indent: -9999px;
+        overflow: hidden;
+
+        &.previous {
+            left: 0;
+            background-image: url('data:image/svg+xml,<svg viewBox="0 0 16 16" fill="%23fff" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/></svg>');
+        }
+
+        &.next {
+            right: 0;
+            background-image: url('data:image/svg+xml,<svg viewBox="0 0 16 16" fill="%23fff" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/></svg>');
+        }
+    }
 }
 
 .slinks {

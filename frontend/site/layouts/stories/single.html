@@ -2,6 +2,12 @@
 <section class="section bg-darkred text-light single-story">
 <div class="container">
 <div class="row justify-content-around">
+    {{ with .PrevInSection }}
+    <a class="pagination previous" href="{{ .Permalink }}">Previous</a>
+    {{ end }}
+    {{ with .NextInSection }}
+    <a class="pagination next" href="{{ .Permalink }}">Next</a>
+    {{ end }}
     {{ if .Description }}
     <div class="col-md-5 col-lg-6">
         <div class="video-wrapper">
