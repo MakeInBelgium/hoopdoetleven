@@ -77,7 +77,7 @@ const fetchContent = async (apiToken, lang = 'nl') => {
   const submissions = 'https://api.hoopdoetleven.be/submissions';
 
   try {
-    const response = await fetch(`${submissions}?type=video&status=accepted&videoUrl=youtu&order[createdAt]=DESC&contactLang=${lang}`, requestOptions);
+    const response = await fetch(`${submissions}?type=video&status=accepted&videoUrl=youtu&order[createdAt]=DESC&contactLang=${lang}&itemsPerPage=100`, requestOptions);
     const json = await response.json();
     
     return json && json.hasOwnProperty('hydra:member') ? json['hydra:member'] : false;
