@@ -17,14 +17,14 @@
         {{ partial "share-icons" . }}
         </div>
         <div class="col-md-6 col-lg-5">
-        <h1>{{ .Title }}</h1>
-        <h2>{{ i18n "is_special" }}</h2>
-        <p class="lead">{{ .Description }}</p>
+            <h2>{{ i18n "is_special" }}</h2>
+            <h1>{{ .Title }}</h1>
+            <p class="lead">{{ .Description }}</p>
         </div>
     {{ else }}
     <div class="col-md-6 col-lg-5 text-center">
-        <h1>{{ .Title }}</h1>
         <h2>{{ i18n "is_special" }}</h2>
+        <h1>{{ .Title }}</h1>
     </div>
     <div class="w-100"></div>
     <div class="col-md-5 col-lg-6 text-center">
