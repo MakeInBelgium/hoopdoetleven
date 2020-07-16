@@ -56,7 +56,7 @@ Sommigen beweren dat het typisch Belgisch is om bescheiden te blijven, maar dat 
 {{< section style="blue" >}}
 {{< columns extraClasses="justify-content-between align-items-center" >}}
 {{< column cols="col-md-6" >}}
-{{< image src="/img/SelfieWit.png" >}}
+{{< image src="/img/king-thumbsup.png" >}}
 {{< /column >}}
 {{< column cols="col-md-5" >}}
 ## Koninklijke audiëntie
