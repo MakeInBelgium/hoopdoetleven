@@ -16,7 +16,7 @@ De afgelopen maanden waren voor velen intens. We kennen allemaal wel een persoon
 {{< button style="primary" url="/meedoen" >}}Doe mee!{{< /button >}}
 {{< /column >}}
 {{< column cols="col-lg-6" >}}
-{{< youtube-playlist id="PLSCIBAIpdi0IVDmv9uKOalGOkM-m4AYDF" shuffle="true" length="12" loop="true" >}}
+{{< youtube-playlist id="PLSCIBAIpdi0IVDmv9uKOalGOkM-m4AYDF" shuffle="true" length="10" loop="true" >}}
 {{< /column >}} 
 {{< /columns >}}
 {{< /section >}} 
