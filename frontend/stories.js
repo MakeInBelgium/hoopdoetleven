@@ -16,9 +16,9 @@ const fetch = require('node-fetch');
 const { default: slugify } = require('slugify');
 
 const parseYoutube = (url) => {
-  var regExp = /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#&?]*).*/;
+  var regExp = /(youtu\.be\/|youtube\.com\/(watch\?(.*&)?v=|(embed|v)\/))([^\?&"'>]+)/;
   var match = url.match(regExp);
-  return (match&&match[7].length===11)? match[7] : false;
+  return (match&&match[5].length===11)? match[5] : false;
 };
 
 const getApiToken = async () => {
