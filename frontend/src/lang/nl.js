@@ -8,8 +8,8 @@ export default {
         content: "Je verhaal",
         contactEmail: "E-mailadres",
         contactPhone: "Telefoonnummer",
-        gaveConsent: "Goedkeuring",
-        consentText: "Je geeft de Coronadenktank toestemming om je filmpje te hergebruiken op sociale media, platformen van partners van HoopDoetLeven en op het compilatiefilmpje dat we met de televisiezenders zullen delen.",
+        gaveConsent: "Toestemming/overdracht van auteursrechten",
+        consentText: "Je geeft de Coronadenktank en haar partners voor het #HoopDoetLeven initiatief (Koninklijk paleis, Proximus Pickx, YouTube, Studio 100, televisiezenders) de toestemming en draagt je auteursrechten over om je filmpje geheel of gedeeltelijk (bv. in een compilatiefilmpje) zonder vergoeding te kunnen gebruiken op hun websites, sociale media (YouTube kanaal), Televisie en andere digitale of media platformen voor de promotie van het #HoopDoetLeven initiatief gedurende 2020 en 2021 (om naar het initiatief van 2020 te kunnen verwijzen).",
     },
     buttons: {
         next: "Volgende »",
