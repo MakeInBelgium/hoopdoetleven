@@ -4,7 +4,7 @@ description: ""
 layout: single-full
 translationKey: "participate"
 url: "meedoen"
-showform: true
+showform: false
 draft: false
 menu:
   main:
@@ -39,7 +39,7 @@ Vul de link van je filmpje in op het formulier hieronder, zodat we je kunnen con
 Staat je filmpje op YouTube, wil je je filmpje graag op de #HoopDoetLeven website van de Coronadenktank of op Televisie en kans maken op een audiëntie bij Koning Filip? Vul dan dit formulier in.
 {{< /column >}}
 {{< column >}}
-<div id="nominateForm"></div>
+<div id="nominateForm">Helaas, je bent te laat.</div>
 {{< /column >}}
 {{< /columns >}}
 {{< /section >}}

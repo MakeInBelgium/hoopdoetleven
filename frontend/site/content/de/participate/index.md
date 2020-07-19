@@ -4,7 +4,7 @@ description: ""
 layout: single-full
 translationKey: "participate"
 url: "teilnehmen"
-showform: true
+showform: false
 draft: false
 menu:
   main:
@@ -39,7 +39,7 @@ Geben Sie die URL Ihres YouTube-Videos ein und fügen Sie diese in unser VollerH
 Ist Ihr Film auf Youtube, möchten Sie ihn auf unsere Website stellen und die Chance haben, ein Treffen mit König Philippe zu gewinnen? Dann füllen Sie dieses Formular aus!
 {{< /column >}}
 {{< column >}}
-<div id="nominateForm"></div>
+<div id="nominateForm">Schade, dass du zu spät bist.</div>
 {{< /column >}}
 {{< /columns >}}
 {{< /section >}}
