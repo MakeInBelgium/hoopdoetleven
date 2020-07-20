@@ -36,7 +36,7 @@ Vul de link van je filmpje in op het formulier hieronder, zodat we je kunnen con
 {{< columns cols="col-md-8 col-lg-6" extraClasses="align-items-center justify-content-md-between" >}}
 {{< column cols="col-md-4 col-lg-5" >}}
 ## Bezorg ons jouw coronaverhaal!
-Je kan geen kans meer maken op een Audiëntie bij de koning, maar we horen nog steeds graag jouw Coronaverhaal! 
+Je kan geen kans meer maken op een Audiëntie bij de koning, maar we horen nog steeds graag het verhaal van jouw coronaheld! 
 {{< /column >}}
 {{< column >}}
 <div id="nominateForm"></div>
