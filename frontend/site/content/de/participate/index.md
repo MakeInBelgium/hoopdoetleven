@@ -36,7 +36,7 @@ Geben Sie die URL Ihres YouTube-Videos ein und fügen Sie diese in unser VollerH
 {{< columns cols="col-md-8 col-lg-6" extraClasses="align-items-center justify-content-md-between" >}}
 {{< column cols="col-md-4 col-lg-5" >}}
 ## Holen Sie uns Ihren Corona-Helden!
-Ist Ihr Film auf Youtube, möchten Sie ihn auf unsere Website stellen und die Chance haben, ein Treffen mit König Philippe zu gewinnen? Dann füllen Sie dieses Formular aus!
+Sie können zwar kein Treffen mit König Philippe mehr gewinnen, aber wir möchten Ihr Youtube-Video dennoch auf unserer Website zeigen. Dann füllen Sie dieses Formular aus!
 {{< /column >}}
 {{< column >}}
 <div id="nominateForm">Schade, dass du zu spät bist.</div>
