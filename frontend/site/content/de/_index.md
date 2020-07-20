@@ -60,17 +60,3 @@ Deshalb bitten wir Sie, Ihre Bescheidenheit einmal beiseite zu lassen. Erzählen
 {{< /columns >}}
 {{< /section >}}
 
-{{< section style="secondary" >}}
-{{< columns extraClasses="justify-content-between align-items-center" >}}
-{{< column cols="col-md-5" >}}
-## Eine königliche Belohnung
-Haben Sie teilgenommen und Ihre Geschichte mit uns und dem Rest der Welt geteilt? Dann erwartet Sie vielleicht eine zusätzliche Überraschung. Seine Majestät König Philippe wählt anhand der eingereichten Geschichten 4 besondere Belgier aus. Diese Corona-Helden erhalten eine Einladung von König Philippe zur Teilnahme an der Parade am 21. Juli. 
-
-Eine große Anerkennung für all Ihre Bemühungen in dieser seltsamen Zeit.
-{{< button style="primary" url="/teilnehmen" >}}Überzeugen Sie den König{{< /button >}}
-{{< /column >}}
-{{< column cols="col-md-6" >}}
-{{< image src="/img/king-thumbsup.png" >}}
-{{< /column >}}
-{{< /columns >}}
-{{< /section >}}
