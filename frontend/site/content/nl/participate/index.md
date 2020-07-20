@@ -4,7 +4,7 @@ description: ""
 layout: single-full
 translationKey: "participate"
 url: "meedoen"
-showform: false
+showform: true
 draft: false
 menu:
   main:

@@ -4,7 +4,7 @@ description: ""
 layout: single-full
 translationKey: "participate"
 url: "participation"
-showform: false
+showform: true
 draft: false
 menu:
   main:
