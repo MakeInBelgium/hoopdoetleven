@@ -26,12 +26,12 @@
     .pagination {
         top: 50%;
         background-repeat: no-repeat;
-        background-size: 8rem 8rem;
+        background-size: 4rem 4rem;
         position: absolute;
         display: inline-block;
         z-index: 999;
-        width: 8rem;
-        height: 8rem;
+        width: 4rem;
+        height: 4rem;
         text-indent: -9999px;
         overflow: hidden;
 
@@ -43,6 +43,13 @@
         &.next {
             right: 0;
             background-image: url('data:image/svg+xml,<svg viewBox="0 0 16 16" fill="%23fff" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/></svg>');
+        }
+
+        @include media-breakpoint-up(md) {
+            background-size: 8rem 8rem;
+            z-index: 999;
+            width: 8rem;
+            height: 8rem;
         }
     }
 }
